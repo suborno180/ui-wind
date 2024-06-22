@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
@@ -36,30 +35,28 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
   const { toast } = useToast();
   const [device, setDevice] = useState<"phone" | "tablet" | "laptop" | "desktop">("desktop");
   const [filteredData, setFilteredData] = useState<any>(null); // Initialize filteredData state
+  const [currentIndex, setCurrentIndex] = useState<number>(0); // Initialize currentIndex state
 
   useEffect(() => {
-    // Filter componentsData for the correct category
     const categoryData = componentsData.find(component => component.category.toLowerCase() === category.toLowerCase());
 
     if (categoryData) {
-      // Find item within the category's items array based on id
       const item = categoryData.items.find(item => item.id === Number(id));
 
       if (item) {
-        setFilteredData(item); // Set filtered item if found
+        setFilteredData(categoryData); // Set categoryData to filteredData
+        setCurrentIndex(categoryData.items.findIndex(item => item.id === Number(id))); // Set currentIndex based on item id
       } else {
         console.error(`Item with id ${id} not found in category ${category}.`);
-        // Optionally handle case where item with specified id is not found
       }
     } else {
       console.error(`Category ${category} not found.`);
-      // Optionally handle case where category is not found
     }
   }, [category, id]);
 
   const handleCopy = () => {
     if (filteredData) {
-      navigator.clipboard.writeText(filteredData.code);
+      navigator.clipboard.writeText(filteredData.items[currentIndex].code);
       toast({
         title: "Copied!",
         description: "Code has been copied to clipboard.",
@@ -78,8 +75,28 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
     desktop: "100%",
   };
 
-  if (!filteredData) {
-    return null; // Return early if filteredData is null or undefined
+  const handlePrevPage = () => {
+    if (!filteredData || !filteredData.items || filteredData.items.length === 0) {
+      return; // Return early if data is not yet available or items array is empty
+    }
+
+    const prevIndex = currentIndex > 0 ? currentIndex - 1 : filteredData.items.length - 1;
+    const prevItemId = filteredData.items[prevIndex].id;
+    router.push(`/heros/${prevItemId}?view=${view}`);
+  };
+
+  const handleNextPage = () => {
+    if (!filteredData || !filteredData.items || filteredData.items.length === 0) {
+      return; // Return early if data is not yet available or items array is empty
+    }
+
+    const nextIndex = currentIndex < filteredData.items.length - 1 ? currentIndex + 1 : 0;
+    const nextItemId = filteredData.items[nextIndex].id;
+    router.push(`/heros/${nextItemId}?view=${view}`);
+  };
+
+  if (!filteredData || !filteredData.items || filteredData.items.length === 0) {
+    return null; // Return early if filteredData or its items are not valid
   }
 
   return (
@@ -99,10 +116,9 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
             <BackBTN />
             <h2>{view === "code" ? "Code" : "Preview"}</h2>
           </div>
-
           <div className="flex items-center">
             <div className="px-4 w-full h-full grid place-content-center">
-              <Badge>1/3</Badge>
+              <Badge>{currentIndex + 1}/{filteredData.items.length}</Badge>
             </div>
             <Link
               href={`/heros/${id}?view=preview`}
@@ -126,10 +142,16 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
             >
               <Copy />
             </button>
-            <button className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300">
+            <button
+              onClick={handlePrevPage}
+              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+            >
               <ArrowLeft />
             </button>
-            <button className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300">
+            <button
+              onClick={handleNextPage}
+              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+            >
               <ArrowRight />
             </button>
             <Link
@@ -161,7 +183,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
         <div className="p-4">
           {view === "preview" && (
             <div className="border mx-auto" style={{ maxWidth: deviceClass[device] }}>
-              <iframe src={`${hosturl}/${filteredData.demoUrl}`} className="w-full min-h-screen"></iframe>
+              <iframe src={`${hosturl}/${filteredData.items[currentIndex].demoUrl}`} className="w-full min-h-screen"></iframe>
             </div>
           )}
           {view === "code" && (
@@ -177,7 +199,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
                 style={vscDarkPlus}
                 wrapLines={true}
               >
-                {filteredData.code}
+                {filteredData.items[currentIndex].code}
               </SyntaxHighlighter>
             </div>
           )}
