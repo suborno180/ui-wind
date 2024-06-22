@@ -182,7 +182,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
 
         <div className="p-4">
           {view === "preview" && (
-            <div className="border mx-auto" style={{ maxWidth: deviceClass[device] }}>
+            <div className="mx-auto scroll-" style={{ maxWidth: deviceClass[device] }}>
               <iframe src={`${hosturl}/${filteredData.items[currentIndex].demoUrl}`} className="w-full min-h-screen"></iframe>
             </div>
           )}

@@ -26,7 +26,7 @@ export function Menu() {
           </Link>
         </MenubarTrigger>
       </MenubarMenu>
-      <MenubarMenu>
+      {/* <MenubarMenu>
         <MenubarTrigger className="font-bold">Music</MenubarTrigger>
         <MenubarContent>
           <MenubarItem>About Music</MenubarItem>
@@ -202,7 +202,7 @@ export function Menu() {
           <MenubarSeparator />
           <MenubarItem inset>Add Account...</MenubarItem>
         </MenubarContent>
-      </MenubarMenu>
+      </MenubarMenu> */}
     </Menubar>
   );
 }
