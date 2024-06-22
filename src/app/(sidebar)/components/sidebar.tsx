@@ -79,12 +79,12 @@ export function Sidebar({ className, playlists }: SidebarProps) {
             {componentsData.map((item) => (
               <>
                 <Link
-                  href={`/${item.catagory.toLocaleLowerCase()}`}
+                  href={`/${item.category.toLocaleLowerCase()}`}
                   className="w-full justify-between flex items-center hover:bg-muted/70 p-2 rounded-md"
                 >
                   <div className="flex items-center gap-1">
                     <PanelsTopLeft size={18} />
-                    {item.catagory}
+                    {item.category}
                   </div>
                   <Badge variant={'secondary'}>{item.items.length}</Badge>
                 </Link>
