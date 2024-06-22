@@ -117,7 +117,7 @@ const componentsData: Component[] = [
       },
       {
         id: 2,
-        image: "/block.dark.svg",
+          image: "/block.dark-2.png",
         demoUrl: "/demos/hero-2",
         code: `
        <div class="bg-white">
