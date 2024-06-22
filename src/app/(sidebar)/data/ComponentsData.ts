@@ -191,94 +191,237 @@ const componentsData: Component[] = [
       },
       {
         id: 3,
-          image: "/block.dark.svg",
+        image: "/block.dark.svg",
         demoUrl: "/demos/hero-3",
         code: `
-  <div class="relative pt-32 md:py-12 xl:container m-auto px-6 md:px-12 bg-[url(https://play.tailwindcss.com/img/beams.jpg)] bg-center bg-cover">
-        <div class="relative lg:flex lg:items-center lg:gap-16">
-          <div class="text-center lg:text-left md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12">
-            <h1 class="text-gray-900 font-bold text-4xl md:text-6xl lg:text-5xl xl:text-6xl leading-tight">
-              Build your way with our expert{" "}
-              <span class="text-blue-500">Support.</span>
-            </h1>
-            <p class="mt-8 text-gray-600 text-lg">
-              Leverage our expertise to transform your vision into reality. Join us to access unparalleled support and guidance.
-            </p>
-            <div>
-              <form action="" class="w-full mt-12">
-                <div class="relative flex items-center px-2 py-2 rounded-full bg-white border border-primary/10 shadow-md md:p-2 lg:pr-3">
-                  <div class="pl-6 py-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6 m-auto fill-blue-900/60"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                      <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-                    </svg>
-                  </div>
-                  <input
-                    autoComplete="email"
-                    placeholder="Your email address"
-                    class="w-full p-4 rounded-full placeholder-gray-600 bg-transparent focus:outline-none"
-                    type="email"
-                  />
-                  <div class="md:pr-1.5 lg:pr-0">
-                    <button
-                      type="button"
-                      title="Get Started"
-                      class="relative h-12 w-20 sm:w-auto ml-auto sm:px-6 bg-primary text-white font-semibold rounded-full transition-transform duration-300 hover:scale-105 active:scale-95"
-                    >
-                      <span class="hidden md:block">Get Started</span>
+  <div class="bg-[url(https://play.tailwindcss.com/img/beams.jpg)] bg-center bg-cover">
+        <div class="relative pt-32 md:py-12 xl:container m-auto px-6 md:px-12">
+          <div class="relative lg:flex lg:items-center lg:gap-16">
+            <div class="text-center lg:text-left md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12">
+              <h1 class="text-gray-900 font-bold text-4xl md:text-6xl lg:text-5xl xl:text-6xl leading-tight">
+                Build your way with our expert{" "}
+                <span class="text-blue-500">Support.</span>
+              </h1>
+              <p class="mt-8 text-gray-600 text-lg">
+                Leverage our expertise to transform your vision into reality.
+                Join us to access unparalleled support and guidance.
+              </p>
+              <div>
+                <form action="" class="w-full mt-12">
+                  <div class="relative flex items-center px-2 py-2 rounded-full bg-white border border-primary/10 shadow-md md:p-2 lg:pr-3">
+                    <div class="pl-6 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="relative h-6 w-6 mx-auto md:hidden"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
+                        class="h-6 w-6 m-auto fill-blue-900/60"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
                       >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        />
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                       </svg>
-                    </button>
+                    </div>
+                    <input
+                      autoComplete="email"
+                      placeholder="Your email address"
+                      class="w-full p-4 rounded-full placeholder-gray-600 bg-transparent focus:outline-none"
+                      type="email"
+                    />
+                    <div class="md:pr-1.5 lg:pr-0">
+                      <button
+                        type="button"
+                        title="Get Started"
+                        class="relative h-12 w-20 sm:w-auto ml-auto sm:px-6 bg-primary text-white font-semibold rounded-full transition-transform duration-300 hover:scale-105 active:scale-95"
+                      >
+                        <span class="hidden md:block">Get Started</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="relative h-6 w-6 mx-auto md:hidden"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
                   </div>
-                </div>
-              </form>
+                </form>
+              </div>
+              <div class="mt-12 flex gap-6 lg:gap-12 justify-center lg:justify-start">
+                <img
+                  src="https://tailus.io/sources/blocks/sass/preview/images/clients/airbnb.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Airbnb"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/sass/preview/images/clients/ge.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="General Electric"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/sass/preview/images/clients/coty.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Coty"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/sass/preview/images/clients/microsoft.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Microsoft"
+                />
+              </div>
             </div>
-            <div class="mt-12 flex gap-6 lg:gap-12 justify-center lg:justify-start">
+            <div class="overflow-hidden w-full lg:w-7/12 lg:-mr-16">
               <img
-                src="https://tailus.io/sources/blocks/sass/preview/images/clients/airbnb.svg"
-                class="h-8 sm:h-10 w-auto lg:h-12"
-                alt="Airbnb"
-              />
-              <img
-                src="https://tailus.io/sources/blocks/sass/preview/images/clients/ge.svg"
-                class="h-8 sm:h-10 w-auto lg:h-12"
-                alt="General Electric"
-              />
-              <img
-                src="https://tailus.io/sources/blocks/sass/preview/images/clients/coty.svg"
-                class="h-8 sm:h-10 w-auto lg:h-12"
-                alt="Coty"
-              />
-              <img
-                src="https://tailus.io/sources/blocks/sass/preview/images/clients/microsoft.svg"
-                class="h-8 sm:h-10 w-auto lg:h-12"
-                alt="Microsoft"
+                src="https://tailus.io/sources/blocks/sass/preview/images/project.svg"
+                alt="project illustration"
+                class="object-cover w-full h-full"
               />
             </div>
           </div>
-          <div class="overflow-hidden w-full lg:w-7/12 lg:-mr-16">
-            <img
-              src="https://tailus.io/sources/blocks/sass/preview/images/project.svg"
-              alt="project illustration"
-              class="object-cover w-full h-full"
-            />
+        </div>
+      </div>
+        `,
+      },
+      {
+        id: 4,
+        image: "/block.dark.svg",
+        demoUrl: "/demos/hero-4",
+        code: `
+      <div class="relative pt-40 pb-20 lg:pt-44 bg-white">
+        <div class="relative xl:container m-auto px-6 md:px-12 lg:px-6">
+          <h1 class="sm:mx-auto sm:w-10/12 md:w-2/3 font-black text-blue-900 text-4xl text-center sm:text-5xl md:text-6xl lg:w-auto lg:text-left xl:text-7xl">
+            Run successful remote and <br class="lg:block hidden" />{" "}
+            <span class="relative text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">
+              Hybrid teams
+            </span>
+            .
+          </h1>
+          <div class="lg:flex">
+            <div class="relative mt-8 md:mt-16 space-y-8 sm:w-10/12 md:w-2/3 lg:ml-0 sm:mx-auto text-center lg:text-left lg:mr-auto lg:w-7/12">
+              <p class="sm:text-lg text-gray-700 lg:w-11/12">
+                DailyBot takes chat and collaboration to the next level: daily
+                standups, team check-ins, surveys, kudos, best companion bot for
+                your virtual watercooler, 1:1 intros, motivation tracking and
+                more.
+              </p>
+              <span class="block font-semibold text-gray-500">
+                The best companion bot for your chat app.
+              </span>
+              <div class="grid grid-cols-3 space-x-4 md:space-x-6 md:flex md:justify-center lg:justify-start">
+                <a
+                  aria-label="add to slack"
+                  href="#"
+                  class="p-4 border border-gray-200 rounded-full duration-300 hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-600/20"
+                >
+                  <div class="flex justify-center space-x-4">
+                    <img
+                      class="w-6 h-6"
+                      src="https://tailus.io/sources/blocks/tech-startup/preview/images/slack.png"
+                      alt="slack logo"
+                      loading="lazy"
+                      width="128"
+                      height="128"
+                    />
+                    <span class="hidden font-medium md:block text-gray-500">
+                      Slack
+                    </span>
+                  </div>
+                </a>
+                <a
+                  aria-label="add to chat"
+                  href="#"
+                  class="p-4 border border-gray-200 rounded-full duration-300 hover:border-green-400 hover:shadow-lg hover:shadow-lime-600/20"
+                >
+                  <div class="flex justify-center space-x-4">
+                    <img
+                      class="w-6 h-6"
+                      src="https://tailus.io/sources/blocks/tech-startup/preview/images/chat.png"
+                      alt="chat logo"
+                      loading="lazy"
+                      width="128"
+                      height="128"
+                    />
+                    <span class="hidden font-medium md:block text-gray-500">
+                      Google Chat
+                    </span>
+                  </div>
+                </a>
+                <a
+                  aria-label="add to zoom"
+                  href="#"
+                  class="p-4 border border-gray-200 rounded-full duration-300 hover:border-blue-400 hover:shadow-lg hover:shadow-blue-600/20"
+                >
+                  <div class="flex justify-center space-x-4">
+                    <img
+                      class="w-6 h-6"
+                      src="https://tailus.io/sources/blocks/tech-startup/preview/images/zoom.png"
+                      alt="zoom logo"
+                      loading="lazy"
+                      width="128"
+                      height="128"
+                    />
+                    <span class="hidden font-medium md:block text-gray-500">
+                      Zoom
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="text-gray-500">
+                🔥🌟
+                <span>Other integrations :</span>
+                <a href="#" class="font-semibold text-gray-700">
+                  Discord,
+                </a>
+                <a href="#" class="font-semibold text-gray-700">
+                  Telegram
+                </a>
+              </div>
+
+              <div class="pt-12 flex gap-6 lg:gap-12 justify-between grayscale lg:w-2/3">
+                <img
+                  src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/airbnb.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Airbnb logo"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/ge.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="GE logo"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/coty.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Coty logo"
+                />
+                <img
+                  src="https://tailus.io/sources/blocks/tech-startup/preview/images/clients/microsoft.svg"
+                  class="h-8 sm:h-10 w-auto lg:h-12"
+                  alt="Microsoft logo"
+                />
+              </div>
+            </div>
+            <div class="mt-12 md:mt-0 lg:absolute -right-10 lg:w-7/12">
+              <div class="relative w-full">
+                <div
+                  aria-hidden="true"
+                  class="absolute scale-75 md:scale-110 inset-0 m-auto w-full h-full md:w-96 md:h-96 rounded-full rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl"
+                ></div>
+                <img
+                  src="https://tailus.io/sources/blocks/tech-startup/preview/images/globalization-cuate.svg"
+                  class="relative w-full"
+                  alt="Illustration of globalization"
+                  loading="lazy"
+                  width="320"
+                  height="280"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
