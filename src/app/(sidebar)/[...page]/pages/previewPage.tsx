@@ -38,17 +38,10 @@ const PreviewPage = ({ catagory, id, hosturl }: PreviewPagetype) => {
     "phone" | "tablet" | "laptop" | "desktop"
   >("desktop");
 
-  const ComponentCode = `
-  const searchParams = useSearchParams();
-  const route = useRouter();
-  const view = searchParams.get("view");
-  const { toast } = useToast();
-  const [device, setDevice] = useState<"phone" | "tablet" | "laptop" | "desktop">("desktop");
-`;
 
 const finterData = componentsData.filter(component => component.catagory.toLowerCase() === catagory.toLowerCase()).filter(item => item.id === Number(id))
 
-if (!finterData) notFound()
+// if (!finterData) notFound()
 
 
   // Handle Copy functionality
@@ -103,7 +96,7 @@ if (!finterData) notFound()
               <Badge>1/3</Badge>
             </div>
             <Link
-              href={`/tailwind-comps/heros/${id}?view=preview`}
+              href={`/heros/${id}?view=preview`}
               className={`border-l-[1px] min-w-10 min-h-10 grid place-content-center border-b-4 ${
                 view === "preview" || !view
                   ? "border-b-blue-600"
@@ -113,7 +106,7 @@ if (!finterData) notFound()
               <Eye />
             </Link>
             <Link
-              href={`/tailwind-comps/heros/${id}?view=code`}
+              href={`/heros/${id}?view=code`}
               className={`border-l-[1px] min-w-10 min-h-10 grid place-content-center border-b-4 ${
                 view === "code" ? "border-b-blue-600" : "border-b-transparent"
               } text-gray-500 hover:text-gray-300`}
@@ -133,7 +126,7 @@ if (!finterData) notFound()
               <ArrowRight />
             </button>
             <Link
-              href="/tailwind-comps/heros/"
+              href="/heros/"
               className={`border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300`}
             >
               <X />

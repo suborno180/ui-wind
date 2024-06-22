@@ -4,7 +4,7 @@ import PreviewPage from "./pages/previewPage";
 import { notFound } from "next/navigation";
 
 const DenamicPage = ({ params }: { params: { page: string } }) => {
-    const HOSTURL = process.env.NEXTAUTH_URL
+    const HOSTURL = process.env.HOST_URL
   if (params.page.length == 1) {
     return <ItemPage catagory={params.page[0]} />
   }

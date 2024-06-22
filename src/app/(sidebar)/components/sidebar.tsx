@@ -1,8 +1,6 @@
 import { cn } from "@/lib/utils";
 
 import { Playlist } from "../data/UiComponentsList";
-import { Button } from "@/components/plate-ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import componentsData from "../data/ComponentsData";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
@@ -81,7 +79,7 @@ export function Sidebar({ className, playlists }: SidebarProps) {
             {componentsData.map((item) => (
               <>
                 <Link
-                  href={`/tailwind-comps/${item.catagory.toLocaleLowerCase()}`}
+                  href={`/${item.catagory.toLocaleLowerCase()}`}
                   className="w-full justify-between flex items-center hover:bg-muted/70 p-2 rounded-md"
                 >
                   <div className="flex items-center gap-1">
