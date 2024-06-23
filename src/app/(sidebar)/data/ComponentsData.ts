@@ -191,7 +191,7 @@ const componentsData: Component[] = [
       },
       {
         id: 3,
-        image: "/block.dark.svg",
+        image: "/block.dark-3.svg",
         demoUrl: "/demos/hero-3",
         code: `
   <div class="bg-[url(https://play.tailwindcss.com/img/beams.jpg)] bg-center bg-cover">
