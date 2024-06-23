@@ -155,7 +155,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
               <ArrowRight />
             </button>
             <Link
-              href="/${category}/"
+              href={`/${category}/`}
               className="border-x-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
             >
               <X />
