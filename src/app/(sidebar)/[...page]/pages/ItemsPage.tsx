@@ -45,10 +45,10 @@ const ItemPage = ({ category }: { category: string }) => {
               />
             </CardContent>
             <CardFooter className="flex items-center justify-end border p-0 border-x-0 border-b-0">
-              <Link className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300" href={`/heros/${item.id}?view=preview`} passHref>
+              <Link className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300" href={`/${category}/${item.id}?view=preview`} passHref>
                   <Eye />
               </Link>
-              <Link className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300" href={`/heros/${item.id}?view=code`} passHref>
+              <Link className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300" href={`/${category}/${item.id}?view=code`} passHref>
                   <Code />
               </Link>
               <button className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"

@@ -82,7 +82,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
 
     const prevIndex = currentIndex > 0 ? currentIndex - 1 : filteredData.items.length - 1;
     const prevItemId = filteredData.items[prevIndex].id;
-    router.push(`/heros/${prevItemId}?view=${view}`);
+    router.push(`/${category}/${prevItemId}?view=${view}`);
   };
 
   const handleNextPage = () => {
@@ -92,7 +92,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
 
     const nextIndex = currentIndex < filteredData.items.length - 1 ? currentIndex + 1 : 0;
     const nextItemId = filteredData.items[nextIndex].id;
-    router.push(`/heros/${nextItemId}?view=${view}`);
+    router.push(`/${category}/${nextItemId}?view=${view}`);
   };
 
   if (!filteredData || !filteredData.items || filteredData.items.length === 0) {
@@ -121,7 +121,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
               <Badge>{currentIndex + 1}/{filteredData.items.length}</Badge>
             </div>
             <Link
-              href={`/heros/${id}?view=preview`}
+              href={`/${category}/${id}?view=preview`}
               className={`border-l-[1px] min-w-10 min-h-10 grid place-content-center border-b-4 ${
                 view === "preview" || !view ? "border-b-blue-600" : "border-b-transparent"
               } text-gray-500 hover:text-gray-300`}
@@ -129,7 +129,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
               <Eye />
             </Link>
             <Link
-              href={`/heros/${id}?view=code`}
+              href={`/${category}/${id}?view=code`}
               className={`border-l-[1px] min-w-10 min-h-10 grid place-content-center border-b-4 ${
                 view === "code" ? "border-b-blue-600" : "border-b-transparent"
               } text-gray-500 hover:text-gray-300`}
@@ -155,7 +155,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
               <ArrowRight />
             </button>
             <Link
-              href="/heros/"
+              href="/${category}/"
               className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
             >
               <X />
