@@ -29,7 +29,7 @@ export default function Home() {
               <Card>
                 <CardContent className="p-4">
                   <Image
-                    src="/block.dark.svg"
+                    src={item.items[0].image}
                     alt="image"
                     width={500}
                     height={350}
@@ -37,13 +37,13 @@ export default function Home() {
                 </CardContent>
                 <CardFooter className="flex items-center justify-end border p-0 border-x-0 border-b-0">
                   <Link
-                    href={`/heros/${item.id}?view=preview`}
+                    href={`/heros/${item.items[0].id}?view=preview`}
                     className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
                   >
                     <Eye />
                   </Link>
                   <Link
-                    href={`/heros/${item.id}?view=code`}
+                    href={`/heros/${item.items[0].id}?view=code`}
                     className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
                   >
                     <Code />
