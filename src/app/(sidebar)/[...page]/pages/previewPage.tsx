@@ -195,7 +195,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
                     whiteSpace: 'pre-wrap',
                   },
                 }}
-                language="tsx"
+                language="html"
                 style={vscDarkPlus}
                 wrapLines={true}
               >
