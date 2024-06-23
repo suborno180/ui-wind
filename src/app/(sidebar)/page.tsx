@@ -48,9 +48,6 @@ export default function Home() {
                   >
                     <Code />
                   </Link>
-                  <button className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300">
-                    <Copy />
-                  </button>
                 </CardFooter>
               </Card>
             </>
