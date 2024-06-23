@@ -2140,7 +2140,1194 @@ const componentsData: Component[] = [
       </div>
         `
       },
-    ] 
+      {
+        id: 3,
+        image: "/products-block.dark-3.png",
+        demoUrl: "/demos/productGrid-3",
+        code: `
+      <div class="bg-white">
+        <div class="container mx-auto px-4 py-8">
+        <div class="grid gap-2 md:gap-4 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <a href="#" class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt=""
+              class="h-[350px] w-full object-cover sm:h-[450px]"
+            />
+
+            <div class="mt-1.5">
+              <p class="text-xs text-gray-500">Space Grey</p>
+
+              <div class="mt-1.5 flex gap-1">
+                <form>
+                  <fieldset>
+                    <legend class="sr-only">Color</legend>
+                  </fieldset>
+
+                  <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
+                    <div>
+                      <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSg"
+                        class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Space Gray </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorS" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorS"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Silver </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorP" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorP"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorG" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorG"
+                        class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSb"
+                        class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="mt-3 flex justify-between text-sm">
+                <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                  Small Headphones
+                </h3>
+
+                <p class="text-gray-900">$299</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt=""
+              class="h-[350px] w-full object-cover sm:h-[450px]"
+            />
+
+            <div class="mt-1.5">
+              <p class="text-xs text-gray-500">Space Grey</p>
+
+              <div class="mt-1.5 flex gap-1">
+                <form>
+                  <fieldset>
+                    <legend class="sr-only">Color</legend>
+                  </fieldset>
+
+                  <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
+                    <div>
+                      <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSg"
+                        class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Space Gray </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorS" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorS"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Silver </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorP" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorP"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorG" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorG"
+                        class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSb"
+                        class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="mt-3 flex justify-between text-sm">
+                <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                  Small Headphones
+                </h3>
+
+                <p class="text-gray-900">$299</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt=""
+              class="h-[350px] w-full object-cover sm:h-[450px]"
+            />
+
+            <div class="mt-1.5">
+              <p class="text-xs text-gray-500">Space Grey</p>
+
+              <div class="mt-1.5 flex gap-1">
+                <form>
+                  <fieldset>
+                    <legend class="sr-only">Color</legend>
+                  </fieldset>
+
+                  <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
+                    <div>
+                      <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSg"
+                        class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Space Gray </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorS" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorS"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Silver </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorP" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorP"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorG" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorG"
+                        class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSb"
+                        class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="mt-3 flex justify-between text-sm">
+                <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                  Small Headphones
+                </h3>
+
+                <p class="text-gray-900">$299</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt=""
+              class="h-[350px] w-full object-cover sm:h-[450px]"
+            />
+
+            <div class="mt-1.5">
+              <p class="text-xs text-gray-500">Space Grey</p>
+
+              <div class="mt-1.5 flex gap-1">
+                <form>
+                  <fieldset>
+                    <legend class="sr-only">Color</legend>
+                  </fieldset>
+
+                  <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
+                    <div>
+                      <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSg"
+                        class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Space Gray </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorS" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorS"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Silver </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorP" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorP"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorG" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorG"
+                        class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSb"
+                        class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="mt-3 flex justify-between text-sm">
+                <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                  Small Headphones
+                </h3>
+
+                <p class="text-gray-900">$299</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="group block">
+            <img
+              src="https://images.unsplash.com/photo-1592921870789-04563d55041c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              alt=""
+              class="h-[350px] w-full object-cover sm:h-[450px]"
+            />
+
+            <div class="mt-1.5">
+              <p class="text-xs text-gray-500">Space Grey</p>
+
+              <div class="mt-1.5 flex gap-1">
+                <form>
+                  <fieldset>
+                    <legend class="sr-only">Color</legend>
+                  </fieldset>
+
+                  <div class="flex flex-wrap justify-center gap-1 [&:hover_label]:opacity-75">
+                    <div>
+                      <input type="checkbox" id="ColorSg" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSg"
+                        class="block size-4 cursor-pointer rounded-full bg-[#595759] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Space Gray </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorS" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorS"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d2d3d4] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Silver </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorP" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorP"
+                        class="block size-4 cursor-pointer rounded-full bg-[#d89f97] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorG" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorG"
+                        class="block size-4 cursor-pointer rounded-full bg-[#afbfab] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+
+                    <div>
+                      <input type="checkbox" id="ColorSb" class="sr-only" />
+
+                      <label
+                        htmlFor="ColorSb"
+                        class="block size-4 cursor-pointer rounded-full bg-[#91a5bb] transition hover:!opacity-100"
+                      >
+                        <span class="sr-only"> Pink </span>
+                      </label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="mt-3 flex justify-between text-sm">
+                <h3 class="text-gray-900 group-hover:underline group-hover:underline-offset-4">
+                  Small Headphones
+                </h3>
+
+                <p class="text-gray-900">$299</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      </div>
+        `
+      },
+    ]
+  },
+  {
+    id: 1,
+    icon: "",
+    category: "Blog-Card",
+    items: [
+      {
+        id: 1,
+        image: "/blog-card-block.dark-1.png",
+        demoUrl: "/demos/blog-card-1",
+        code: `
+      <div class="bg-white">
+        <div class="container mx-auto px-4 py-8">
+          <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="h-56 w-full object-cover"
+              />
+
+              <div class="bg-white p-4 sm:p-6">
+                <time
+                  dateTime="2022-10-10"
+                  class="block text-xs text-gray-500"
+                >
+                  10th Oct 2022
+                </time>
+
+                <a href="#">
+                  <h3 class="mt-0.5 text-lg text-gray-900">
+                    How to position your furniture for positivity
+                  </h3>
+                </a>
+
+                <p class="mt-2 line-clamp-3 text-sm text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+
+            {/* <!-- Add more article cards as needed --> */}
+            <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="h-56 w-full object-cover"
+              />
+
+              <div class="bg-white p-4 sm:p-6">
+                <time
+                  dateTime="2022-10-10"
+                  class="block text-xs text-gray-500"
+                >
+                  10th Oct 2022
+                </time>
+
+                <a href="#">
+                  <h3 class="mt-0.5 text-lg text-gray-900">
+                    How to position your furniture for positivity
+                  </h3>
+                </a>
+
+                <p class="mt-2 line-clamp-3 text-sm text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+
+            <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                class="h-56 w-full object-cover"
+              />
+
+              <div class="bg-white p-4 sm:p-6">
+                <time
+                  dateTime="2022-10-10"
+                  class="block text-xs text-gray-500"
+                >
+                  10th Oct 2022
+                </time>
+
+                <a href="#">
+                  <h3 class="mt-0.5 text-lg text-gray-900">
+                    How to position your furniture for positivity
+                  </h3>
+                </a>
+
+                <p class="mt-2 line-clamp-3 text-sm text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 2,
+        image: "/blog-card-block.dark-2.png",
+        demoUrl: "/demos/blog-card-2",
+        code: `
+      <div className="bg-white">
+        <div className="container mx-auto px-4 py-8">
+          <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article className="group">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+              />
+
+              <div className="p-4">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Finding the Journey to Mordor
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+            <article className="group">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+              />
+
+              <div className="p-4">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Finding the Journey to Mordor
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+            <article className="group">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+              />
+
+              <div className="p-4">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Finding the Journey to Mordor
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 3,
+        image: "/blog-card-block.dark-3.png",
+        demoUrl: "/demos/blog-card-3",
+        code: `
+      <div className="bg-white">
+        <div className="container mx-auto px-4 py-8">
+          <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full object-cover"
+              />
+
+              <div className="p-4 sm:p-6">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+
+                <a
+                  href="#"
+                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                >
+                  Find out more
+                  <span
+                    aria-hidden="true"
+                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                  >
+                    &rarr;
+                  </span>
+                </a>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full object-cover"
+              />
+
+              <div className="p-4 sm:p-6">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+
+                <a
+                  href="#"
+                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                >
+                  Find out more
+                  <span
+                    aria-hidden="true"
+                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                  >
+                    &rarr;
+                  </span>
+                </a>
+              </div>
+            </article>
+            <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                className="h-56 w-full object-cover"
+              />
+
+              <div className="p-4 sm:p-6">
+                <a href="#">
+                  <h3 className="text-lg font-medium text-gray-900">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae dolores, possimus pariatur animi temporibus
+                  nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                  quidem, mollitia itaque minus soluta, voluptates neque
+                  explicabo tempora nisi culpa eius atque dignissimos. Molestias
+                  explicabo corporis voluptatem?
+                </p>
+
+                <a
+                  href="#"
+                  className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                >
+                  Find out more
+                  <span
+                    aria-hidden="true"
+                    className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                  >
+                    &rarr;
+                  </span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 4,
+        image: "/blog-card-block.dark-4.png",
+        demoUrl: "/demos/blog-card-4",
+        code: `
+      <div class="bg-white">
+        <div class="container mx-auto px-4 py-8">
+          <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article class="rounded-lg border border-gray-100 bg-white p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+              <span class="inline-block rounded bg-blue-600 p-2 text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  />
+                </svg>
+              </span>
+
+              <a href="#">
+                <h3 class="mt-0.5 text-lg font-medium text-gray-900">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+              </a>
+
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
+            </article>
+            <article class="rounded-lg border border-gray-100 bg-white p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+              <span class="inline-block rounded bg-blue-600 p-2 text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  />
+                </svg>
+              </span>
+
+              <a href="#">
+                <h3 class="mt-0.5 text-lg font-medium text-gray-900">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+              </a>
+
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
+            </article>
+            <article class="rounded-lg border border-gray-100 bg-white p-4 shadow-sm transition hover:shadow-lg sm:p-6">
+              <span class="inline-block rounded bg-blue-600 p-2 text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+                  />
+                </svg>
+              </span>
+
+              <a href="#">
+                <h3 class="mt-0.5 text-lg font-medium text-gray-900">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+              </a>
+
+              <p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  class="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 5,
+        image: "/blog-card-block.dark-5.png",
+        demoUrl: "/demos/blog-card-5",
+        code: `
+      <div className="bg-white">
+        <div className="container mx-auto px-4 py-8">
+          <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article className="flex bg-white transition hover:shadow-xl">
+              <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+                <time
+                  dateTime="2022-10-10"
+                  className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+                >
+                  <span>2022</span>
+                  <span className="w-px flex-1 bg-gray-900/10"></span>
+                  <span>Oct 10</span>
+                </time>
+              </div>
+
+              <div className="hidden sm:block sm:basis-56">
+                <img
+                  alt=""
+                  src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                  className="aspect-square h-full w-full object-cover"
+                />
+              </div>
+
+              <div className="flex flex-1 flex-col justify-between">
+                <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                  <a href="#">
+                    <h3 className="font-bold uppercase text-gray-900">
+                      Finding the right guitar for your style - 5 tips
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+
+                <div className="sm:flex sm:items-end sm:justify-end">
+                  <a
+                    href="#"
+                    className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                  >
+                    Read Blog
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article className="flex bg-white transition hover:shadow-xl">
+              <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+                <time
+                  dateTime="2022-10-10"
+                  className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+                >
+                  <span>2022</span>
+                  <span className="w-px flex-1 bg-gray-900/10"></span>
+                  <span>Oct 10</span>
+                </time>
+              </div>
+
+              <div className="hidden sm:block sm:basis-56">
+                <img
+                  alt=""
+                  src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                  className="aspect-square h-full w-full object-cover"
+                />
+              </div>
+
+              <div className="flex flex-1 flex-col justify-between">
+                <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                  <a href="#">
+                    <h3 className="font-bold uppercase text-gray-900">
+                      Finding the right guitar for your style - 5 tips
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+
+                <div className="sm:flex sm:items-end sm:justify-end">
+                  <a
+                    href="#"
+                    className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                  >
+                    Read Blog
+                  </a>
+                </div>
+              </div>
+            </article>
+            <article className="flex bg-white transition hover:shadow-xl">
+              <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+                <time
+                  dateTime="2022-10-10"
+                  className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"
+                >
+                  <span>2022</span>
+                  <span className="w-px flex-1 bg-gray-900/10"></span>
+                  <span>Oct 10</span>
+                </time>
+              </div>
+
+              <div className="hidden sm:block sm:basis-56">
+                <img
+                  alt=""
+                  src="https://images.unsplash.com/photo-1609557927087-f9cf8e88de18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+                  className="aspect-square h-full w-full object-cover"
+                />
+              </div>
+
+              <div className="flex flex-1 flex-col justify-between">
+                <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                  <a href="#">
+                    <h3 className="font-bold uppercase text-gray-900">
+                      Finding the right guitar for your style - 5 tips
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+
+                <div className="sm:flex sm:items-end sm:justify-end">
+                  <a
+                    href="#"
+                    className="block bg-yellow-300 px-5 py-3 text-center text-xs font-bold uppercase text-gray-900 transition hover:bg-yellow-400"
+                  >
+                    Read Blog
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 6,
+        image: "/blog-card-block.dark-6.png",
+        demoUrl: "/demos/blog-card-6",
+        code: `
+  <div className="bg-white">
+        <div className="container mx-auto px-4 py-8">
+          <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+            <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+
+              <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+                <div className="p-4 sm:p-6">
+                  <time
+                    dateTime="2022-10-10"
+                    className="block text-xs text-white/90"
+                  >
+                    {" "}
+                    10th Oct 2022{" "}
+                  </time>
+
+                  <a href="#">
+                    <h3 className="mt-0.5 text-lg text-white">
+                      How to position your furniture for positivity
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+
+              <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+                <div className="p-4 sm:p-6">
+                  <time
+                    dateTime="2022-10-10"
+                    className="block text-xs text-white/90"
+                  >
+                    {" "}
+                    10th Oct 2022{" "}
+                  </time>
+
+                  <a href="#">
+                    <h3 className="mt-0.5 text-lg text-white">
+                      How to position your furniture for positivity
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+              </div>
+            </article>
+            <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+
+              <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+                <div className="p-4 sm:p-6">
+                  <time
+                    dateTime="2022-10-10"
+                    className="block text-xs text-white/90"
+                  >
+                    {" "}
+                    10th Oct 2022{" "}
+                  </time>
+
+                  <a href="#">
+                    <h3 className="mt-0.5 text-lg text-white">
+                      How to position your furniture for positivity
+                    </h3>
+                  </a>
+
+                  <p className="mt-2 line-clamp-3 text-sm/relaxed text-white/95">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Recusandae dolores, possimus pariatur animi temporibus
+                    nesciunt praesentium dolore sed nulla ipsum eveniet corporis
+                    quidem, mollitia itaque minus soluta, voluptates neque
+                    explicabo tempora nisi culpa eius atque dignissimos.
+                    Molestias explicabo corporis voluptatem?
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+        `
+      },
+    ]
   }
 ];
 
