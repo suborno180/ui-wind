@@ -429,7 +429,7 @@ const componentsData: Component[] = [
       },
       {
         id: 5,
-        image: "/block.dark.svg",
+        image: "/block.dark-5.svg",
         demoUrl: "/demos/hero-5",
         code: `
  <div class="relative ">
