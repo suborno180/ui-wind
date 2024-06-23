@@ -21,7 +21,7 @@ export default function Home() {
         }} // Smooth animation with spring effect
       >
         <div className="border-b-[1px] mb-4  px-4 py-4 lg:px-4">
-          <h2>Blocks</h2>
+          <h2>All Components</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5  px-4 py-6 lg:px-8">
           {componentsData.map((item) => (
@@ -37,16 +37,10 @@ export default function Home() {
                 </CardContent>
                 <CardFooter className="flex items-center justify-end border p-0 border-x-0 border-b-0">
                   <Link
-                    href={`/heros/${item.items[0].id}?view=preview`}
+                    href={`/${item.category}/`}
                     className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
                   >
                     <Eye />
-                  </Link>
-                  <Link
-                    href={`/heros/${item.items[0].id}?view=code`}
-                    className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
-                  >
-                    <Code />
                   </Link>
                 </CardFooter>
               </Card>

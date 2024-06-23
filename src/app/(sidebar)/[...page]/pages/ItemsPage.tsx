@@ -7,6 +7,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import componentsData from "../../data/ComponentsData";
 import { useToast } from "@/components/ui/use-toast";
+import { MobileSideMenu } from "../../components/MobileSideMenu";
 
 const ItemPage = ({ category }: { category: string }) => {
   const { toast } = useToast();
@@ -29,8 +30,11 @@ const ItemPage = ({ category }: { category: string }) => {
       exit={{ y: "100vh" }}
       transition={{ delay: 0.2, duration: 0.4, ease: "easeInOut" }}
     >
-      <div className="border-b-[1px] mb-4 px-4 py-4 lg:px-4">
-        <h2>Blocks</h2>
+      <div className="border-b-[1px] mb-4 px-4 py-4 flex items-center justify-between">
+        <h2>{data?.category} Blocks</h2>
+        <div className="md:hidden">
+          <MobileSideMenu/>
+        </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-4 py-6 lg:px-8">
         {data?.items.map((item) => (

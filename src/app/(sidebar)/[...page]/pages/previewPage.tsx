@@ -111,7 +111,7 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
           ease: "easeInOut",
         }}
       >
-        <div className="border-b-[1px] px-4 lg:px-4 flex items-center justify-between">
+        <div className="border-b-[1px] px-2 lg:px-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <BackBTN />
             <h2>{view === "code" ? "Code" : "Preview"}</h2>
@@ -138,25 +138,25 @@ const PreviewPage: React.FC<PreviewPageType> = ({ category, id, hosturl }) => {
             </Link>
             <button
               onClick={handleCopy}
-              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+              className="border-l-[1px] min-w-10 min-h-10 hidden md:grid place-content-center text-gray-500 hover:text-gray-300 "
             >
               <Copy />
             </button>
             <button
               onClick={handlePrevPage}
-              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+              className="border-l-[1px] min-w-10 min-h-10 hidden md:grid place-content-center text-gray-500 hover:text-gray-300"
             >
               <ArrowLeft />
             </button>
             <button
               onClick={handleNextPage}
-              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+              className="border-l-[1px] min-w-10 min-h-10 hidden md:grid place-content-center text-gray-500 hover:text-gray-300"
             >
               <ArrowRight />
             </button>
             <Link
               href="/${category}/"
-              className="border-l-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
+              className="border-x-[1px] min-w-10 min-h-10 grid place-content-center text-gray-500 hover:text-gray-300"
             >
               <X />
             </Link>

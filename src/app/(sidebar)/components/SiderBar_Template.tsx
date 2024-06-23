@@ -5,6 +5,7 @@ import { Sidebar } from "./sidebar";
 import { UiComponentsList } from "../data/UiComponentsList";
 import { Menu } from "./menu";
 import { useRouter } from "next/router";
+import { ModeToggle } from "@/components/ModeToggle";
 
 const SiderBar_Template = ({
   children,
@@ -14,7 +15,10 @@ const SiderBar_Template = ({
   return (
     <>
       <div className="block">
-        <Menu />
+        <div className="flex items-center justify-between px-2 lg:px-4">
+          <Menu />
+          <ModeToggle />
+        </div>
         <div className="border-t">
           <div className="bg-background">
             <div className="grid lg:grid-cols-5">

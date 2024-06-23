@@ -18,7 +18,7 @@ import Link from "next/link";
 
 export function Menu() {
   return (
-    <Menubar className="rounded-none border-b border-none px-2 lg:px-4">
+    <Menubar className="rounded-none border-b border-none">
       <MenubarMenu>
         <MenubarTrigger className="font-bold">
           <Link href="/" >
