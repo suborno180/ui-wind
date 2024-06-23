@@ -289,7 +289,7 @@ const componentsData: Component[] = [
       },
       {
         id: 4,
-        image: "/block.dark.svg",
+        image: "/block.dark-4.svg",
         demoUrl: "/demos/hero-4",
         code: `
       <div class="relative pt-40 pb-20 lg:pt-44 bg-white">
