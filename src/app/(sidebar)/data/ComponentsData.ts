@@ -2168,7 +2168,7 @@ const componentsData: Component[] = [
           </li>
         </ul>
 
-        <ul class='lg:flex lg:items-center ml-auto max-lg:block lg:space-x-8 ml-auto'>
+        <ul class='lg:flex lg:items-center ml-auto max-lg:block lg:space-x-8'>
           <li class='max-lg:border-b max-lg:py-3 max-lg:mt-2'>
             <a href='javascript:void(0)'
               class='hover:text-[#007bff] text-gray-600 block font-bold text-[15px]'>Pricing</a>
@@ -3624,7 +3624,7 @@ const componentsData: Component[] = [
       </div>
 
       <div
-        class="bg-gray-100 flex border-2 rounded max-md:order-1 border-transparent focus-within:border-blue-500 focus-within:bg-transparent px-4 rounded-sm h-11 lg:w-2/4 max-md:w-full">
+        class="bg-gray-100 flex border-2  max-md:order-1 border-transparent focus-within:border-blue-500 focus-within:bg-transparent px-4 rounded-sm h-11 lg:w-2/4 max-md:w-full">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
           class="fill-gray-400 mr-4 rotate-90">
           <path
@@ -3698,6 +3698,926 @@ const componentsData: Component[] = [
             class='hover:text-[#007bff] text-black block font-semibold text-base'>Contact</a>
         </li>
       </ul>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 21,
+        image: "/header-block.dark-21.svg",
+        demoUrl: "/demos/header-21",
+        code: `
+<header class='flex shadow-sm bg-white font-[sans-serif] min-h-[70px]'>
+    <div
+      class='flex flex-wrap items-center justify-between sm:px-10 px-6 py-3 relative lg:gap-y-4 gap-y-6 gap-x-4 w-full'>
+
+      <div class="flex">
+        <button id="toggleOpen">
+          <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <a href="javascript:void(0)" class="ml-8"><img src="https://readymadeui.com/readymadeui.svg" alt="logo"
+            class='w-36' />
+        </a>
+      </div>
+
+      <div
+        class="bg-gray-100 flex border-2  max-md:order-1 border-transparent focus-within:border-blue-500 focus-within:bg-transparent px-4 rounded-sm h-11 lg:w-2/4 max-md:w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
+          class="fill-gray-400 mr-4 rotate-90">
+          <path
+            d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+          </path>
+        </svg>
+        <input type='email' placeholder='Search...' class="w-full outline-none bg-transparent text-[#333] text-sm" />
+      </div>
+
+      <div class='flex items-center space-x-8 max-md:ml-auto'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer fill-[#333] hover:fill-[#077bff]"
+          viewBox="0 0 511 511.999">
+          <path
+            d="M498.7 222.695c-.016-.011-.028-.027-.04-.039L289.805 13.81C280.902 4.902 269.066 0 256.477 0c-12.59 0-24.426 4.902-33.332 13.809L14.398 222.55c-.07.07-.144.144-.21.215-18.282 18.386-18.25 48.218.09 66.558 8.378 8.383 19.44 13.235 31.273 13.746.484.047.969.07 1.457.07h8.32v153.696c0 30.418 24.75 55.164 55.168 55.164h81.711c8.285 0 15-6.719 15-15V376.5c0-13.879 11.293-25.168 25.172-25.168h48.195c13.88 0 25.168 11.29 25.168 25.168V497c0 8.281 6.715 15 15 15h81.711c30.422 0 55.168-24.746 55.168-55.164V303.14h7.719c12.586 0 24.422-4.903 33.332-13.813 18.36-18.367 18.367-48.254.027-66.633zm-21.243 45.422a17.03 17.03 0 0 1-12.117 5.024h-22.72c-8.285 0-15 6.714-15 15v168.695c0 13.875-11.289 25.164-25.168 25.164h-66.71V376.5c0-30.418-24.747-55.168-55.169-55.168H232.38c-30.422 0-55.172 24.75-55.172 55.168V482h-66.71c-13.876 0-25.169-11.29-25.169-25.164V288.14c0-8.286-6.715-15-15-15H48a13.9 13.9 0 0 0-.703-.032c-4.469-.078-8.66-1.851-11.8-4.996-6.68-6.68-6.68-17.55 0-24.234.003 0 .003-.004.007-.008l.012-.012L244.363 35.02A17.003 17.003 0 0 1 256.477 30c4.574 0 8.875 1.781 12.113 5.02l208.8 208.796.098.094c6.645 6.692 6.633 17.54-.031 24.207zm0 0"
+            data-original="#000000" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer fill-[#333] hover:fill-[#077bff]"
+          viewBox="0 0 371.263 371.263">
+          <path
+            d="M305.402 234.794v-70.54c0-52.396-33.533-98.085-79.702-115.151.539-2.695.838-5.449.838-8.204C226.539 18.324 208.215 0 185.64 0s-40.899 18.324-40.899 40.899c0 2.695.299 5.389.778 7.964-15.868 5.629-30.539 14.551-43.054 26.647-23.593 22.755-36.587 53.354-36.587 86.169v73.115c0 2.575-2.096 4.731-4.731 4.731-22.096 0-40.959 16.647-42.995 37.845-1.138 11.797 2.755 23.533 10.719 32.276 7.904 8.683 19.222 13.713 31.018 13.713h72.217c2.994 26.887 25.869 47.905 53.534 47.905s50.54-21.018 53.534-47.905h72.217c11.797 0 23.114-5.03 31.018-13.713 7.904-8.743 11.797-20.479 10.719-32.276-2.036-21.198-20.958-37.845-42.995-37.845a4.704 4.704 0 0 1-4.731-4.731zM185.64 23.952c9.341 0 16.946 7.605 16.946 16.946 0 .778-.12 1.497-.24 2.275-4.072-.599-8.204-1.018-12.336-1.138-7.126-.24-14.132.24-21.078 1.198-.12-.778-.24-1.497-.24-2.275.002-9.401 7.607-17.006 16.948-17.006zm0 323.358c-14.431 0-26.527-10.3-29.342-23.952h58.683c-2.813 13.653-14.909 23.952-29.341 23.952zm143.655-67.665c.479 5.15-1.138 10.12-4.551 13.892-3.533 3.773-8.204 5.868-13.353 5.868H59.89c-5.15 0-9.82-2.096-13.294-5.868-3.473-3.772-5.09-8.743-4.611-13.892.838-9.042 9.282-16.168 19.162-16.168 15.809 0 28.683-12.874 28.683-28.683v-73.115c0-26.228 10.419-50.719 29.282-68.923 18.024-17.425 41.498-26.887 66.528-26.887 1.198 0 2.335 0 3.533.06 50.839 1.796 92.277 45.929 92.277 98.325v70.54c0 15.809 12.874 28.683 28.683 28.683 9.88 0 18.264 7.126 19.162 16.168z"
+            data-original="#000000" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer fill-[#333] hover:fill-[#077bff]"
+          viewBox="0 0 512 512">
+          <path
+            d="M337.711 241.3a16 16 0 0 0-11.461 3.988c-18.739 16.561-43.688 25.682-70.25 25.682s-51.511-9.121-70.25-25.683a16.007 16.007 0 0 0-11.461-3.988c-78.926 4.274-140.752 63.672-140.752 135.224v107.152C33.537 499.293 46.9 512 63.332 512h385.336c16.429 0 29.8-12.707 29.8-28.325V376.523c-.005-71.552-61.831-130.95-140.757-135.223zM446.463 480H65.537V376.523c0-52.739 45.359-96.888 104.351-102.8C193.75 292.63 224.055 302.97 256 302.97s62.25-10.34 86.112-29.245c58.992 5.91 104.351 50.059 104.351 102.8zM256 234.375a117.188 117.188 0 1 0-117.188-117.187A117.32 117.32 0 0 0 256 234.375zM256 32a85.188 85.188 0 1 1-85.188 85.188A85.284 85.284 0 0 1 256 32z"
+            data-original="#000000" />
+        </svg>
+      </div>
+    </div>
+
+    <div id="collapseMenu"
+      class='hidden before:fixed before:bg-black before:opacity-40 before:inset-0 max-lg:before:z-50'>
+      <button id="toggleClose" class='fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+          <path
+            d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+            data-original="#000000"></path>
+          <path
+            d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+            data-original="#000000"></path>
+        </svg>
+      </button>
+
+      <ul
+        class='block space-x-4 space-y-3 fixed bg-white w-1/2 min-w-[300px] top-0 left-0 p-4 h-full shadow-md overflow-auto z-50'>
+        <li class='pb-4 px-3'>
+          <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+          </a>
+        </li>
+        <li class='border-b pb-4 px-3 hidden'>
+          <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+          </a>
+        </li>
+        <li class='border-b py-3 px-3'>
+          <a href='javascript:void(0)' class='hover:text-[#007bff] text-[#007bff] block font-semibold text-base'>Home</a>
+        </li>
+        <li class='border-b py-3 px-3'><a href='javascript:void(0)'
+            class='hover:text-[#007bff] text-black block font-semibold text-base'>Team</a>
+        </li>
+        <li class='border-b py-3 px-3'><a href='javascript:void(0)'
+            class='hover:text-[#007bff] text-black block font-semibold text-base'>Feature</a>
+        </li>
+        <li class='border-b py-3 px-3'><a href='javascript:void(0)'
+            class='hover:text-[#007bff] text-black block font-semibold text-base'>Blog</a>
+        </li>
+        <li class='border-b py-3 px-3'><a href='javascript:void(0)'
+            class='hover:text-[#007bff] text-black block font-semibold text-base'>About</a>
+        </li>
+        <li class='border-b py-3 px-3'><a href='javascript:void(0)'
+            class='hover:text-[#007bff] text-black block font-semibold text-base'>Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 22,
+        image: "/header-block.dark-22.svg",
+        demoUrl: "/demos/header-22",
+        code: `
+<header class='flex border-b py-4 px-4 sm:px-10 bg-white font-sans min-h-[70px] tracking-wide relative z-50'>
+    <div class='flex flex-wrap lg:items-center max-lg:flex-col gap-6 w-full'>
+
+      <div class='flex space-x-8'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 512 512">
+          <path fill="#03a9f4"
+            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+            data-original="#03a9f4" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 512 512">
+          <path fill="#1877f2"
+            d="M512 256c0 127.78-93.62 233.69-216 252.89V330h59.65L367 256h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98H370v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6V256h-65v74h65v178.89C93.62 489.69 0 383.78 0 256 0 114.62 114.62 0 256 0s256 114.62 256 256z"
+            data-original="#1877f2" />
+          <path fill="#fff"
+            d="M355.65 330 367 256h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979H370v-63s-29.296-5-57.305-5C254.219 100 216 135.44 216 199.6V256h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111V330z"
+            data-original="#ffffff" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 24 24">
+          <linearGradient id="a" x1="-37.106" x2="-26.555" y1="-72.705" y2="-84.047"
+            gradientTransform="matrix(0 -1.98 -1.84 0 -132.522 -51.077)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fd5" />
+            <stop offset=".5" stop-color="#ff543e" />
+            <stop offset="1" stop-color="#c837ab" />
+          </linearGradient>
+          <path fill="url(#a)"
+            d="M1.5 1.633C-.386 3.592 0 5.673 0 11.995c0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091C18.89.029 18.778.005 15.91 0 5.737.005 3.507-.448 1.5 1.633z"
+            data-original="url(#a)" />
+          <path fill="#fff"
+            d="M11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471a1.063 1.063 0 1 0 0 2.126 1.063 1.063 0 0 0 0-2.126zm-4.73 1.243a4.55 4.55 0 1 0 .001 9.101 4.55 4.55 0 0 0-.001-9.101zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+            data-original="#ffffff" />
+        </svg>
+      </div>
+
+      <div class="flex flex-wrap items-center lg:ml-auto relative max-lg:gap-4">
+        <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+        </a>
+
+        <div id="collapseMenu"
+          class="max-lg:hidden lg:!flex lg:items-center max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50">
+          <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"></path>
+            </svg>
+          </button>
+
+          <ul
+            class='lg:ml-12 lg:!flex lg:gap-x-8 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+            <li class='mb-6 hidden max-lg:block'>
+              <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+              </a>
+            </li>
+            <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+                class='hover:text-[#007bff] text-[#333] block font-semibold text-[15px]'>Documentation</a>
+            </li>
+            <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+                class='hover:text-[#007bff] text-[#333] block font-semibold text-[15px]'>Examples</a>
+            </li>
+            <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+                class='hover:text-[#007bff] text-[#333] block font-semibold text-[15px]'>Icons</a>
+            </li>
+            <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+                class='hover:text-[#007bff] text-[#333] block font-semibold text-[15px]'>Themes</a>
+            </li>
+            <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+                class='hover:text-[#007bff] text-[#333] block font-semibold text-[15px]'>Blog</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="flex items-center lg:ml-12 space-x-5 max-lg:ml-auto">
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="20px"
+              class="cursor-pointer fill-[#000] hover:fill-[#007bff]">
+              <path
+                d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+              </path>
+            </svg>
+          </li>
+          <li>
+            <span class="relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20px"
+                class="cursor-pointer fill-[#000] hover:fill-[#007bff] inline-block" viewBox="0 0 64 64">
+                <path
+                  d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                  data-original="#000000" />
+              </svg>
+              <span
+                class="absolute left-auto -ml-1.5 -top-1 rounded-full bg-red-500 px-1 py-0 text-xs text-white">0</span>
+            </span>
+          </li>
+          <li class="lg:hidden">
+            <button id="toggleOpen">
+              <svg class="w-7 h-7" fill="#333" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 23,
+        image: "/header-block.dark-23.svg",
+        demoUrl: "/demos/header-23",
+        code: `
+<header class='font-[sans-serif] min-h-[60px] tracking-wide relative z-50'>
+    <section class="bg-[#004d66] min-h-[40px] px-4 py-2 sm:px-10 flex items-center max-sm:flex-col">
+      <button type="button" class="text-white text-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="#fff" class="mr-3 inline-block"
+          viewBox="0 0 482.6 482.6">
+          <path
+            d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z"
+            data-original="#000000"></path>
+        </svg>
+        +180-548-2588
+      </button>
+      <span class="border-l h-3 mx-6 max-sm:hidden"></span>
+      <button type="button" class="text-white text-sm max-sm:my-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="#fff" class="mr-3 inline-block"
+          viewBox="0 0 479.058 479.058">
+          <path
+            d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+            data-original="#000000"></path>
+        </svg>
+        info@example.com
+      </button>
+      <div class="sm:ml-auto text-white">
+        <a href="javscript:void(0)" class="text-white text-sm mr-1">Sign In</a>
+        /
+        <a href="javscript:void(0)" class="text-white text-sm ml-1">Sign Up</a>
+      </div>
+    </section>
+
+    <div class='flex flex-wrap items-center justify-between py-3 px-4 sm:px-10 bg-[#151d20] lg:gap-y-4 gap-y-6 gap-x-4'>
+      <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui-white.svg" alt="logo" class='w-36' />
+      </a>
+
+      <div id="collapseMenu"
+        class="max-lg:hidden lg:!flex lg:items-center max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50">
+        <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"></path>
+          </svg>
+        </button>
+
+        <ul
+          class='lg:!flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-[#151d20] max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui-white.svg" alt="logo"
+                class='w-36' />
+            </a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:after:absolute lg:after:bg-white lg:after:w-full lg:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Shopping</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Tracking</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Support</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Account</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Places</a>
+          </li>
+          <li
+            class='max-lg:border-b max-lg:py-3 relative lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300'>
+            <a href='javascript:void(0)' class='text-white block text-[15px] font-medium'>Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class='flex items-center max-sm:ml-auto'>
+        <ul class="flex space-x-4">
+          <li
+            class="relative px-1 lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="cursor-pointer fill-white"
+              viewBox="0 0 512 512">
+              <path
+                d="M437.02 74.981C388.667 26.629 324.38 0 256 0S123.333 26.629 74.98 74.981C26.629 123.333 0 187.62 0 256s26.629 132.667 74.98 181.019C123.333 485.371 187.62 512 256 512s132.667-26.629 181.02-74.981C485.371 388.667 512 324.38 512 256s-26.629-132.667-74.98-181.019zM256 482c-66.869 0-127.037-29.202-168.452-75.511C113.223 338.422 178.948 290 256 290c-49.706 0-90-40.294-90-90s40.294-90 90-90 90 40.294 90 90-40.294 90-90 90c77.052 0 142.777 48.422 168.452 116.489C383.037 452.798 322.869 482 256 482z"
+                data-original="#000000" />
+            </svg>
+          </li>
+          <li
+            class="relative px-1 lg:hover:after:absolute lg:after:bg-white lg:after:w-0 lg:hover:after:w-full lg:hover:after:h-[2px] lg:after:block lg:after:-bottom-4 lg:after:transition-all lg:after:duration-300">
+            <span class="relative">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                class="cursor-pointer fill-white inline-block" viewBox="0 0 512 512">
+                <path
+                  d="M164.96 300.004h.024c.02 0 .04-.004.059-.004H437a15.003 15.003 0 0 0 14.422-10.879l60-210a15.003 15.003 0 0 0-2.445-13.152A15.006 15.006 0 0 0 497 60H130.367l-10.722-48.254A15.003 15.003 0 0 0 105 0H15C6.715 0 0 6.715 0 15s6.715 15 15 15h77.969c1.898 8.55 51.312 230.918 54.156 243.71C131.184 280.64 120 296.536 120 315c0 24.812 20.188 45 45 45h272c8.285 0 15-6.715 15-15s-6.715-15-15-15H165c-8.27 0-15-6.73-15-15 0-8.258 6.707-14.977 14.96-14.996zM477.114 90l-51.43 180H177.032l-40-180zM150 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm167 15c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0"
+                  data-original="#000000"></path>
+              </svg>
+              <span class="absolute left-auto -ml-1 -top-1 rounded-full bg-red-500 px-1 py-0 text-xs text-white">0</span>
+            </span>
+          </li>
+        </ul>
+
+        <button id="toggleOpen" class='lg:hidden ml-6'>
+          <svg class="w-7 h-7" fill="#fff" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 24,
+        image: "/header-block.dark-24.svg",
+        demoUrl: "/demos/header-24",
+        code: `
+<header class='flex bg-[#121533] py-3 px-6 sm:px-10 font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
+    <div class='flex flex-wrap items-center justify-between gap-4 w-full'>
+      <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class='w-36' />
+      </a>
+
+      <div id="collapseMenu"
+        class="max-lg:hidden lg:!flex lg:items-center max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50">
+        <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"></path>
+          </svg>
+        </button>
+
+        <ul
+          class='lg:!flex lg:gap-x-6 max-lg:space-y-3 max-lg:fixed max-lg:bg-[#151d20] max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui-light.svg" alt="logo"
+                class='w-36' />
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='javascript:void(0)' class='text-gray-300 hover:text-white text-base flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511 511.999" fill="currentColor" class="w-4 h-4 mr-3">
+                <path
+                  d="M498.7 222.695c-.016-.011-.028-.027-.04-.039L289.805 13.81C280.902 4.902 269.066 0 256.477 0c-12.59 0-24.426 4.902-33.332 13.809L14.398 222.55c-.07.07-.144.144-.21.215-18.282 18.386-18.25 48.218.09 66.558 8.378 8.383 19.44 13.235 31.273 13.746.484.047.969.07 1.457.07h8.32v153.696c0 30.418 24.75 55.164 55.168 55.164h81.711c8.285 0 15-6.719 15-15V376.5c0-13.879 11.293-25.168 25.172-25.168h48.195c13.88 0 25.168 11.29 25.168 25.168V497c0 8.281 6.715 15 15 15h81.711c30.422 0 55.168-24.746 55.168-55.164V303.14h7.719c12.586 0 24.422-4.903 33.332-13.813 18.36-18.367 18.367-48.254.027-66.633zm-21.243 45.422a17.03 17.03 0 0 1-12.117 5.024h-22.72c-8.285 0-15 6.714-15 15v168.695c0 13.875-11.289 25.164-25.168 25.164h-66.71V376.5c0-30.418-24.747-55.168-55.169-55.168H232.38c-30.422 0-55.172 24.75-55.172 55.168V482h-66.71c-13.876 0-25.169-11.29-25.169-25.164V288.14c0-8.286-6.715-15-15-15H48a13.9 13.9 0 0 0-.703-.032c-4.469-.078-8.66-1.851-11.8-4.996-6.68-6.68-6.68-17.55 0-24.234.003 0 .003-.004.007-.008l.012-.012L244.363 35.02A17.003 17.003 0 0 1 256.477 30c4.574 0 8.875 1.781 12.113 5.02l208.8 208.796.098.094c6.645 6.692 6.633 17.54-.031 24.207zm0 0"
+                  data-original="#000000" />
+              </svg>
+              Home
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='javascript:void(0)' class='text-gray-300 hover:text-white text-base flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4 mr-3" viewBox="0 0 32 32">
+                <path
+                  d="M27.531 30h-8.062A2.472 2.472 0 0 1 17 27.531V17.469A2.472 2.472 0 0 1 19.469 15h8.062A2.472 2.472 0 0 1 30 17.469v10.062A2.472 2.472 0 0 1 27.531 30zm-8.062-13a.469.469 0 0 0-.469.469v10.062c0 .259.21.469.469.469h8.062c.259 0 .469-.21.469-.469V17.469a.469.469 0 0 0-.469-.469zm8.062-4h-8.062A2.472 2.472 0 0 1 17 10.531V4.469A2.472 2.472 0 0 1 19.469 2h8.062A2.472 2.472 0 0 1 30 4.469v6.062A2.472 2.472 0 0 1 27.531 13zm-8.062-9a.469.469 0 0 0-.469.469v6.062c0 .259.21.469.469.469h8.062c.259 0 .469-.21.469-.469V4.469A.469.469 0 0 0 27.531 4zm-6.938 13H4.469A2.472 2.472 0 0 1 2 14.531V4.469A2.472 2.472 0 0 1 4.469 2h8.062A2.472 2.472 0 0 1 15 4.469v10.062A2.472 2.472 0 0 1 12.531 17zM4.469 4A.469.469 0 0 0 4 4.469v10.062c0 .259.21.469.469.469h8.062c.259 0 .469-.21.469-.469V4.469A.469.469 0 0 0 12.531 4zm8.062 26H4.469A2.472 2.472 0 0 1 2 27.531v-6.062A2.472 2.472 0 0 1 4.469 19h8.062A2.472 2.472 0 0 1 15 21.469v6.062A2.472 2.472 0 0 1 12.531 30zm-8.062-9a.469.469 0 0 0-.469.469v6.062c0 .259.21.469.469.469h8.062c.259 0 .469-.21.469-.469v-6.062a.469.469 0 0 0-.469-.469z"
+                  data-original="#000000" />
+              </svg>
+              Dashboard
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='javascript:void(0)' class='text-gray-300 hover:text-white text-base flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-4 h-4 mr-3" viewBox="0 0 512 512">
+                <path
+                  d="M337.711 241.3a16 16 0 0 0-11.461 3.988c-18.739 16.561-43.688 25.682-70.25 25.682s-51.511-9.121-70.25-25.683a16.007 16.007 0 0 0-11.461-3.988c-78.926 4.274-140.752 63.672-140.752 135.224v107.152C33.537 499.293 46.9 512 63.332 512h385.336c16.429 0 29.8-12.707 29.8-28.325V376.523c-.005-71.552-61.831-130.95-140.757-135.223zM446.463 480H65.537V376.523c0-52.739 45.359-96.888 104.351-102.8C193.75 292.63 224.055 302.97 256 302.97s62.25-10.34 86.112-29.245c58.992 5.91 104.351 50.059 104.351 102.8zM256 234.375a117.188 117.188 0 1 0-117.188-117.187A117.32 117.32 0 0 0 256 234.375zM256 32a85.188 85.188 0 1 1-85.188 85.188A85.284 85.284 0 0 1 256 32z"
+                  data-original="#000000"></path>
+              </svg>
+              Profile
+            </a>
+          </li>
+          <li class='max-lg:border-b max-lg:py-3 px-3'>
+            <a href='javascript:void(0)' class='text-gray-300 hover:text-white text-base flex items-center'>
+              <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="w-4 h-4 mr-3"
+                viewBox="0 0 682.667 682.667">
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="40"
+                    d="M256 334.666c-43.446 0-78.667-35.22-78.667-78.667 0-43.446 35.221-78.666 78.667-78.666 43.446 0 78.667 35.22 78.667 78.666 0 43.447-35.221 78.667-78.667 78.667Zm220.802-22.53-21.299-17.534c-24.296-20.001-24.296-57.204 0-77.205l21.299-17.534c7.548-6.214 9.497-16.974 4.609-25.441l-42.057-72.845c-4.889-8.467-15.182-12.159-24.337-8.729l-25.835 9.678c-29.469 11.04-61.688-7.561-66.862-38.602l-4.535-27.213c-1.607-9.643-9.951-16.712-19.727-16.712h-84.116c-9.776 0-18.12 7.069-19.727 16.712l-4.536 27.213c-5.173 31.041-37.392 49.642-66.861 38.602l-25.834-9.678c-9.156-3.43-19.449.262-24.338 8.729l-42.057 72.845c-4.888 8.467-2.939 19.227 4.609 25.441l21.3 17.534c24.295 20.001 24.295 57.204 0 77.205l-21.3 17.534c-7.548 6.214-9.497 16.974-4.609 25.441l42.057 72.845c4.889 8.467 15.182 12.159 24.338 8.729l25.834-9.678c29.469-11.04 61.688 7.561 66.861 38.602l4.536 27.213c1.607 9.643 9.951 16.711 19.727 16.711h84.116c9.776 0 18.12-7.068 19.727-16.711l4.535-27.213c5.174-31.041 37.393-49.642 66.862-38.602l25.835 9.678c9.155 3.43 19.448-.262 24.337-8.729l42.057-72.845c4.888-8.467 2.939-19.227-4.609-25.441z"
+                    data-original="#000000" />
+                </g>
+              </svg>
+              Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class='flex items-center max-lg:ml-auto'>
+        <input type="text" placeholder="Search something..."
+          class="bg-transparent border-2 border-gray-300 text-sm w-full px-5 text-gray-300 rounded-full h-9 outline-none"></input>
+
+        <button id="toggleOpen" class='lg:hidden ml-7'>
+          <svg class="w-7 h-7 fill-gray-300" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 25,
+        image: "/header-block.dark-25.svg",
+        demoUrl: "/demos/header-25",
+        code: `
+<header class='bg-white font-[sans-serif] tracking-wide relative z-50'>
+    <section
+      class='flex items-center justify-between flex-wrap gap-4 relative py-3 px-10 border-gray-200 border-b min-h-[80px]'>
+      <div class="flex items-center space-x-7 max-md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 512 512">
+          <path fill="#03a9f4"
+            d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+            data-original="#03a9f4" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 512 512">
+          <path fill="#1877f2"
+            d="M512 256c0 127.78-93.62 233.69-216 252.89V330h59.65L367 256h-71v-48.02c0-20.25 9.92-39.98 41.72-39.98H370v-63s-29.3-5-57.31-5c-58.47 0-96.69 35.44-96.69 99.6V256h-65v74h65v178.89C93.62 489.69 0 383.78 0 256 0 114.62 114.62 0 256 0s256 114.62 256 256z"
+            data-original="#1877f2" />
+          <path fill="#fff"
+            d="M355.65 330 367 256h-71v-48.021c0-20.245 9.918-39.979 41.719-39.979H370v-63s-29.296-5-57.305-5C254.219 100 216 135.44 216 199.6V256h-65v74h65v178.889c13.034 2.045 26.392 3.111 40 3.111s26.966-1.066 40-3.111V330z"
+            data-original="#ffffff" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 24 24">
+          <linearGradient id="a" x1="-37.106" x2="-26.555" y1="-72.705" y2="-84.047"
+            gradientTransform="matrix(0 -1.98 -1.84 0 -132.522 -51.077)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fd5" />
+            <stop offset=".5" stop-color="#ff543e" />
+            <stop offset="1" stop-color="#c837ab" />
+          </linearGradient>
+          <path fill="url(#a)"
+            d="M1.5 1.633C-.386 3.592 0 5.673 0 11.995c0 5.25-.916 10.513 3.878 11.752 1.497.385 14.761.385 16.256-.002 1.996-.515 3.62-2.134 3.842-4.957.031-.394.031-13.185-.001-13.587-.236-3.007-2.087-4.74-4.526-5.091C18.89.029 18.778.005 15.91 0 5.737.005 3.507-.448 1.5 1.633z"
+            data-original="url(#a)" />
+          <path fill="#fff"
+            d="M11.998 3.139c-3.631 0-7.079-.323-8.396 3.057-.544 1.396-.465 3.209-.465 5.805 0 2.278-.073 4.419.465 5.804 1.314 3.382 4.79 3.058 8.394 3.058 3.477 0 7.062.362 8.395-3.058.545-1.41.465-3.196.465-5.804 0-3.462.191-5.697-1.488-7.375-1.7-1.7-3.999-1.487-7.374-1.487zm-.794 1.597c7.574-.012 8.538-.854 8.006 10.843-.189 4.137-3.339 3.683-7.211 3.683-7.06 0-7.263-.202-7.263-7.265 0-7.145.56-7.257 6.468-7.263zm5.524 1.471a1.063 1.063 0 1 0 0 2.126 1.063 1.063 0 0 0 0-2.126zm-4.73 1.243a4.55 4.55 0 1 0 .001 9.101 4.55 4.55 0 0 0-.001-9.101zm0 1.597c3.905 0 3.91 5.908 0 5.908-3.904 0-3.91-5.908 0-5.908z"
+            data-original="#ffffff" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20px" class="cursor-pointer" viewBox="0 0 176 176">
+          <g data-name="Layer 2">
+            <g data-name="02.youtube">
+              <path fill="#e60000"
+                d="M144.52 173a532.59 532.59 0 0 1-113 0A32.07 32.07 0 0 1 3 144.52a532.59 532.59 0 0 1 0-113A32.07 32.07 0 0 1 31.48 3a532.59 532.59 0 0 1 113 0A32.07 32.07 0 0 1 173 31.48a532.59 532.59 0 0 1 0 113A32.07 32.07 0 0 1 144.52 173z"
+                data-original="#e60000" />
+              <path fill="#fff"
+                d="M140.43 61.54c-2.2-6.77-9.48-10.87-16.18-11.81a343.16 343.16 0 0 0-72.5 0c-6.7.94-14 5-16.18 11.81a137.42 137.42 0 0 0 0 52.93c2.2 6.76 9.48 10.87 16.18 11.81a343.16 343.16 0 0 0 72.5 0c6.7-.94 14-5 16.18-11.81a137.42 137.42 0 0 0 0-52.93zm-65.59 47.54V66.92L109.16 88c-11.57 7.11-22.8 14-34.32 21.08z"
+                data-original="#ffffff" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <a href="javascript:void(0)" class="md:absolute md:left-2/4 md:-translate-x-2/4 max-md:mr-4"><img
+          src="https://readymadeui.com/readymadeui.svg" alt="logo" class='md:w-[180px] w-36' />
+      </a>
+
+      <div class="flex items-center max-md:ml-auto">
+        <span class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+            class="cursor-pointer fill-[#000] inline-block" viewBox="0 0 512 512">
+            <path
+              d="M164.96 300.004h.024c.02 0 .04-.004.059-.004H437a15.003 15.003 0 0 0 14.422-10.879l60-210a15.003 15.003 0 0 0-2.445-13.152A15.006 15.006 0 0 0 497 60H130.367l-10.722-48.254A15.003 15.003 0 0 0 105 0H15C6.715 0 0 6.715 0 15s6.715 15 15 15h77.969c1.898 8.55 51.312 230.918 54.156 243.71C131.184 280.64 120 296.536 120 315c0 24.812 20.188 45 45 45h272c8.285 0 15-6.715 15-15s-6.715-15-15-15H165c-8.27 0-15-6.73-15-15 0-8.258 6.707-14.977 14.96-14.996zM477.114 90l-51.43 180H177.032l-40-180zM150 405c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm167 15c0 24.813 20.188 45 45 45s45-20.188 45-45-20.188-45-45-45-45 20.188-45 45zm45-15c8.27 0 15 6.73 15 15s-6.73 15-15 15-15-6.73-15-15 6.73-15 15-15zm0 0"
+              data-original="#000000"></path>
+          </svg>
+          <span class="absolute left-auto -ml-1 -top-1 rounded-full bg-red-500 px-1 py-0 text-xs text-white">2</span>
+        </span>
+        <button id="toggleOpen" class='ml-7 lg:hidden'>
+          <svg class="w-7 h-7" fill="#333" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <div id="collapseMenu"
+      class='bg-[#213343] max-lg:hidden lg:!flex lg:items-center lg:justify-between lg:gap-y-4 lg:gap-x-10 lg:px-10 lg:py-2 max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50'>
+      <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+          <path
+            d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+            data-original="#000000"></path>
+          <path
+            d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+            data-original="#000000"></path>
+        </svg>
+      </button>
+
+      <ul
+        class='lg:!flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-[#151d20] max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+        <li class='mb-6 hidden max-lg:block'>
+          <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui-white.svg" alt="logo" class='w-36' />
+          </a>
+        </li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-[#FFA726] text-sm block'>Home</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Team</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Feature</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Blog</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>About</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Contact</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Source</a></li>
+        <li class='max-lg:border-b max-lg:py-3'><a href='javascript:void(0)'
+            class='hover:text-[#FFA726] text-white text-sm block'>Store</a></li>
+      </ul>
+
+      <div class="bg-gray-100 flex px-6 rounded h-10 lg:w-2/6 w-full max-lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width="16px"
+          class="fill-gray-400 mr-3 rotate-90">
+          <path
+            d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+          </path>
+        </svg>
+        <input type='email' placeholder='Search...' class="w-full outline-none bg-transparent text-[#333] text-sm" />
+      </div>
+    </div>
+  </header>
+        `,
+      },
+      {
+        id: 26,
+        image: "/header-block.dark-26.svg",
+        demoUrl: "/demos/header-26",
+        code: `
+<header class='flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50'>
+    <div class='flex flex-wrap Store-center relative w-full'>
+      <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+      </a>
+
+      <div id="collapseMenu"
+        class='max-lg:hidden lg:!flex lg:items-center lg:justify-between lg:gap-y-4 lg:gap-x-10 lg:px-10 lg:py-2 max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-40 max-lg:before:inset-0 max-lg:before:z-50'>
+        <button id="toggleClose" class='lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3'>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 fill-black" viewBox="0 0 320.591 320.591">
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"></path>
+          </svg>
+        </button>
+
+        <ul
+          class='lg:!flex lg:gap-x-10 lg:ml-24 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-2/3 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:px-10 max-lg:py-4 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
+          <li class='mb-6 hidden max-lg:block'>
+            <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" class='w-36' />
+            </a>
+          </li>
+          <li class='group max-lg:border-b max-lg:py-2'>
+            <a href='javascript:void(0)'
+              class='hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>Browse<svg
+                xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" class="ml-1 inline-block"
+                viewBox="0 0 24 24">
+                <path
+                  d="M12 16a1 1 0 0 1-.71-.29l-6-6a1 1 0 0 1 1.42-1.42l5.29 5.3 5.29-5.29a1 1 0 0 1 1.41 1.41l-6 6a1 1 0 0 1-.7.29z"
+                  data-name="16" data-original="#000000" />
+              </svg>
+            </a>
+            <div
+              class='absolute group-hover:grid shadow-lg bg-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:gap-16 gap-8 px-6 pb-4 py-4 lg:top-14 top-28 left-0 w-max z-50'>
+              <ul class='space-y-3'>
+                <li class="text-[#077bff] text-base font-semibold px-2">Store 1</li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 64 64">
+                      <path
+                        d="M61.92 30.93a7.076 7.076 0 0 0-6.05-5.88 8.442 8.442 0 0 0-.87-.04V22A15.018 15.018 0 0 0 40 7H24A15.018 15.018 0 0 0 9 22v3.01a8.442 8.442 0 0 0-.87.04 7.076 7.076 0 0 0-6.05 5.88A6.95 6.95 0 0 0 7 38.7V52a3.009 3.009 0 0 0 3 3v6a1 1 0 0 0 1 1h3a1 1 0 0 0 .96-.73L16.75 55h30.5l1.79 6.27A1 1 0 0 0 50 62h3a1 1 0 0 0 1-1v-6a3.009 3.009 0 0 0 3-3V38.7a6.95 6.95 0 0 0 4.92-7.77ZM11 22A13.012 13.012 0 0 1 24 9h16a13.012 13.012 0 0 1 13 13v3.3a6.976 6.976 0 0 0-5 6.7v3.18a3 3 0 0 0-1-.18H17a3 3 0 0 0-1 .18V32a6.976 6.976 0 0 0-5-6.7Zm37 16v5H16v-5a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1ZM13.25 60H12v-5h2.67ZM52 60h-1.25l-1.42-5H52Zm3.83-23.08a1.008 1.008 0 0 0-.83.99V52a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V37.91a1.008 1.008 0 0 0-.83-.99 4.994 4.994 0 0 1 .2-9.88A4.442 4.442 0 0 1 9 27h.01a4.928 4.928 0 0 1 3.3 1.26A5.007 5.007 0 0 1 14 32v12a1 1 0 0 0 1 1h34a1 1 0 0 0 1-1V32a5.007 5.007 0 0 1 1.69-3.74 4.932 4.932 0 0 1 3.94-1.22 5.018 5.018 0 0 1 4.31 4.18v.01a4.974 4.974 0 0 1-4.11 5.69Z"
+                        data-original="#000000" />
+                    </svg>
+                    Furniture Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 1700 1700">
+                      <path
+                        d="M916.7 1269.4c-10.7 0-20.4-7.2-23.2-18l-29.9-114.7c-3.3-12.8 4.3-25.9 17.2-29.3 12.8-3.3 25.9 4.3 29.3 17.2l29.9 114.7c3.3 12.8-4.3 25.9-17.2 29.3-2 .5-4.1.8-6.1.8zm-169.4 0c-2 0-4-.3-6.1-.8-12.8-3.3-20.5-16.4-17.2-29.3l29.9-114.7c3.3-12.8 16.4-20.5 29.3-17.2 12.8 3.3 20.5 16.4 17.2 29.3l-29.9 114.7c-2.8 10.8-12.6 18-23.2 18z"
+                        data-original="#000000" />
+                      <path
+                        d="M1066.6 1358.8H597.4c-13.3 0-24-10.7-24-24 0-62.6 50.9-113.5 113.5-113.5h290.4c62.6 0 113.5 50.9 113.5 113.5-.2 13.3-10.9 24-24.2 24zm-440.7-48H1038c-9.6-24.3-33.3-41.5-60.9-41.5H686.8c-27.6.1-51.3 17.3-60.9 41.5zM276.4 762.7c-13.3 0-24-10.7-24-24V395c0-29.7 24.2-53.9 53.9-53.9h1051.4c29.7 0 53.9 24.2 53.9 53.9v297.8c0 13.3-10.7 24-24 24s-24-10.7-24-24V395c0-3.2-2.6-5.9-5.9-5.9H306.3c-3.2 0-5.9 2.6-5.9 5.9v343.7c0 13.2-10.7 24-24 24zm904.5 392H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24zm0-120.8H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24z"
+                        data-original="#000000" />
+                      <path
+                        d="M424.1 1358.8H128.4c-25.6 0-46.4-20.8-46.4-46.4V761.1c0-25.6 20.8-46.4 46.4-46.4h295.7c25.6 0 46.4 20.8 46.4 46.4v551.3c0 25.6-20.8 46.4-46.4 46.4zm-294.1-48h292.5V762.7H130z"
+                        data-original="#000000" />
+                      <path
+                        d="M446.5 853.6H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 414.4H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm1125.1 90.8h-368.3c-25.6 0-46.4-20.8-46.4-46.4V715.2c0-25.6 20.8-46.4 46.4-46.4h368.3c25.6 0 46.4 20.8 46.4 46.4v597.2c0 25.6-20.8 46.4-46.4 46.4zm-366.7-48H1570v-594h-365.1z"
+                        data-original="#000000" />
+                      <path
+                        d="M1594 811.8h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 452h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24z"
+                        data-original="#000000" />
+                    </svg>
+                    Electronic Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 407.7 407.7">
+                      <path
+                        d="M405.5 118.021a7.93 7.93 0 0 0-.29-.29l-84.16-74.8a7.994 7.994 0 0 0-2.64-1.6l-60.88-21.76a8 8 0 0 0-10.72 7.12c0 1.76-2.64 42.32-43.2 42.96-40.8-.64-43.36-41.2-43.44-42.96a8 8 0 0 0-10.64-7.12l-60.8 22c-.976.357-1.872.9-2.64 1.6l-83.6 74.56a8 8 0 0 0 0 11.6l66.56 67.28v184a8 8 0 0 0 8 8h253.6a8 8 0 0 0 8-8v-184l66.56-67.28a8 8 0 0 0 .29-11.31zm-67.09 55.79v-37.12a8 8 0 0 0-16 0v235.52H84.73v-235.52a8 8 0 0 0-16 0v37.2l-49.2-49.84 76.16-68.16 50.08-18.08c6.204 31.966 37.147 52.851 69.113 46.647 23.607-4.582 42.065-23.04 46.647-46.647l50.08 18.08 75.92 68.16-49.12 49.76z"
+                        data-original="#000000" />
+                    </svg>
+                    Fashion Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M434.1 243.904h-5.955a95.572 95.572 0 0 1-61.022-22.072l-117.812-98.055a49.716 49.716 0 0 0-31.743-11.481c-27.361 0-49.621 22.26-49.621 49.621v11.586c0 22.572-18.364 40.937-40.937 40.937-15.844 0-30.407-9.279-37.102-23.639l-3.261-6.995c-7.434-15.944-23.604-26.246-41.195-26.246C20.39 157.56 0 177.949 0 203.012v118.792c0 42.954 34.946 77.9 77.9 77.9h356.2c42.954 0 77.9-34.946 77.9-77.9 0-42.954-34.946-77.9-77.9-77.9zm0 125.8H77.9c-17.829 0-33.403-9.799-41.65-24.287h439.5c-8.247 14.488-23.821 24.287-41.65 24.287zM30 315.419V203.012c0-8.521 6.932-15.452 15.452-15.452 5.98 0 11.478 3.503 14.005 8.923l3.261 6.994c11.601 24.884 36.837 40.963 64.293 40.963 39.115 0 70.937-31.822 70.937-70.937v-11.586c0-10.819 8.802-19.621 19.621-19.621a19.66 19.66 0 0 1 12.552 4.54l28.901 24.055-32.93 32.93 21.213 21.213 34.872-34.871 13.031 10.846-31.444 31.444 21.213 21.213 33.386-33.385 13.031 10.846-29.958 29.958 21.213 21.213 32.115-32.115c21.284 15.35 47.024 23.723 73.383 23.723h5.955c24.246 0 44.328 18.112 47.461 41.513H30z"
+                        data-original="#000000" />
+                    </svg>
+                    Shoes Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M482 303.58V256c0-124.115-101.728-225-226-225C131.875 31 30 131.728 30 256v47.58C12.541 309.772 0 326.445 0 346v60c0 24.813 20.187 45 45 45h17.58c6.192 17.458 22.865 30 42.42 30h30c24.813 0 45-20.187 45-45V316c0-24.813-20.187-45-45-45h-30c-19.555 0-36.228 12.542-42.42 30H60v-45c0-7.463.439-14.826 1.263-22.073 7.08 4.577 15.395 7.073 24.231 7.073 18.909 0 35.847-11.944 42.145-29.72C146.772 157.281 198.356 121 256 121c57.643 0 109.227 36.281 128.36 90.279C390.658 229.056 407.596 241 426.505 241c8.836 0 17.152-2.496 24.232-7.074A195.071 195.071 0 0 1 452 256v45h-2.58c-6.192-17.458-22.865-30-42.42-30h-30c-24.813 0-45 20.187-45 45v120c0 24.813 20.187 45 45 45h30c19.555 0 36.228-12.542 42.42-30H467c24.813 0 45-20.187 45-45v-60c0-19.555-12.541-36.228-30-42.42zM90 316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316zM60 421H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h15v90zm366.505-210c-6.23 0-11.803-3.914-13.867-9.74C389.588 136.208 326.927 91 256 91c-70.85 0-133.566 45.145-156.639 110.261-2.064 5.825-7.636 9.739-13.867 9.739-10.594 0-17.524-10.619-13.919-20.72C98.431 115.036 171.177 61 256 61c84.952 0 157.597 54.152 184.424 129.28 3.608 10.11-3.336 20.72-13.919 20.72zM422 436c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120zm60-30c0 8.271-6.729 15-15 15h-15v-90h15c8.271 0 15 6.729 15 15v60z"
+                        data-original="#000000" />
+                    </svg>
+                    Headphones
+                  </a>
+                </li>
+              </ul>
+              <ul class='space-y-3'>
+                <li class="text-[#077bff] text-base font-semibold px-2">Store 2</li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 64 64">
+                      <path
+                        d="M61.92 30.93a7.076 7.076 0 0 0-6.05-5.88 8.442 8.442 0 0 0-.87-.04V22A15.018 15.018 0 0 0 40 7H24A15.018 15.018 0 0 0 9 22v3.01a8.442 8.442 0 0 0-.87.04 7.076 7.076 0 0 0-6.05 5.88A6.95 6.95 0 0 0 7 38.7V52a3.009 3.009 0 0 0 3 3v6a1 1 0 0 0 1 1h3a1 1 0 0 0 .96-.73L16.75 55h30.5l1.79 6.27A1 1 0 0 0 50 62h3a1 1 0 0 0 1-1v-6a3.009 3.009 0 0 0 3-3V38.7a6.95 6.95 0 0 0 4.92-7.77ZM11 22A13.012 13.012 0 0 1 24 9h16a13.012 13.012 0 0 1 13 13v3.3a6.976 6.976 0 0 0-5 6.7v3.18a3 3 0 0 0-1-.18H17a3 3 0 0 0-1 .18V32a6.976 6.976 0 0 0-5-6.7Zm37 16v5H16v-5a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1ZM13.25 60H12v-5h2.67ZM52 60h-1.25l-1.42-5H52Zm3.83-23.08a1.008 1.008 0 0 0-.83.99V52a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V37.91a1.008 1.008 0 0 0-.83-.99 4.994 4.994 0 0 1 .2-9.88A4.442 4.442 0 0 1 9 27h.01a4.928 4.928 0 0 1 3.3 1.26A5.007 5.007 0 0 1 14 32v12a1 1 0 0 0 1 1h34a1 1 0 0 0 1-1V32a5.007 5.007 0 0 1 1.69-3.74 4.932 4.932 0 0 1 3.94-1.22 5.018 5.018 0 0 1 4.31 4.18v.01a4.974 4.974 0 0 1-4.11 5.69Z"
+                        data-original="#000000" />
+                    </svg>
+                    Furniture Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 1700 1700">
+                      <path
+                        d="M916.7 1269.4c-10.7 0-20.4-7.2-23.2-18l-29.9-114.7c-3.3-12.8 4.3-25.9 17.2-29.3 12.8-3.3 25.9 4.3 29.3 17.2l29.9 114.7c3.3 12.8-4.3 25.9-17.2 29.3-2 .5-4.1.8-6.1.8zm-169.4 0c-2 0-4-.3-6.1-.8-12.8-3.3-20.5-16.4-17.2-29.3l29.9-114.7c3.3-12.8 16.4-20.5 29.3-17.2 12.8 3.3 20.5 16.4 17.2 29.3l-29.9 114.7c-2.8 10.8-12.6 18-23.2 18z"
+                        data-original="#000000" />
+                      <path
+                        d="M1066.6 1358.8H597.4c-13.3 0-24-10.7-24-24 0-62.6 50.9-113.5 113.5-113.5h290.4c62.6 0 113.5 50.9 113.5 113.5-.2 13.3-10.9 24-24.2 24zm-440.7-48H1038c-9.6-24.3-33.3-41.5-60.9-41.5H686.8c-27.6.1-51.3 17.3-60.9 41.5zM276.4 762.7c-13.3 0-24-10.7-24-24V395c0-29.7 24.2-53.9 53.9-53.9h1051.4c29.7 0 53.9 24.2 53.9 53.9v297.8c0 13.3-10.7 24-24 24s-24-10.7-24-24V395c0-3.2-2.6-5.9-5.9-5.9H306.3c-3.2 0-5.9 2.6-5.9 5.9v343.7c0 13.2-10.7 24-24 24zm904.5 392H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24zm0-120.8H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24z"
+                        data-original="#000000" />
+                      <path
+                        d="M424.1 1358.8H128.4c-25.6 0-46.4-20.8-46.4-46.4V761.1c0-25.6 20.8-46.4 46.4-46.4h295.7c25.6 0 46.4 20.8 46.4 46.4v551.3c0 25.6-20.8 46.4-46.4 46.4zm-294.1-48h292.5V762.7H130z"
+                        data-original="#000000" />
+                      <path
+                        d="M446.5 853.6H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 414.4H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm1125.1 90.8h-368.3c-25.6 0-46.4-20.8-46.4-46.4V715.2c0-25.6 20.8-46.4 46.4-46.4h368.3c25.6 0 46.4 20.8 46.4 46.4v597.2c0 25.6-20.8 46.4-46.4 46.4zm-366.7-48H1570v-594h-365.1z"
+                        data-original="#000000" />
+                      <path
+                        d="M1594 811.8h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 452h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24z"
+                        data-original="#000000" />
+                    </svg>
+                    Electronic Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 407.7 407.7">
+                      <path
+                        d="M405.5 118.021a7.93 7.93 0 0 0-.29-.29l-84.16-74.8a7.994 7.994 0 0 0-2.64-1.6l-60.88-21.76a8 8 0 0 0-10.72 7.12c0 1.76-2.64 42.32-43.2 42.96-40.8-.64-43.36-41.2-43.44-42.96a8 8 0 0 0-10.64-7.12l-60.8 22c-.976.357-1.872.9-2.64 1.6l-83.6 74.56a8 8 0 0 0 0 11.6l66.56 67.28v184a8 8 0 0 0 8 8h253.6a8 8 0 0 0 8-8v-184l66.56-67.28a8 8 0 0 0 .29-11.31zm-67.09 55.79v-37.12a8 8 0 0 0-16 0v235.52H84.73v-235.52a8 8 0 0 0-16 0v37.2l-49.2-49.84 76.16-68.16 50.08-18.08c6.204 31.966 37.147 52.851 69.113 46.647 23.607-4.582 42.065-23.04 46.647-46.647l50.08 18.08 75.92 68.16-49.12 49.76z"
+                        data-original="#000000" />
+                    </svg>
+                    Fashion Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M434.1 243.904h-5.955a95.572 95.572 0 0 1-61.022-22.072l-117.812-98.055a49.716 49.716 0 0 0-31.743-11.481c-27.361 0-49.621 22.26-49.621 49.621v11.586c0 22.572-18.364 40.937-40.937 40.937-15.844 0-30.407-9.279-37.102-23.639l-3.261-6.995c-7.434-15.944-23.604-26.246-41.195-26.246C20.39 157.56 0 177.949 0 203.012v118.792c0 42.954 34.946 77.9 77.9 77.9h356.2c42.954 0 77.9-34.946 77.9-77.9 0-42.954-34.946-77.9-77.9-77.9zm0 125.8H77.9c-17.829 0-33.403-9.799-41.65-24.287h439.5c-8.247 14.488-23.821 24.287-41.65 24.287zM30 315.419V203.012c0-8.521 6.932-15.452 15.452-15.452 5.98 0 11.478 3.503 14.005 8.923l3.261 6.994c11.601 24.884 36.837 40.963 64.293 40.963 39.115 0 70.937-31.822 70.937-70.937v-11.586c0-10.819 8.802-19.621 19.621-19.621a19.66 19.66 0 0 1 12.552 4.54l28.901 24.055-32.93 32.93 21.213 21.213 34.872-34.871 13.031 10.846-31.444 31.444 21.213 21.213 33.386-33.385 13.031 10.846-29.958 29.958 21.213 21.213 32.115-32.115c21.284 15.35 47.024 23.723 73.383 23.723h5.955c24.246 0 44.328 18.112 47.461 41.513H30z"
+                        data-original="#000000" />
+                    </svg>
+                    Shoes Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M482 303.58V256c0-124.115-101.728-225-226-225C131.875 31 30 131.728 30 256v47.58C12.541 309.772 0 326.445 0 346v60c0 24.813 20.187 45 45 45h17.58c6.192 17.458 22.865 30 42.42 30h30c24.813 0 45-20.187 45-45V316c0-24.813-20.187-45-45-45h-30c-19.555 0-36.228 12.542-42.42 30H60v-45c0-7.463.439-14.826 1.263-22.073 7.08 4.577 15.395 7.073 24.231 7.073 18.909 0 35.847-11.944 42.145-29.72C146.772 157.281 198.356 121 256 121c57.643 0 109.227 36.281 128.36 90.279C390.658 229.056 407.596 241 426.505 241c8.836 0 17.152-2.496 24.232-7.074A195.071 195.071 0 0 1 452 256v45h-2.58c-6.192-17.458-22.865-30-42.42-30h-30c-24.813 0-45 20.187-45 45v120c0 24.813 20.187 45 45 45h30c19.555 0 36.228-12.542 42.42-30H467c24.813 0 45-20.187 45-45v-60c0-19.555-12.541-36.228-30-42.42zM90 316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316zM60 421H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h15v90zm366.505-210c-6.23 0-11.803-3.914-13.867-9.74C389.588 136.208 326.927 91 256 91c-70.85 0-133.566 45.145-156.639 110.261-2.064 5.825-7.636 9.739-13.867 9.739-10.594 0-17.524-10.619-13.919-20.72C98.431 115.036 171.177 61 256 61c84.952 0 157.597 54.152 184.424 129.28 3.608 10.11-3.336 20.72-13.919 20.72zM422 436c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120zm60-30c0 8.271-6.729 15-15 15h-15v-90h15c8.271 0 15 6.729 15 15v60z"
+                        data-original="#000000" />
+                    </svg>
+                    Headphones
+                  </a>
+                </li>
+              </ul>
+              <ul class='space-y-3'>
+                <li class="text-[#077bff] text-base font-semibold px-2">Store 3</li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 64 64">
+                      <path
+                        d="M61.92 30.93a7.076 7.076 0 0 0-6.05-5.88 8.442 8.442 0 0 0-.87-.04V22A15.018 15.018 0 0 0 40 7H24A15.018 15.018 0 0 0 9 22v3.01a8.442 8.442 0 0 0-.87.04 7.076 7.076 0 0 0-6.05 5.88A6.95 6.95 0 0 0 7 38.7V52a3.009 3.009 0 0 0 3 3v6a1 1 0 0 0 1 1h3a1 1 0 0 0 .96-.73L16.75 55h30.5l1.79 6.27A1 1 0 0 0 50 62h3a1 1 0 0 0 1-1v-6a3.009 3.009 0 0 0 3-3V38.7a6.95 6.95 0 0 0 4.92-7.77ZM11 22A13.012 13.012 0 0 1 24 9h16a13.012 13.012 0 0 1 13 13v3.3a6.976 6.976 0 0 0-5 6.7v3.18a3 3 0 0 0-1-.18H17a3 3 0 0 0-1 .18V32a6.976 6.976 0 0 0-5-6.7Zm37 16v5H16v-5a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1ZM13.25 60H12v-5h2.67ZM52 60h-1.25l-1.42-5H52Zm3.83-23.08a1.008 1.008 0 0 0-.83.99V52a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V37.91a1.008 1.008 0 0 0-.83-.99 4.994 4.994 0 0 1 .2-9.88A4.442 4.442 0 0 1 9 27h.01a4.928 4.928 0 0 1 3.3 1.26A5.007 5.007 0 0 1 14 32v12a1 1 0 0 0 1 1h34a1 1 0 0 0 1-1V32a5.007 5.007 0 0 1 1.69-3.74 4.932 4.932 0 0 1 3.94-1.22 5.018 5.018 0 0 1 4.31 4.18v.01a4.974 4.974 0 0 1-4.11 5.69Z"
+                        data-original="#000000" />
+                    </svg>
+                    Furniture Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 1700 1700">
+                      <path
+                        d="M916.7 1269.4c-10.7 0-20.4-7.2-23.2-18l-29.9-114.7c-3.3-12.8 4.3-25.9 17.2-29.3 12.8-3.3 25.9 4.3 29.3 17.2l29.9 114.7c3.3 12.8-4.3 25.9-17.2 29.3-2 .5-4.1.8-6.1.8zm-169.4 0c-2 0-4-.3-6.1-.8-12.8-3.3-20.5-16.4-17.2-29.3l29.9-114.7c3.3-12.8 16.4-20.5 29.3-17.2 12.8 3.3 20.5 16.4 17.2 29.3l-29.9 114.7c-2.8 10.8-12.6 18-23.2 18z"
+                        data-original="#000000" />
+                      <path
+                        d="M1066.6 1358.8H597.4c-13.3 0-24-10.7-24-24 0-62.6 50.9-113.5 113.5-113.5h290.4c62.6 0 113.5 50.9 113.5 113.5-.2 13.3-10.9 24-24.2 24zm-440.7-48H1038c-9.6-24.3-33.3-41.5-60.9-41.5H686.8c-27.6.1-51.3 17.3-60.9 41.5zM276.4 762.7c-13.3 0-24-10.7-24-24V395c0-29.7 24.2-53.9 53.9-53.9h1051.4c29.7 0 53.9 24.2 53.9 53.9v297.8c0 13.3-10.7 24-24 24s-24-10.7-24-24V395c0-3.2-2.6-5.9-5.9-5.9H306.3c-3.2 0-5.9 2.6-5.9 5.9v343.7c0 13.2-10.7 24-24 24zm904.5 392H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24zm0-120.8H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24z"
+                        data-original="#000000" />
+                      <path
+                        d="M424.1 1358.8H128.4c-25.6 0-46.4-20.8-46.4-46.4V761.1c0-25.6 20.8-46.4 46.4-46.4h295.7c25.6 0 46.4 20.8 46.4 46.4v551.3c0 25.6-20.8 46.4-46.4 46.4zm-294.1-48h292.5V762.7H130z"
+                        data-original="#000000" />
+                      <path
+                        d="M446.5 853.6H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 414.4H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm1125.1 90.8h-368.3c-25.6 0-46.4-20.8-46.4-46.4V715.2c0-25.6 20.8-46.4 46.4-46.4h368.3c25.6 0 46.4 20.8 46.4 46.4v597.2c0 25.6-20.8 46.4-46.4 46.4zm-366.7-48H1570v-594h-365.1z"
+                        data-original="#000000" />
+                      <path
+                        d="M1594 811.8h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 452h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24z"
+                        data-original="#000000" />
+                    </svg>
+                    Electronic Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 407.7 407.7">
+                      <path
+                        d="M405.5 118.021a7.93 7.93 0 0 0-.29-.29l-84.16-74.8a7.994 7.994 0 0 0-2.64-1.6l-60.88-21.76a8 8 0 0 0-10.72 7.12c0 1.76-2.64 42.32-43.2 42.96-40.8-.64-43.36-41.2-43.44-42.96a8 8 0 0 0-10.64-7.12l-60.8 22c-.976.357-1.872.9-2.64 1.6l-83.6 74.56a8 8 0 0 0 0 11.6l66.56 67.28v184a8 8 0 0 0 8 8h253.6a8 8 0 0 0 8-8v-184l66.56-67.28a8 8 0 0 0 .29-11.31zm-67.09 55.79v-37.12a8 8 0 0 0-16 0v235.52H84.73v-235.52a8 8 0 0 0-16 0v37.2l-49.2-49.84 76.16-68.16 50.08-18.08c6.204 31.966 37.147 52.851 69.113 46.647 23.607-4.582 42.065-23.04 46.647-46.647l50.08 18.08 75.92 68.16-49.12 49.76z"
+                        data-original="#000000" />
+                    </svg>
+                    Fashion Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M434.1 243.904h-5.955a95.572 95.572 0 0 1-61.022-22.072l-117.812-98.055a49.716 49.716 0 0 0-31.743-11.481c-27.361 0-49.621 22.26-49.621 49.621v11.586c0 22.572-18.364 40.937-40.937 40.937-15.844 0-30.407-9.279-37.102-23.639l-3.261-6.995c-7.434-15.944-23.604-26.246-41.195-26.246C20.39 157.56 0 177.949 0 203.012v118.792c0 42.954 34.946 77.9 77.9 77.9h356.2c42.954 0 77.9-34.946 77.9-77.9 0-42.954-34.946-77.9-77.9-77.9zm0 125.8H77.9c-17.829 0-33.403-9.799-41.65-24.287h439.5c-8.247 14.488-23.821 24.287-41.65 24.287zM30 315.419V203.012c0-8.521 6.932-15.452 15.452-15.452 5.98 0 11.478 3.503 14.005 8.923l3.261 6.994c11.601 24.884 36.837 40.963 64.293 40.963 39.115 0 70.937-31.822 70.937-70.937v-11.586c0-10.819 8.802-19.621 19.621-19.621a19.66 19.66 0 0 1 12.552 4.54l28.901 24.055-32.93 32.93 21.213 21.213 34.872-34.871 13.031 10.846-31.444 31.444 21.213 21.213 33.386-33.385 13.031 10.846-29.958 29.958 21.213 21.213 32.115-32.115c21.284 15.35 47.024 23.723 73.383 23.723h5.955c24.246 0 44.328 18.112 47.461 41.513H30z"
+                        data-original="#000000" />
+                    </svg>
+                    Shoes Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M482 303.58V256c0-124.115-101.728-225-226-225C131.875 31 30 131.728 30 256v47.58C12.541 309.772 0 326.445 0 346v60c0 24.813 20.187 45 45 45h17.58c6.192 17.458 22.865 30 42.42 30h30c24.813 0 45-20.187 45-45V316c0-24.813-20.187-45-45-45h-30c-19.555 0-36.228 12.542-42.42 30H60v-45c0-7.463.439-14.826 1.263-22.073 7.08 4.577 15.395 7.073 24.231 7.073 18.909 0 35.847-11.944 42.145-29.72C146.772 157.281 198.356 121 256 121c57.643 0 109.227 36.281 128.36 90.279C390.658 229.056 407.596 241 426.505 241c8.836 0 17.152-2.496 24.232-7.074A195.071 195.071 0 0 1 452 256v45h-2.58c-6.192-17.458-22.865-30-42.42-30h-30c-24.813 0-45 20.187-45 45v120c0 24.813 20.187 45 45 45h30c19.555 0 36.228-12.542 42.42-30H467c24.813 0 45-20.187 45-45v-60c0-19.555-12.541-36.228-30-42.42zM90 316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316zM60 421H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h15v90zm366.505-210c-6.23 0-11.803-3.914-13.867-9.74C389.588 136.208 326.927 91 256 91c-70.85 0-133.566 45.145-156.639 110.261-2.064 5.825-7.636 9.739-13.867 9.739-10.594 0-17.524-10.619-13.919-20.72C98.431 115.036 171.177 61 256 61c84.952 0 157.597 54.152 184.424 129.28 3.608 10.11-3.336 20.72-13.919 20.72zM422 436c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120zm60-30c0 8.271-6.729 15-15 15h-15v-90h15c8.271 0 15 6.729 15 15v60z"
+                        data-original="#000000" />
+                    </svg>
+                    Headphones
+                  </a>
+                </li>
+              </ul>
+              <ul class='space-y-3'>
+                <li class="text-[#077bff] text-base font-semibold px-2">Store 4</li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 64 64">
+                      <path
+                        d="M61.92 30.93a7.076 7.076 0 0 0-6.05-5.88 8.442 8.442 0 0 0-.87-.04V22A15.018 15.018 0 0 0 40 7H24A15.018 15.018 0 0 0 9 22v3.01a8.442 8.442 0 0 0-.87.04 7.076 7.076 0 0 0-6.05 5.88A6.95 6.95 0 0 0 7 38.7V52a3.009 3.009 0 0 0 3 3v6a1 1 0 0 0 1 1h3a1 1 0 0 0 .96-.73L16.75 55h30.5l1.79 6.27A1 1 0 0 0 50 62h3a1 1 0 0 0 1-1v-6a3.009 3.009 0 0 0 3-3V38.7a6.95 6.95 0 0 0 4.92-7.77ZM11 22A13.012 13.012 0 0 1 24 9h16a13.012 13.012 0 0 1 13 13v3.3a6.976 6.976 0 0 0-5 6.7v3.18a3 3 0 0 0-1-.18H17a3 3 0 0 0-1 .18V32a6.976 6.976 0 0 0-5-6.7Zm37 16v5H16v-5a1 1 0 0 1 1-1h30a1 1 0 0 1 1 1ZM13.25 60H12v-5h2.67ZM52 60h-1.25l-1.42-5H52Zm3.83-23.08a1.008 1.008 0 0 0-.83.99V52a1 1 0 0 1-1 1H10a1 1 0 0 1-1-1V37.91a1.008 1.008 0 0 0-.83-.99 4.994 4.994 0 0 1 .2-9.88A4.442 4.442 0 0 1 9 27h.01a4.928 4.928 0 0 1 3.3 1.26A5.007 5.007 0 0 1 14 32v12a1 1 0 0 0 1 1h34a1 1 0 0 0 1-1V32a5.007 5.007 0 0 1 1.69-3.74 4.932 4.932 0 0 1 3.94-1.22 5.018 5.018 0 0 1 4.31 4.18v.01a4.974 4.974 0 0 1-4.11 5.69Z"
+                        data-original="#000000" />
+                    </svg>
+                    Furniture Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 1700 1700">
+                      <path
+                        d="M916.7 1269.4c-10.7 0-20.4-7.2-23.2-18l-29.9-114.7c-3.3-12.8 4.3-25.9 17.2-29.3 12.8-3.3 25.9 4.3 29.3 17.2l29.9 114.7c3.3 12.8-4.3 25.9-17.2 29.3-2 .5-4.1.8-6.1.8zm-169.4 0c-2 0-4-.3-6.1-.8-12.8-3.3-20.5-16.4-17.2-29.3l29.9-114.7c3.3-12.8 16.4-20.5 29.3-17.2 12.8 3.3 20.5 16.4 17.2 29.3l-29.9 114.7c-2.8 10.8-12.6 18-23.2 18z"
+                        data-original="#000000" />
+                      <path
+                        d="M1066.6 1358.8H597.4c-13.3 0-24-10.7-24-24 0-62.6 50.9-113.5 113.5-113.5h290.4c62.6 0 113.5 50.9 113.5 113.5-.2 13.3-10.9 24-24.2 24zm-440.7-48H1038c-9.6-24.3-33.3-41.5-60.9-41.5H686.8c-27.6.1-51.3 17.3-60.9 41.5zM276.4 762.7c-13.3 0-24-10.7-24-24V395c0-29.7 24.2-53.9 53.9-53.9h1051.4c29.7 0 53.9 24.2 53.9 53.9v297.8c0 13.3-10.7 24-24 24s-24-10.7-24-24V395c0-3.2-2.6-5.9-5.9-5.9H306.3c-3.2 0-5.9 2.6-5.9 5.9v343.7c0 13.2-10.7 24-24 24zm904.5 392H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24zm0-120.8H446.5c-13.3 0-24-10.7-24-24s10.7-24 24-24h734.3c13.3 0 24 10.7 24 24s-10.6 24-23.9 24z"
+                        data-original="#000000" />
+                      <path
+                        d="M424.1 1358.8H128.4c-25.6 0-46.4-20.8-46.4-46.4V761.1c0-25.6 20.8-46.4 46.4-46.4h295.7c25.6 0 46.4 20.8 46.4 46.4v551.3c0 25.6-20.8 46.4-46.4 46.4zm-294.1-48h292.5V762.7H130z"
+                        data-original="#000000" />
+                      <path
+                        d="M446.5 853.6H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 414.4H106c-13.3 0-24-10.7-24-24s10.7-24 24-24h340.5c13.3 0 24 10.7 24 24s-10.7 24-24 24zm1125.1 90.8h-368.3c-25.6 0-46.4-20.8-46.4-46.4V715.2c0-25.6 20.8-46.4 46.4-46.4h368.3c25.6 0 46.4 20.8 46.4 46.4v597.2c0 25.6-20.8 46.4-46.4 46.4zm-366.7-48H1570v-594h-365.1z"
+                        data-original="#000000" />
+                      <path
+                        d="M1594 811.8h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24zm0 452h-413.1c-13.3 0-24-10.7-24-24s10.7-24 24-24H1594c13.3 0 24 10.7 24 24s-10.7 24-24 24z"
+                        data-original="#000000" />
+                    </svg>
+                    Electronic Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-3 inline-block"
+                      viewBox="0 0 407.7 407.7">
+                      <path
+                        d="M405.5 118.021a7.93 7.93 0 0 0-.29-.29l-84.16-74.8a7.994 7.994 0 0 0-2.64-1.6l-60.88-21.76a8 8 0 0 0-10.72 7.12c0 1.76-2.64 42.32-43.2 42.96-40.8-.64-43.36-41.2-43.44-42.96a8 8 0 0 0-10.64-7.12l-60.8 22c-.976.357-1.872.9-2.64 1.6l-83.6 74.56a8 8 0 0 0 0 11.6l66.56 67.28v184a8 8 0 0 0 8 8h253.6a8 8 0 0 0 8-8v-184l66.56-67.28a8 8 0 0 0 .29-11.31zm-67.09 55.79v-37.12a8 8 0 0 0-16 0v235.52H84.73v-235.52a8 8 0 0 0-16 0v37.2l-49.2-49.84 76.16-68.16 50.08-18.08c6.204 31.966 37.147 52.851 69.113 46.647 23.607-4.582 42.065-23.04 46.647-46.647l50.08 18.08 75.92 68.16-49.12 49.76z"
+                        data-original="#000000" />
+                    </svg>
+                    Fashion Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M434.1 243.904h-5.955a95.572 95.572 0 0 1-61.022-22.072l-117.812-98.055a49.716 49.716 0 0 0-31.743-11.481c-27.361 0-49.621 22.26-49.621 49.621v11.586c0 22.572-18.364 40.937-40.937 40.937-15.844 0-30.407-9.279-37.102-23.639l-3.261-6.995c-7.434-15.944-23.604-26.246-41.195-26.246C20.39 157.56 0 177.949 0 203.012v118.792c0 42.954 34.946 77.9 77.9 77.9h356.2c42.954 0 77.9-34.946 77.9-77.9 0-42.954-34.946-77.9-77.9-77.9zm0 125.8H77.9c-17.829 0-33.403-9.799-41.65-24.287h439.5c-8.247 14.488-23.821 24.287-41.65 24.287zM30 315.419V203.012c0-8.521 6.932-15.452 15.452-15.452 5.98 0 11.478 3.503 14.005 8.923l3.261 6.994c11.601 24.884 36.837 40.963 64.293 40.963 39.115 0 70.937-31.822 70.937-70.937v-11.586c0-10.819 8.802-19.621 19.621-19.621a19.66 19.66 0 0 1 12.552 4.54l28.901 24.055-32.93 32.93 21.213 21.213 34.872-34.871 13.031 10.846-31.444 31.444 21.213 21.213 33.386-33.385 13.031 10.846-29.958 29.958 21.213 21.213 32.115-32.115c21.284 15.35 47.024 23.723 73.383 23.723h5.955c24.246 0 44.328 18.112 47.461 41.513H30z"
+                        data-original="#000000" />
+                    </svg>
+                    Shoes Store
+                  </a>
+                </li>
+                <li class='hover:bg-gray-100'>
+                  <a href='javascript:void(0)'
+                    class='px-3 py-2 hover:text-[#007bff] hover:fill-[#007bff] text-gray-500 text-[15px] font-semibold block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="mr-2 inline-block"
+                      viewBox="0 0 512 512">
+                      <path
+                        d="M482 303.58V256c0-124.115-101.728-225-226-225C131.875 31 30 131.728 30 256v47.58C12.541 309.772 0 326.445 0 346v60c0 24.813 20.187 45 45 45h17.58c6.192 17.458 22.865 30 42.42 30h30c24.813 0 45-20.187 45-45V316c0-24.813-20.187-45-45-45h-30c-19.555 0-36.228 12.542-42.42 30H60v-45c0-7.463.439-14.826 1.263-22.073 7.08 4.577 15.395 7.073 24.231 7.073 18.909 0 35.847-11.944 42.145-29.72C146.772 157.281 198.356 121 256 121c57.643 0 109.227 36.281 128.36 90.279C390.658 229.056 407.596 241 426.505 241c8.836 0 17.152-2.496 24.232-7.074A195.071 195.071 0 0 1 452 256v45h-2.58c-6.192-17.458-22.865-30-42.42-30h-30c-24.813 0-45 20.187-45 45v120c0 24.813 20.187 45 45 45h30c19.555 0 36.228-12.542 42.42-30H467c24.813 0 45-20.187 45-45v-60c0-19.555-12.541-36.228-30-42.42zM90 316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316zM60 421H45c-8.271 0-15-6.729-15-15v-60c0-8.271 6.729-15 15-15h15v90zm366.505-210c-6.23 0-11.803-3.914-13.867-9.74C389.588 136.208 326.927 91 256 91c-70.85 0-133.566 45.145-156.639 110.261-2.064 5.825-7.636 9.739-13.867 9.739-10.594 0-17.524-10.619-13.919-20.72C98.431 115.036 171.177 61 256 61c84.952 0 157.597 54.152 184.424 129.28 3.608 10.11-3.336 20.72-13.919 20.72zM422 436c0 8.271-6.729 15-15 15h-30c-8.271 0-15-6.729-15-15V316c0-8.271 6.729-15 15-15h30c8.271 0 15 6.729 15 15v120zm60-30c0 8.271-6.729 15-15 15h-15v-90h15c8.271 0 15 6.729 15 15v60z"
+                        data-original="#000000" />
+                    </svg>
+                    Headphones
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class='max-lg:border-b max-lg:py-2'><a href='javascript:void(0)'
+              class='hover:text-[#007bff] text-gray-500 text-[15px] font-semibold block'>Jobs</a></li>
+          <li class='max-lg:border-b max-lg:py-2'><a href='javascript:void(0)'
+              class='hover:text-[#007bff] text-gray-500 text-[15px] font-semibold block'>Livestreams</a></li>
+          <li class='max-lg:border-b max-lg:py-2'><a href='javascript:void(0)'
+              class='hover:text-[#007bff] text-gray-500 text-[15px] font-semibold block'>About</a></li>
+        </ul>
+      </div>
+
+      <button id="toggleOpen" class='lg:hidden ml-auto'>
+        <svg class="w-7 h-7" fill="#000" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
     </div>
   </header>
         `,
