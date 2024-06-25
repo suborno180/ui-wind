@@ -6967,6 +6967,892 @@ const componentsData: Component[] = [
       </div>
         `
       },
+      {
+        id: 11,
+        image: "/model-block.dark-11.png",
+        demoUrl: "/demos/model-11",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-md bg-white shadow-lg rounded-2xl p-8 relative">
+          <div class="text-center">
+            <div class="bg-gray-200 w-16 h-16 rounded-full p-5 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-full fill-blue-600 inline"
+                viewBox="0 0 371.263 371.263"
+              >
+                <path
+                  d="M305.402 234.794v-70.54c0-52.396-33.533-98.085-79.702-115.151.539-2.695.838-5.449.838-8.204C226.539 18.324 208.215 0 185.64 0s-40.899 18.324-40.899 40.899c0 2.695.299 5.389.778 7.964-15.868 5.629-30.539 14.551-43.054 26.647-23.593 22.755-36.587 53.354-36.587 86.169v73.115c0 2.575-2.096 4.731-4.731 4.731-22.096 0-40.959 16.647-42.995 37.845-1.138 11.797 2.755 23.533 10.719 32.276 7.904 8.683 19.222 13.713 31.018 13.713h72.217c2.994 26.887 25.869 47.905 53.534 47.905s50.54-21.018 53.534-47.905h72.217c11.797 0 23.114-5.03 31.018-13.713 7.904-8.743 11.797-20.479 10.719-32.276-2.036-21.198-20.958-37.845-42.995-37.845a4.704 4.704 0 0 1-4.731-4.731zM185.64 23.952c9.341 0 16.946 7.605 16.946 16.946 0 .778-.12 1.497-.24 2.275-4.072-.599-8.204-1.018-12.336-1.138-7.126-.24-14.132.24-21.078 1.198-.12-.778-.24-1.497-.24-2.275.002-9.401 7.607-17.006 16.948-17.006zm0 323.358c-14.431 0-26.527-10.3-29.342-23.952h58.683c-2.813 13.653-14.909 23.952-29.341 23.952zm143.655-67.665c.479 5.15-1.138 10.12-4.551 13.892-3.533 3.773-8.204 5.868-13.353 5.868H59.89c-5.15 0-9.82-2.096-13.294-5.868-3.473-3.772-5.09-8.743-4.611-13.892.838-9.042 9.282-16.168 19.162-16.168 15.809 0 28.683-12.874 28.683-28.683v-73.115c0-26.228 10.419-50.719 29.282-68.923 18.024-17.425 41.498-26.887 66.528-26.887 1.198 0 2.335 0 3.533.06 50.839 1.796 92.277 45.929 92.277 98.325v70.54c0 15.809 12.874 28.683 28.683 28.683 9.88 0 18.264 7.126 19.162 16.168z"
+                  data-original="#000000"
+                ></path>
+              </svg>
+            </div>
+
+            <h4 class="text-lg text-gray-800 font-semibold mt-4">
+              Do you want to get notification?
+            </h4>
+          </div>
+
+          <div class="flex space-x-4 mt-8">
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-full w-full text-gray-800 text-sm border-none outline-none bg-gray-200 hover:bg-gray-300"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-full w-full text-white text-sm border-none outline-none bg-blue-600 hover:bg-blue-700"
+            >
+              Allow
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 12,
+        image: "/model-block.dark-12.png",
+        demoUrl: "/demos/model-12",
+        code: `
+      <div
+            class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+            <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 relative">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right" viewBox="0 0 320.591 320.591">
+                    <path
+                        d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                        data-original="#000000"></path>
+                    <path
+                        d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                        data-original="#000000"></path>
+                </svg>
+
+                <div class="my-8 text-center">
+                    <h4 class="text-3xl text-gray-800 font-extrabold">Sign In</h4>
+                    <p class="text-sm text-gray-500 mt-4">Login to your account to continue the process</p>
+                </div>
+
+                <form class="space-y-4">
+                    <div class="relative flex items-center">
+                        <input type="email" placeholder="Enter Email"
+                            class="px-4 py-3 bg-white text-gray-800 w-full text-sm border border-gray-300 focus:border-blue-600 outline-none rounded-lg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-4"
+                            viewBox="0 0 682.667 682.667">
+                            <defs>
+                                <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                                    <path d="M0 512h512V0H0Z" data-original="#000000"></path>
+                                </clipPath>
+                            </defs>
+                            <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                                <path fill="none" stroke-miterlimit="10" stroke-width="40"
+                                    d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                                    data-original="#000000"></path>
+                                <path
+                                    d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                                    data-original="#000000"></path>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="relative flex items-center">
+                        <input type="password" placeholder="Enter Password"
+                            class="px-4 py-3 bg-white text-gray-800 w-full text-sm border border-gray-300 focus:border-blue-600 outline-none rounded-lg" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb"
+                            class="w-[18px] h-[18px] absolute right-4 cursor-pointer" viewBox="0 0 128 128">
+                            <path
+                                d="M64 104C22.127 104 1.367 67.496.504 65.943a4 4 0 0 1 0-3.887C1.367 60.504 22.127 24 64 24s62.633 36.504 63.496 38.057a4 4 0 0 1 0 3.887C126.633 67.496 105.873 104 64 104zM8.707 63.994C13.465 71.205 32.146 96 64 96c31.955 0 50.553-24.775 55.293-31.994C114.535 56.795 95.854 32 64 32 32.045 32 13.447 56.775 8.707 63.994zM64 88c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm0-40c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z"
+                                data-original="#000000"></path>
+                        </svg>
+                    </div>
+
+                    <div class="flex">
+                        <input type="checkbox" class="w-4" />
+                        <label class="text-sm ml-4 text-gray-500">Remember me</label>
+                    </div>
+
+                    <button type="button"
+                        class="px-5 py-2.5 !mt-8 w-full bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg tracking-wide">Sign
+                        in</button>
+                </form>
+
+                <a href="javascript:void(0)" class="text-sm text-blue-600 text-center mt-4 block hover:underline">Forgot Your
+                    Password?</a>
+
+                <hr class="my-8 border-gray-300" />
+
+                <p class="text-sm text-center text-gray-500">Don't Have a Account? <a href="javascript:void(0)"
+                    class="text-sm text-blue-600 hover:underline">Sign Up</a></p>
+            </div>
+        </div>
+        `
+      },
+      {
+        id: 13,
+        image: "/model-block.dark-13.png",
+        demoUrl: "/demos/model-13",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-3xl p-6 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <h4 class="text-base font-bold text-gray-800 mt-6">3 Items</h4>
+
+          <div class="space-y-4 mt-6">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+              <div class="flex items-center">
+                <img
+                  src="https://readymadeui.com/product_img_2.webp"
+                  class="w-16 h-16 p-2 shrink-0 bg-gray-200 rounded-md"
+                  alt="image"
+                />
+                <div class="ml-4">
+                  <p class="text-sm text-gray-800">Black T-Shirt</p>
+                  <p class="text-gray-500 text-xs mt-1">1 Item</p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <span class="text-base font-bold text-gray-800 mr-4">
+                  $59.50
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[18px] fill-red-500 inline cursor-pointer"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
+                    data-original="#000000"
+                  ></path>
+                  <path
+                    d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
+                    data-original="#000000"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-4">
+              <div class="flex items-center">
+                <img
+                  src="https://readymadeui.com/product_img_1.webp"
+                  class="w-16 h-16 p-2 shrink-0 bg-gray-200 rounded-md"
+                  alt="image"
+                />
+                <div class="ml-4">
+                  <p class="text-sm text-gray-800">Light Gray T-Shirt</p>
+                  <p class="text-gray-500 text-xs mt-1">1 Item</p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <span class="text-base font-bold text-gray-800 mr-4">
+                  $60.99
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[18px] fill-red-500 inline cursor-pointer"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
+                    data-original="#000000"
+                  ></path>
+                  <path
+                    d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
+                    data-original="#000000"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-4">
+              <div class="flex items-center">
+                <img
+                  src="https://readymadeui.com/product_img_2.webp"
+                  class="w-16 h-16 p-2 shrink-0 bg-gray-200 rounded-md"
+                  alt="image"
+                />
+                <div class="ml-4">
+                  <p class="text-sm text-gray-800">Black T-Shirt</p>
+                  <p class="text-gray-500 text-xs mt-1">1 Item</p>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <span class="text-base font-bold text-gray-800 mr-4">
+                  $50.00
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-[18px] fill-red-500 inline cursor-pointer"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
+                    data-original="#000000"
+                  ></path>
+                  <path
+                    d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
+                    data-original="#000000"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex mt-6">
+            <span class="text-base font-bold text-gray-800 flex-1">
+              Total
+            </span>
+            <span class="text-base font-bold text-gray-800">$170.00</span>
+          </div>
+
+          <div class="flex max-sm:flex-col gap-4 mt-6">
+            <button
+              type="button"
+              class="text-sm px-5 py-2.5 w-full bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-md tracking-wide"
+            >
+              Continue shopping
+            </button>
+            <button
+              type="button"
+              class="text-sm px-5 py-2.5 w-full bg-blue-600 hover:bg-blue-700 text-white rounded-md tracking-wide"
+            >
+              Pay
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 14,
+        image: "/model-block.dark-14.png",
+        demoUrl: "/demos/model-14",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div class="my-8 text-center">
+            <h4 class="text-3xl text-gray-800 font-extrabold">Register</h4>
+            <p class="text-sm text-gray-500 mt-4">
+              Create an account with us
+            </p>
+          </div>
+
+          <form class="space-y-4">
+            <div class="relative flex items-center">
+              <input
+                type="email"
+                placeholder="Enter Email"
+                class="px-4 py-3 bg-white text-gray-800 w-full text-sm border border-gray-300 focus:border-blue-600 outline-none rounded-lg"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#bbb"
+                stroke="#bbb"
+                class="w-[18px] h-[18px] absolute right-4"
+                viewBox="0 0 682.667 682.667"
+              >
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000"></path>
+                  </clipPath>
+                </defs>
+                <g
+                  clip-path="url(#a)"
+                  transform="matrix(1.33 0 0 -1.33 0 682.667)"
+                >
+                  <path
+                    fill="none"
+                    stroke-miterlimit="10"
+                    stroke-width="40"
+                    d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z"
+                    data-original="#000000"
+                  ></path>
+                  <path
+                    d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z"
+                    data-original="#000000"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+
+            <div class="relative flex items-center">
+              <input
+                type="password"
+                placeholder="Enter Password"
+                class="px-4 py-3 bg-white text-gray-800 w-full text-sm border border-gray-300 focus:border-blue-600 outline-none rounded-lg"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#bbb"
+                stroke="#bbb"
+                class="w-[18px] h-[18px] absolute right-4 cursor-pointer"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  d="M64 104C22.127 104 1.367 67.496.504 65.943a4 4 0 0 1 0-3.887C1.367 60.504 22.127 24 64 24s62.633 36.504 63.496 38.057a4 4 0 0 1 0 3.887C126.633 67.496 105.873 104 64 104zM8.707 63.994C13.465 71.205 32.146 96 64 96c31.955 0 50.553-24.775 55.293-31.994C114.535 56.795 95.854 32 64 32 32.045 32 13.447 56.775 8.707 63.994zM64 88c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm0-40c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z"
+                  data-original="#000000"
+                ></path>
+              </svg>
+            </div>
+
+            <div class="relative flex items-center">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                class="px-4 py-3 bg-white text-gray-800 w-full text-sm border border-gray-300 focus:border-blue-600 outline-none rounded-lg"
+              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#bbb"
+                stroke="#bbb"
+                class="w-[18px] h-[18px] absolute right-4 cursor-pointer"
+                viewBox="0 0 128 128"
+              >
+                <path
+                  d="M64 104C22.127 104 1.367 67.496.504 65.943a4 4 0 0 1 0-3.887C1.367 60.504 22.127 24 64 24s62.633 36.504 63.496 38.057a4 4 0 0 1 0 3.887C126.633 67.496 105.873 104 64 104zM8.707 63.994C13.465 71.205 32.146 96 64 96c31.955 0 50.553-24.775 55.293-31.994C114.535 56.795 95.854 32 64 32 32.045 32 13.447 56.775 8.707 63.994zM64 88c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm0-40c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z"
+                  data-original="#000000"
+                ></path>
+              </svg>
+            </div>
+
+            <div class="flex">
+              <input type="checkbox" class="w-4" />
+              <label class="text-sm ml-4 text-gray-500">
+                I have read and accept the{" "}
+                <a
+                  href="javascript:void(0)"
+                  class="text-sm text-blue-600 hover:underline"
+                >
+                  Terms and Conditions
+                </a>
+              </label>
+            </div>
+
+            <div class="!mt-8 space-y-4">
+              <button
+                type="button"
+                class="px-5 py-2.5 w-full bg-blue-600 hover:bg-blue-700 text-white text-sm rounded-lg tracking-wide"
+              >
+                Create an account
+              </button>
+
+              <button
+                type="button"
+                class="px-5 py-2.5 w-full bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm rounded-lg tracking-wide"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  fill="#fff"
+                  class="inline mr-4"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="#fbbd00"
+                    d="M120 256c0-25.367 6.989-49.13 19.131-69.477v-86.308H52.823C18.568 144.703 0 198.922 0 256s18.568 111.297 52.823 155.785h86.308v-86.308C126.989 305.13 120 281.367 120 256z"
+                    data-original="#fbbd00"
+                  />
+                  <path
+                    fill="#0f9d58"
+                    d="m256 392-60 60 60 60c57.079 0 111.297-18.568 155.785-52.823v-86.216h-86.216C305.044 385.147 281.181 392 256 392z"
+                    data-original="#0f9d58"
+                  />
+                  <path
+                    fill="#31aa52"
+                    d="m139.131 325.477-86.308 86.308a260.085 260.085 0 0 0 22.158 25.235C123.333 485.371 187.62 512 256 512V392c-49.624 0-93.117-26.72-116.869-66.523z"
+                    data-original="#31aa52"
+                  />
+                  <path
+                    fill="#3c79e6"
+                    d="M512 256a258.24 258.24 0 0 0-4.192-46.377l-2.251-12.299H256v120h121.452a135.385 135.385 0 0 1-51.884 55.638l86.216 86.216a260.085 260.085 0 0 0 25.235-22.158C485.371 388.667 512 324.38 512 256z"
+                    data-original="#3c79e6"
+                  />
+                  <path
+                    fill="#cf2d48"
+                    d="m352.167 159.833 10.606 10.606 84.853-84.852-10.606-10.606C388.668 26.629 324.381 0 256 0l-60 60 60 60c36.326 0 70.479 14.146 96.167 39.833z"
+                    data-original="#cf2d48"
+                  />
+                  <path
+                    fill="#eb4132"
+                    d="M256 120V0C187.62 0 123.333 26.629 74.98 74.98a259.849 259.849 0 0 0-22.158 25.235l86.308 86.308C162.883 146.72 206.376 120 256 120z"
+                    data-original="#eb4132"
+                  />
+                </svg>
+                Continue with Google
+              </button>
+            </div>
+          </form>
+
+          <hr class="my-8 border-gray-300" />
+
+          <p class="text-sm text-center text-gray-500">
+            Already have an account?{" "}
+            <a
+              href="javascript:void(0)"
+              class="text-sm text-blue-600 hover:underline"
+            >
+              Login
+            </a>
+          </p>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 15,
+        image: "/model-block.dark-15.png",
+        demoUrl: "/demos/model-15",
+        code: `
+      <div class="fixed inset-0 px-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 relative mx-auto text-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-20 h-20 fill-green-500 absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2"
+            viewBox="0 0 60 60"
+          >
+            <circle cx="30" cy="30" r="29" data-original="#5edd60" />
+            <path
+              fill="#fff"
+              d="m24.262 42.07-6.8-6.642a1.534 1.534 0 0 1 0-2.2l2.255-2.2a1.621 1.621 0 0 1 2.256 0l4.048 3.957 11.353-17.26a1.617 1.617 0 0 1 2.2-.468l2.684 1.686a1.537 1.537 0 0 1 .479 2.154L29.294 41.541a3.3 3.3 0 0 1-5.032.529z"
+              data-original="#ffffff"
+            />
+          </svg>
+
+          <div class="mt-12">
+            <h3 class="text-gray-800 text-2xl font-bold flex-1">
+              Awesome!
+            </h3>
+            <p class="text-sm text-gray-600 mt-3">
+              Your booking has been confirmed. Check your email for details,
+              including your reservation number.
+            </p>
+
+            <button
+              type="button"
+              class="px-6 py-2.5 mt-8 w-full rounded-md text-white text-sm font-semibold tracking-wide border-none outline-none bg-green-500 hover:bg-green-600"
+            >
+              Got it
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 16,
+        image: "/model-block.dark-16.png",
+        demoUrl: "/demos/model-16",
+        code: `
+      <div className="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div className="w-full max-w-md bg-white shadow-lg rounded-lg p-4 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-3.5 cursor-pointer float-right fill-gray-400 hover:fill-red-500"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div className="mt-4 p-4">
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold flex-1 text-gray-800">
+                How many stars would you like to give us?
+              </h3>
+              <p className="text-sm mt-4 text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                auctor auctor arcu, at fermentum dui.
+              </p>
+            </div>
+
+            <div className="flex justify-center space-x-2 mt-4">
+              <svg
+                className="w-6 cursor-pointer fill-blue-600 hover:fill-[#CED5D8]"
+                viewBox="0 0 14 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+              </svg>
+              <svg
+                className="w-6 cursor-pointer fill-blue-600 hover:fill-[#CED5D8]"
+                viewBox="0 0 14 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+              </svg>
+              <svg
+                className="w-6 cursor-pointer fill-blue-600 hover:fill-[#CED5D8]"
+                viewBox="0 0 14 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+              </svg>
+              <svg
+                className="w-6 cursor-pointer fill-[#CED5D8] hover:fill-blue-600"
+                viewBox="0 0 14 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+              </svg>
+              <svg
+                className="w-6 cursor-pointer fill-[#CED5D8] hover:fill-blue-600"
+                viewBox="0 0 14 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+              </svg>
+            </div>
+
+            <div className="mt-8 space-y-4">
+              <button
+                type="button"
+                className="text-sm px-5 py-2.5 w-full bg-blue-600 hover:bg-blue-700 text-white rounded-md tracking-wide"
+              >
+                Submit
+              </button>
+              <button
+                type="button"
+                className="text-sm w-full bg-transparent hover:underline text-blue-600 tracking-wide"
+              >
+                No, thanks
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 17,
+        image: "/model-block.dark-17.png",
+        demoUrl: "/demos/model-17",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        class
+        <div class="w-full max-w-md bg-white shadow-lg rounded-lg p-8 relative">
+          <div class="flex items-center pb-3 border-b border-gray-300">
+            <h3 class="text-xl font-bold flex-1 text-gray-800">Share Modal</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+              viewBox="0 0 320.591 320.591"
+            >
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"
+              ></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="my-8">
+            <h6 class="text-base text-gray-800">Share this link via</h6>
+
+            <div class="flex flex-wrap gap-4 mt-4">
+              <button
+                type="button"
+                class="w-10 h-10 inline-flex items-center justify-center rounded-full border-none outline-none bg-blue-600 hover:bg-blue-700 active:bg-blue-600"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  fill="#fff"
+                  viewBox="0 0 155.139 155.139"
+                >
+                  <path
+                    d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761h28.48z"
+                    data-original="#010002"
+                  />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="w-10 h-10 inline-flex items-center justify-center rounded-full border-none outline-none bg-[#03a9f4] hover:bg-[#03a1f4] active:bg-[#03a9f4]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  fill="#fff"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                    data-original="#03a9f4"
+                  />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="w-10 h-10 inline-flex items-center justify-center rounded-full border-none outline-none bg-[#0077b5] hover:bg-[#0055b5] active:bg-[#0077b5]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  fill="#fff"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0z"
+                    data-original="#0077b5"
+                  />
+                </svg>
+              </button>
+              <button
+                type="button"
+                class="w-10 h-10 inline-flex items-center justify-center rounded-full border-none outline-none bg-[#ea0065] hover:bg-[#ea0065d6] active:bg-[#ea0065]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20px"
+                  fill="#fff"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M301 256c0 24.852-20.148 45-45 45s-45-20.148-45-45 20.148-45 45-45 45 20.148 45 45zm0 0"
+                    data-original="#000000"
+                  />
+                  <path
+                    d="M332 120H180c-33.086 0-60 26.914-60 60v152c0 33.086 26.914 60 60 60h152c33.086 0 60-26.914 60-60V180c0-33.086-26.914-60-60-60zm-76 211c-41.355 0-75-33.645-75-75s33.645-75 75-75 75 33.645 75 75-33.645 75-75 75zm86-146c-8.285 0-15-6.715-15-15s6.715-15 15-15 15 6.715 15 15-6.715 15-15 15zm0 0"
+                    data-original="#000000"
+                  />
+                  <path
+                    d="M377 0H135C60.562 0 0 60.563 0 135v242c0 74.438 60.563 135 135 135h242c74.438 0 135-60.563 135-135V135C512 60.562 451.437 0 377 0zm45 332c0 49.625-40.375 90-90 90H180c-49.625 0-90-40.375-90-90V180c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0"
+                    data-original="#000000"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <h6 class="text-base text-gray-800">Or copy link</h6>
+            <div class="w-full rounded-lg overflow-hidden border border-gray-300 flex items-center mt-4">
+              <p class="text-sm text-gray-500 flex-1 ml-4">
+                https://readymadeui.com/
+              </p>
+              <button class="bg-blue-600 hover:bg-blue-700 px-6 py-3 text-sm text-white">
+                Copy
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 18,
+        image: "/model-block.dark-18.png",
+        demoUrl: "/demos/model-18",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 relative">
+          <div class="flex items-center">
+            <h3 class="text-blue-600 text-xl font-bold flex-1">
+              Add New Product
+            </h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+              viewBox="0 0 320.591 320.591"
+            >
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"
+              ></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"
+              ></path>
+            </svg>
+          </div>
+
+          <form class="space-y-4 mt-8">
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">
+                Name of the product
+              </label>
+              <input
+                type="text"
+                placeholder="Enter product name"
+                class="px-4 py-3 bg-gray-100 w-full text-gray-800 text-sm border-none focus:outline-blue-600 focus:bg-transparent rounded-lg"
+              />
+            </div>
+
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">
+                Descriptions
+              </label>
+              <textarea
+                placeholder="Write about the product"
+                class="px-4 py-3 bg-gray-100 w-full text-gray-800 text-sm border-none focus:outline-blue-600 focus:bg-transparent rounded-lg"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Quantity</label>
+              <input
+                type="number"
+                placeholder="Enter quantity"
+                class="px-4 py-3 bg-gray-100 w-full text-gray-800 text-sm border-none focus:outline-blue-600 focus:bg-transparent rounded-lg"
+              />
+            </div>
+
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">
+                Selling price
+              </label>
+              <input
+                type="number"
+                placeholder="Enter price"
+                class="px-4 py-3 bg-gray-100 w-full text-gray-800 text-sm border-none focus:outline-blue-600 focus:bg-transparent rounded-lg"
+              />
+            </div>
+
+            <div>
+              <label class="text-gray-800 text-sm mb-2 block">Category</label>
+              <input
+                type="number"
+                placeholder="Enter product category"
+                class="px-4 py-3 bg-gray-100 w-full text-gray-800 text-sm border-none focus:outline-blue-600 focus:bg-transparent rounded-lg"
+              />
+            </div>
+
+            <div class="flex justify-end gap-4 !mt-8">
+              <button
+                type="button"
+                class="px-6 py-3 rounded-lg text-gray-800 text-sm border-none outline-none tracking-wide bg-gray-200 hover:bg-gray-300"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                class="px-6 py-3 rounded-lg text-white text-sm border-none outline-none tracking-wide bg-blue-600 hover:bg-blue-700"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 19,
+        image: "/model-block.dark-19.png",
+        demoUrl: "/demos/model-19",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-8 relative">
+          <div class="flex items-start border-b border-gray-300 pb-4">
+            <div class="flex-1">
+              <h3 class="text-gray-800 text-xl font-bold">Order Preview</h3>
+              <p class="text-gray-600 text-sm mt-1">
+                Provides a detailed summary of your order.
+              </p>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+              viewBox="0 0 320.591 320.591"
+            >
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"
+              ></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="my-8">
+            <ul class="text-gray-800 space-y-4">
+              <li class="flex flex-wrap gap-4 text-sm">
+                Discount <span class="ml-auto font-bold">$0.00</span>
+              </li>
+              <li class="flex flex-wrap gap-4 text-sm">
+                Shipping <span class="ml-auto font-bold">$2.00</span>
+              </li>
+              <li class="flex flex-wrap gap-4 text-sm">
+                Tax <span class="ml-auto font-bold">$4.00</span>
+              </li>
+              <li class="flex flex-wrap gap-4 text-sm">
+                Subtotal <span class="ml-auto font-bold">$48.00</span>
+              </li>
+              <li class="flex flex-wrap gap-4 text-sm font-bold">
+                Total <span class="ml-auto">$52.00</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex max-sm:flex-col items-center gap-4 mt-8">
+            <button
+              type="button"
+              class="text-sm px-4 py-2.5 w-full tracking-wide bg-transparent hover:bg-gray-50 text-gray-800 border border-gray-300 rounded-lg max-sm:order-1"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="text-sm px-4 py-2.5 w-full tracking-wide bg-blue-600 hover:bg-blue-700 text-white rounded-lg"
+            >
+              Pay
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
     ]
   },
 ];
