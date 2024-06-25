@@ -6358,6 +6358,617 @@ const componentsData: Component[] = [
       },
     ],
   },
+  {
+    id: 1,
+    icon: "",
+    category: "Modals",
+    items: [
+      {
+        id: 1,
+        image: "/model-block.dark-1.png",
+        demoUrl: "/demos/model-1",
+        code: `
+        <div
+            class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+            <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
+                <div class="flex items-center pb-3 border-b border-gray-300">
+                    <h3 class="text-gray-800 text-xl font-bold flex-1">Modal Title</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+                        viewBox="0 0 320.591 320.591">
+                        <path
+                            d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                            data-original="#000000"></path>
+                        <path
+                            d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                            data-original="#000000"></path>
+                    </svg>
+                </div>
+
+                <div class="my-6">
+                    <p class="text-gray-600 text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas.</p>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas.</p>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor auctor arcu,
+                        at fermentum dui. Maecenas.</p>
+                </div>
+
+                <div class="border-t border-gray-300 pt-6 flex justify-end gap-4">
+                    <button type="button"
+                        class="px-4 py-2 rounded-lg text-gray-800 text-sm border-none outline-none tracking-wide bg-gray-200 hover:bg-gray-300 active:bg-gray-200">Close</button>
+                    <button type="button"
+                        class="px-4 py-2 rounded-lg text-white text-sm border-none outline-none tracking-wide bg-blue-600 hover:bg-blue-700 active:bg-blue-600">Save</button>
+                </div>
+            </div>
+        </div>
+        `
+      },
+      {
+        id: 2,
+        image: "/model-block.dark-2.png",
+        demoUrl: "/demos/model-2",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-end items-end w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
+          <div class="flex items-center pb-3 border-b border-gray-300">
+            <h3 class="text-gray-800 text-xl font-bold flex-1">
+              Modal Title
+            </h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+              viewBox="0 0 320.591 320.591"
+            >
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"
+              ></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="my-6">
+            <p class="text-gray-600 text-sm leading-relaxed">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              auctor auctor arcu, at fermentum dui. Maecenas Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Sed auctor auctor arcu, at
+              fermentum dui. Maecenas.
+            </p>
+          </div>
+
+          <div class="border-t border-gray-300 pt-6 flex justify-end gap-4">
+            <button
+              type="button"
+              class="px-4 py-2 rounded-lg text-gray-800 text-sm border-none outline-none tracking-wide bg-gray-200 hover:bg-gray-300 active:bg-gray-200"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="px-4 py-2 rounded-lg text-white text-sm border-none outline-none tracking-wide bg-blue-600 hover:bg-blue-700 active:bg-blue-600"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 3,
+        image: "/model-block.dark-3.png",
+        demoUrl: "/demos/model-3",
+        code: `
+          <div
+            class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+            <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
+                <div class="flex items-center pb-3 border-b border-gray-200">
+                    <div class="flex-1">
+                        <h3 class="text-gray-800 text-xl font-bold">Upload File</h3>
+                        <p class="text-gray-600 text-xs mt-1">Upload file to this project</p>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+                        viewBox="0 0 320.591 320.591">
+                        <path
+                            d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                            data-original="#000000"></path>
+                        <path
+                            d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                            data-original="#000000"></path>
+                    </svg>
+                </div>
+
+                <div class="rounded-lg border-2 border-gray-200 border-dashed mt-6">
+                    <div class="p-4 min-h-[180px] flex flex-col items-center justify-center text-center cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 mb-4 fill-gray-600 inline-block" viewBox="0 0 32 32">
+                            <path
+                                d="M23.75 11.044a7.99 7.99 0 0 0-15.5-.009A8 8 0 0 0 9 27h3a1 1 0 0 0 0-2H9a6 6 0 0 1-.035-12 1.038 1.038 0 0 0 1.1-.854 5.991 5.991 0 0 1 11.862 0A1.08 1.08 0 0 0 23 13a6 6 0 0 1 0 12h-3a1 1 0 0 0 0 2h3a8 8 0 0 0 .75-15.956z"
+                                data-original="#000000" />
+                            <path
+                                d="M20.293 19.707a1 1 0 0 0 1.414-1.414l-5-5a1 1 0 0 0-1.414 0l-5 5a1 1 0 0 0 1.414 1.414L15 16.414V29a1 1 0 0 0 2 0V16.414z"
+                                data-original="#000000" />
+                        </svg>
+
+                        <h4 class="text-sm text-gray-600">Drag & Drop or <label for="chooseFile" class="text-blue-600 cursor-pointer">Choose file</label> to upload</h4>
+                        <input type="file" id="chooseFile" class="hidden" />
+                    </div>
+                </div>
+
+                <div class="flex flex-col bg-gray-50 p-4 rounded-lg mt-4">
+                    <div class="flex">
+                        <p class="text-xs text-gray-600 flex-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-5 mr-2 fill-current inline-block">
+                                <path d="m433.798 106.268-96.423-91.222C327.119 5.343 313.695 0 299.577 0H116C85.673 0 61 24.673 61 55v402c0 30.327 24.673 55 55 55h280c30.327 0 55-24.673 55-55V146.222c0-15.049-6.27-29.612-17.202-39.954zM404.661 120H330c-2.757 0-5-2.243-5-5V44.636zM396 482H116c-13.785 0-25-11.215-25-25V55c0-13.785 11.215-25 25-25h179v85c0 19.299 15.701 35 35 35h91v307c0 13.785-11.215 25-25 25z" data-original="#000000" />
+                                <path d="M363 200H143c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15zm0 80H143c-8.284 0-15 6.716-15 15s6.716 15 15 15h220c8.284 0 15-6.716 15-15s-6.716-15-15-15zm-147.28 80H143c-8.284 0-15 6.716-15 15s6.716 15 15 15h72.72c8.284 0 15-6.716 15-15s-6.716-15-15-15z" data-original="#000000" />
+                            </svg>
+                            document.file <span class="ml-2">1.5 mb</span>
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-3 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+                            viewBox="0 0 320.591 320.591">
+                            <path
+                                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                                data-original="#000000"></path>
+                            <path
+                                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                                data-original="#000000"></path>
+                        </svg>
+                    </div>
+
+                    <div class="bg-gray-300 rounded-full w-full h-2 my-2">
+                        <div class="w-1/3 h-full rounded-full bg-blue-600 flex items-center relative">
+                            <span class="absolute text-xs right-0 bg-white w-2 h-2 rounded-full"></span>
+                        </div>
+                    </div>
+
+                    <p class="text-xs text-gray-600 flex-1">35% done</p>
+                </div>
+
+                <div class="border-t border-gray-200 pt-6 flex justify-between gap-4 mt-6">
+                    <button type="button"
+                        class="w-full px-4 py-2 rounded-lg text-gray-800 text-sm border-none outline-none tracking-wide bg-gray-200 hover:bg-gray-300 active:bg-gray-200">Cancel</button>
+                    <button type="button"
+                        class="w-full px-4 py-2 rounded-lg text-white text-sm border-none outline-none tracking-wide bg-blue-600 hover:bg-blue-700 active:bg-blue-600">Import</button>
+                </div>
+            </div>
+        </div>
+        `
+      },
+      {
+        id: 4,
+        image: "/model-block.dark-4.png",
+        demoUrl: "/demos/model-4",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div class="my-4 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-14 fill-red-500 inline"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
+                data-original="#000000"
+              />
+              <path
+                d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
+                data-original="#000000"
+              />
+            </svg>
+            <h4 class="text-gray-800 text-base font-semibold mt-4">
+              Are you sure you want to delete it?
+            </h4>
+
+            <div class="text-center space-x-4 mt-8">
+              <button
+                type="button"
+                class="px-4 py-2 rounded-lg text-gray-800 text-sm bg-gray-200 hover:bg-gray-300 active:bg-gray-200"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                class="px-4 py-2 rounded-lg text-white text-sm bg-red-600 hover:bg-red-700 active:bg-red-600"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 5,
+        image: "/model-block.dark-5.png",
+        demoUrl: "/demos/model-5",
+        code: `
+       <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-md bg-white shadow-lg rounded-lg p-6 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div class="my-8 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-14 fill-red-500 inline"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 7a1 1 0 0 0-1 1v11.191A1.92 1.92 0 0 1 15.99 21H8.01A1.92 1.92 0 0 1 6 19.191V8a1 1 0 0 0-2 0v11.191A3.918 3.918 0 0 0 8.01 23h7.98A3.918 3.918 0 0 0 20 19.191V8a1 1 0 0 0-1-1Zm1-3h-4V2a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v2H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2ZM10 4V3h4v1Z"
+                data-original="#000000"
+              />
+              <path
+                d="M11 17v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Zm4 0v-7a1 1 0 0 0-2 0v7a1 1 0 0 0 2 0Z"
+                data-original="#000000"
+              />
+            </svg>
+            <h4 class="text-gray-800 text-lg font-semibold mt-4">
+              Are you sure you want to delete it?
+            </h4>
+            <p class="text-sm text-gray-600 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              auctor auctor arcu, at fermentum dui. Maecenas
+            </p>
+          </div>
+
+          <div class="flex flex-col space-y-2">
+            <button
+              type="button"
+              class="px-4 py-2 rounded-lg text-white text-sm tracking-wide bg-red-500 hover:bg-red-600 active:bg-red-500"
+            >
+              Delete
+            </button>
+            <button
+              type="button"
+              class="px-4 py-2 rounded-lg text-gray-800 text-sm tracking-wide bg-gray-200 hover:bg-gray-300 active:bg-gray-200"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 6,
+        image: "/model-block.dark-6.png",
+        demoUrl: "/demos/model-6",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-3xl px-8 py-6 relative">
+          <div class="flex items-start">
+            <div class="flex-1">
+              <h3 class="text-gray-800 text-2xl font-bold">Members</h3>
+              <p class="text-gray-500 text-sm mt-1">
+                Manage and control who has access to this workspace.
+              </p>
+            </div>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-3 ml-2 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500"
+              viewBox="0 0 320.591 320.591"
+            >
+              <path
+                d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+                data-original="#000000"
+              ></path>
+              <path
+                d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+                data-original="#000000"
+              ></path>
+            </svg>
+          </div>
+
+          <div class="flex flex-wrap gap-4 mt-6">
+            <div class="flex flex-1 px-4 py-2.5 rounded-lg border border-gray-300 focus-within:border-blue-600 min-w-[220px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 192.904 192.904"
+                width="16px"
+                class="fill-gray-400 mr-4"
+              >
+                <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+              </svg>
+              <input
+                type="email"
+                placeholder="Search by name or user id"
+                class="w-full outline-none bg-transparent text-gray-500 text-sm"
+              />
+            </div>
+
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-lg text-white text-sm border-none outline-none tracking-wide bg-blue-600 hover:bg-blue-700"
+            >
+              Invite
+            </button>
+          </div>
+
+          <div class="mt-6 divide-y">
+            <div class="flex flex-wrap items-center gap-4 py-3 cursor-pointer">
+              <img
+                src="https://readymadeui.com/team-1.webp"
+                class="w-11 h-11 rounded-full"
+                alt="image"
+              />
+              <div>
+                <p class="text-sm text-gray-800 font-bold">John Doe</p>
+                <p class="text-xs text-gray-500 mt-0.5">
+                  johndoe23@gmail.com
+                </p>
+              </div>
+              <p class="text-xs text-gray-500 mt-0.5 ml-auto">Owner</p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 py-3 cursor-pointer">
+              <img
+                src="https://readymadeui.com/team-2.webp"
+                class="w-11 h-11 rounded-full"
+                alt="image"
+              />
+              <div>
+                <p class="text-sm text-gray-800 font-bold">Mark cena</p>
+                <p class="text-xs text-gray-500 mt-0.5">
+                  mark025@gmail.com
+                </p>
+              </div>
+              <p class="text-xs text-gray-500 mt-0.5 ml-auto">Member</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-4 py-3 cursor-pointer">
+              <img
+                src="https://readymadeui.com/team-3.webp"
+                class="w-11 h-11 rounded-full"
+                alt="image"
+              />
+              <div>
+                <p class="text-sm text-gray-800 font-bold">Sophia</p>
+                <p class="text-xs text-gray-500 mt-0.5">
+                  sophia23@gmail.com
+                </p>
+              </div>
+              <p class="text-xs text-gray-500 mt-0.5 ml-auto">Member</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 7,
+        image: "/model-block.dark-7.png",
+        demoUrl: "/demos/model-7",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-md bg-white shadow-lg rounded-xl p-6 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div class="my-8 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-14 fill-red-500 inline"
+              viewBox="0 0 286.054 286.054"
+            >
+              <path
+                fill="#e2574c"
+                d="M143.027 0C64.04 0 0 64.04 0 143.027c0 78.996 64.04 143.027 143.027 143.027 78.996 0 143.027-64.022 143.027-143.027C286.054 64.04 222.022 0 143.027 0zm0 259.236c-64.183 0-116.209-52.026-116.209-116.209S78.844 26.818 143.027 26.818s116.209 52.026 116.209 116.209-52.026 116.209-116.209 116.209zm.009-196.51c-10.244 0-17.995 5.346-17.995 13.981v79.201c0 8.644 7.75 13.972 17.995 13.972 9.994 0 17.995-5.551 17.995-13.972V76.707c-.001-8.43-8.001-13.981-17.995-13.981zm0 124.997c-9.842 0-17.852 8.01-17.852 17.86 0 9.833 8.01 17.843 17.852 17.843s17.843-8.01 17.843-17.843c-.001-9.851-8.001-17.86-17.843-17.86z"
+                data-original="#e2574c"
+              />
+            </svg>
+
+            <h4 class="text-lg text-gray-800 font-semibold mt-6">
+              Your account will be deleted permanently!
+            </h4>
+            <p class="text-sm text-gray-500 mt-2">
+              Are you sure to proceed?
+            </p>
+          </div>
+
+          <div class="flex max-sm:flex-col gap-4">
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-lg w-full tracking-wide text-gray-800 text-sm border-none outline-none bg-gray-200 hover:bg-gray-300"
+            >
+              I am not sure
+            </button>
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-lg w-full tracking-wide text-white text-sm border-none outline-none bg-red-500 hover:bg-red-600"
+            >
+              Remove my account
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 8,
+        image: "/model-block.dark-8.png",
+        demoUrl: "/demos/model-8",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-400 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+
+          <div class="my-8 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-14 shrink-0 fill-green-500 inline"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M383.841 171.838c-7.881-8.31-21.02-8.676-29.343-.775L221.987 296.732l-63.204-64.893c-8.005-8.213-21.13-8.393-29.35-.387-8.213 7.998-8.386 21.137-.388 29.35l77.492 79.561a20.687 20.687 0 0 0 14.869 6.275 20.744 20.744 0 0 0 14.288-5.694l147.373-139.762c8.316-7.888 8.668-21.027.774-29.344z"
+                data-original="#000000"
+              />
+              <path
+                d="M256 0C114.84 0 0 114.84 0 256s114.84 256 256 256 256-114.84 256-256S397.16 0 256 0zm0 470.487c-118.265 0-214.487-96.214-214.487-214.487 0-118.265 96.221-214.487 214.487-214.487 118.272 0 214.487 96.221 214.487 214.487 0 118.272-96.215 214.487-214.487 214.487z"
+                data-original="#000000"
+              />
+            </svg>
+            <h4 class="text-xl text-gray-800 font-semibold mt-4">
+              Successfully accepted!
+            </h4>
+            <p class="text-sm text-gray-500 leading-relaxed mt-4">
+              Et leo, enim in non sed quis sed. Auctor natoque auctor risus amet
+              quis mauris. Interdum et nisi, pellentesque id lectus. Ut bibendum
+              pellentesque arcu luctus sapien.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            class="px-5 py-2.5 w-full rounded-lg text-white text-sm border-none outline-none bg-gray-800 hover:bg-gray-700"
+          >
+            Got it
+          </button>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 9,
+        image: "/model-block.dark-9.png",
+        demoUrl: "/demos/model-9",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-xl p-8 relative">
+          <div>
+            <h4 class="text-xl text-gray-800 font-semibold">
+              Sure you want to accept?
+            </h4>
+            <p class="text-sm text-gray-600 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              auctor auctor arcu, at fermentum dui. Maecenas
+            </p>
+          </div>
+
+          <div class="flex gap-4 max-sm:flex-col mt-8">
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-lg text-gray-800 text-sm tracking-wide border-none outline-none bg-gray-200 hover:bg-gray-300"
+            >
+              No, cancel
+            </button>
+            <button
+              type="button"
+              class="px-5 py-2.5 rounded-lg text-white text-sm tracking-wide border-none outline-none bg-[#333] hover:bg-[#222]"
+            >
+              Yes, confirm
+            </button>
+          </div>
+        </div>
+      </div>
+        `
+      },
+      {
+        id: 10,
+        image: "/model-block.dark-10.png",
+        demoUrl: "/demos/model-10",
+        code: `
+      <div class="fixed inset-0 p-4 flex flex-wrap justify-center items-center w-full h-full z-[1000] before:fixed before:inset-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]">
+        class
+        <div class="w-full max-w-lg bg-white shadow-lg rounded-md p-8 relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer shrink-0 fill-gray-800 hover:fill-red-500 float-right"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            ></path>
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            ></path>
+          </svg>
+          <div class="my-8 text-center">
+            <h4 class="text-2xl text-gray-800 font-bold">
+              Subscribe to our Newsletter
+            </h4>
+            <p class="text-sm text-gray-500 mt-2">
+              Join thousands getting emails in their inbox.
+            </p>
+            <input
+              type="email"
+              placeholder="Enter Email"
+              class="px-4 py-2.5 mt-6 bg-[#f0f1f2] text-gray-800 w-full text-sm focus:bg-transparent outline-blue-600 rounded-md"
+            />
+          </div>
+          <button
+            type="button"
+            class="px-5 py-2.5 w-full rounded-md text-white text-sm outline-none bg-blue-600 hover:bg-blue-700"
+          >
+            Yeah, thanks!
+          </button>
+        </div>
+      </div>
+        `
+      },
+    ]
+  },
 ];
 
 export default componentsData;
