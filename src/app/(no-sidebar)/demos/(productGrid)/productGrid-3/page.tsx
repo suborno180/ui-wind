@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const ProductGrid2 = () => {
+const ProductGrid3 = () => {
   return (
     <>
       <div className="bg-white">
@@ -134,4 +134,4 @@ const ProductGrid2 = () => {
   );
 };
 
-export default ProductGrid2;
+export default ProductGrid3;
