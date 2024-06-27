@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 
-const ShoppingCart4 = () => {
+const ShoppingCart5 = () => {
   return (
     <>
       <div className="bg-white">
@@ -278,4 +278,4 @@ const ShoppingCart4 = () => {
   );
 };
 
-export default ShoppingCart4;
+export default ShoppingCart5;
