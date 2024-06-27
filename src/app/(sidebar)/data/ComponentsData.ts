@@ -10247,6 +10247,2963 @@ const componentsData: Component[] = [
       },
     ]
   },
+  {
+    id: 6,
+    icon: "",
+    category: "Product-View",
+    items: [
+      {
+        id: 1,
+        image: "/productView-block.dark-1.png",
+        demoUrl: "/demos/product-view-1",
+        code: `
+    div class="font-sans">
+        <div class="p-4 lg:max-w-5xl max-w-lg mx-auto">
+          <div class="grid items-start grid-cols-1 lg:grid-cols-2 gap-6 max-lg:gap-12">
+            <div class="w-full lg:sticky top-0 sm:flex gap-2">
+              <div class="sm:space-y-3 w-16 max-sm:w-12 max-sm:flex max-sm:mb-4 max-sm:gap-4">
+                <img
+                  src="https://readymadeui.com/images/product1.webp"
+                  alt="Product1"
+                  class="w-full cursor-pointer rounded-md outline"
+                />
+                <img
+                  src="https://readymadeui.com/images/product6.webp"
+                  alt="Product2"
+                  class="w-full cursor-pointer rounded-md"
+                />
+                <img
+                  src="https://readymadeui.com/images/product7.webp"
+                  alt="Product3"
+                  class="w-full cursor-pointer rounded-md"
+                />
+                <img
+                  src="https://readymadeui.com/images/product3.webp"
+                  alt="Product4"
+                  class="w-full cursor-pointer rounded-md"
+                />
+              </div>
+              <img
+                src="https://readymadeui.com/images/product2.webp"
+                alt="Product"
+                class="w-4/5 rounded-md object-cover"
+              />
+            </div>
+
+            <div>
+              <h2 class="text-2xl font-bold text-gray-800">
+                Adjective Attire | T-shirt
+              </h2>
+              <div class="flex flex-wrap gap-4 mt-4">
+                <p class="text-gray-800 text-xl font-bold">$12</p>
+                <p class="text-gray-400 text-xl">
+                  <del>$16</del>{" "}
+                  <span class="text-sm ml-1.5">Tax included</span>
+                </p>
+              </div>
+
+              <div class="flex space-x-2 mt-4">
+                <svg
+                  class="w-5 fill-blue-600"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-blue-600"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-blue-600"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-blue-600"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-[#CED5D8]"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">Sizes</h3>
+                <div class="flex flex-wrap gap-4 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 border-2 hover:border-blue-600 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    SM
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border-2 hover:border-blue-600 border-blue-600 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    MD
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border-2 hover:border-blue-600 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    LG
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border-2 hover:border-blue-600 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    XL
+                  </button>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                class="w-full mt-8 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-md"
+              >
+                Add to cart
+              </button>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">
+                  About the item
+                </h3>
+                <ul class="space-y-3 list-disc mt-4 pl-4 text-sm text-gray-800">
+                  <li>
+                    A gray t-shirt is a wardrobe essential because it is so
+                    versatile.
+                  </li>
+                  <li>
+                    Available in a wide range of sizes, from extra small to
+                    extra large, and even in tall and petite sizes.
+                  </li>
+                  <li>
+                    This is easy to care for. They can usually be machine-washed
+                    and dried on low heat.
+                  </li>
+                  <li>
+                    You can add your own designs, paintings, or embroidery to
+                    make it your own.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">Reviews(10)</h3>
+                <div class="space-y-3 mt-4">
+                  <div class="flex items-center">
+                    <p class="text-sm text-gray-800 font-bold">5.0</p>
+                    <svg
+                      class="w-5 fill-blue-600 ml-1.5"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div class="bg-gray-300 rounded-md w-full h-2 ml-3">
+                      <div class="w-2/3 h-full rounded-md bg-blue-600"></div>
+                    </div>
+                    <p class="text-sm text-gray-800 font-bold ml-3">66%</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <p class="text-sm text-gray-800 font-bold">4.0</p>
+                    <svg
+                      class="w-5 fill-blue-600 ml-1.5"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div class="bg-gray-300 rounded-md w-full h-2 ml-3">
+                      <div class="w-1/3 h-full rounded-md bg-blue-600"></div>
+                    </div>
+                    <p class="text-sm text-gray-800 font-bold ml-3">33%</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <p class="text-sm text-gray-800 font-bold">3.0</p>
+                    <svg
+                      class="w-5 fill-blue-600 ml-1.5"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div class="bg-gray-300 rounded-md w-full h-2 ml-3">
+                      <div class="w-1/6 h-full rounded-md bg-blue-600"></div>
+                    </div>
+                    <p class="text-sm text-gray-800 font-bold ml-3">16%</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <p class="text-sm text-gray-800 font-bold">2.0</p>
+                    <svg
+                      class="w-5 fill-blue-600 ml-1.5"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div class="bg-gray-300 rounded-md w-full h-2 ml-3">
+                      <div class="w-1/12 h-full rounded-md bg-blue-600"></div>
+                    </div>
+                    <p class="text-sm text-gray-800 font-bold ml-3">8%</p>
+                  </div>
+
+                  <div class="flex items-center">
+                    <p class="text-sm text-gray-800 font-bold">1.0</p>
+                    <svg
+                      class="w-5 fill-blue-600 ml-1.5"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div class="bg-gray-300 rounded-md w-full h-2 ml-3">
+                      <div class="w-[6%] h-full rounded-md bg-blue-600"></div>
+                    </div>
+                    <p class="text-sm text-gray-800 font-bold ml-3">6%</p>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="w-full mt-8 px-6 py-2.5 border border-blue-600 bg-transparent text-gray-800 text-sm font-semibold rounded-md"
+                >
+                  Read all reviews
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 2,
+        image: "/productView-block.dark-2.png",
+        demoUrl: "/demos/product-view-2",
+        code: `
+       <div class="w-full bg-white">
+       <div class="font-sans">
+            <div class="p-4 lg:max-w-7xl max-w-xl max-lg:mx-auto">
+                <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12">
+                    <div class="min-h-[500px] lg:col-span-3 bg-gradient-to-tr  from-[#F8C794] via-[#FFE0B5] to-[#FFF2D7] rounded-lg w-full lg:sticky top-0 text-center p-6">
+                        <img src="https://readymadeui.com/images/coffee8.webp" alt="Product" class="w-3/5 rounded object-cover mx-auto py-6" />
+
+                        <hr class="border-white border my-6" />
+
+                        <div class="flex flex-wrap gap-x-4 gap-y-6 justify-center mx-auto">
+                            <div class="w-20 h-20 max-lg:w-16 max-lg:h-16 bg-[#fff2c9] p-3 rounded-lg">
+                                <img src="https://readymadeui.com/images/coffee6.webp" alt="Product1" class="w-full h-full cursor-pointer" />
+                            </div>
+                            <div class="w-20 h-20 max-lg:w-16 max-lg:h-16 bg-[#fff2c9] p-3 rounded-lg">
+                                <img src="https://readymadeui.com/images/coffee3.webp" alt="Product1" class="w-full h-full cursor-pointer" />
+                            </div>
+                            <div class="w-20 h-20 max-lg:w-16 max-lg:h-16 bg-[#fff2c9] p-3 rounded-lg">
+                                <img src="https://readymadeui.com/images/coffee4.webp" alt="Product1" class="w-full h-full cursor-pointer" />
+                            </div>
+                            <div class="w-20 h-20 max-lg:w-16 max-lg:h-16 bg-[#fff2c9] p-3 rounded-lg">
+                                <img src="https://readymadeui.com/images/coffee5.webp" alt="Product1" class="w-full h-full cursor-pointer" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-2">
+                        <h2 class="text-2xl font-bold text-gray-800">Espresso Elegante | Coffee</h2>
+                        <div class="flex flex-wrap gap-4 mt-4">
+                            <p class="text-gray-800 text-xl font-bold">$12</p>
+                            <p class="text-gray-400 text-xl"><del>$16</del> <span class="text-sm ml-1">Tax included</span></p>
+                        </div>
+
+                        <div class="flex space-x-2 mt-4">
+                            <svg class="w-5 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-5 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-5 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-5 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                            <svg class="w-5 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                            </svg>
+                        </div>
+
+                        <div class="mt-8">
+                            <h3 class="text-xl font-bold text-gray-800">About the coffee</h3>
+                            <ul class="space-y-3 list-disc mt-4 pl-4 text-sm text-gray-800">
+                                <li>A cup of coffee is a beverage essential because of its timeless appeal</li>
+                                <li>Easy to prepare. It can be brewed using various methods, from drip machines to manual pour-overs.</li>
+                                <li>Available in various sizes, from a standard espresso shot to a large Americano, catering to different preferences.</li>
+                                <li>You can customize your coffee by adding cream, sugar, or flavorings to suit your taste preferences.</li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="w-full mt-8 px-6 py-3 bg-orange-400 hover:bg-orange-500 text-white text-sm font-semibold rounded-md">Add to cart</button>
+
+                        <div class="mt-8">
+                            <h3 class="text-xl font-bold text-gray-800">Reviews(10)</h3>
+                            <div class="space-y-3 mt-4">
+                                <div class="flex items-center">
+                                    <p class="text-sm text-gray-800 font-bold">5.0</p>
+                                    <svg class="w-5 fill-orange-400 ml-1" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    <div class="bg-gray-300 rounded w-full h-2 ml-3">
+                                        <div class="w-2/3 h-full rounded bg-orange-400"></div>
+                                    </div>
+                                    <p class="text-sm text-gray-800 font-bold ml-3">66%</p>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <p class="text-sm text-gray-800 font-bold">4.0</p>
+                                    <svg class="w-5 fill-orange-400 ml-1" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    <div class="bg-gray-300 rounded w-full h-2 ml-3">
+                                        <div class="w-1/3 h-full rounded bg-orange-400"></div>
+                                    </div>
+                                    <p class="text-sm text-gray-800 font-bold ml-3">33%</p>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <p class="text-sm text-gray-800 font-bold">3.0</p>
+                                    <svg class="w-5 fill-orange-400 ml-1" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    <div class="bg-gray-300 rounded w-full h-2 ml-3">
+                                        <div class="w-1/6 h-full rounded bg-orange-400"></div>
+                                    </div>
+                                    <p class="text-sm text-gray-800 font-bold ml-3">16%</p>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <p class="text-sm text-gray-800 font-bold">2.0</p>
+                                    <svg class="w-5 fill-orange-400 ml-1" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    <div class="bg-gray-300 rounded w-full h-2 ml-3">
+                                        <div class="w-1/12 h-full rounded bg-orange-400"></div>
+                                    </div>
+                                    <p class="text-sm text-gray-800 font-bold ml-3">8%</p>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <p class="text-sm text-gray-800 font-bold">1.0</p>
+                                    <svg class="w-5 fill-orange-400 ml-1" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    <div class="bg-gray-300 rounded w-full h-2 ml-3">
+                                        <div class="w-[6%] h-full rounded bg-orange-400"></div>
+                                    </div>
+                                    <p class="text-sm text-gray-800 font-bold ml-3">6%</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start mt-8">
+                                <img src="https://readymadeui.com/team-2.webp" class="w-12 h-12 rounded-full border-2 border-white" />
+                                <div class="ml-3">
+                                    <h4 class="text-sm font-bold">John Doe</h4>
+                                    <div class="flex space-x-1 mt-1">
+                                        <svg class="w-4 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                        </svg>
+                                        <svg class="w-4 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                        </svg>
+                                        <svg class="w-4 fill-orange-400" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                        </svg>
+                                        <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                        </svg>
+                                        <svg class="w-4 fill-[#CED5D8]" viewBox="0 0 14 13" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                        </svg>
+                                        <p class="text-xs !ml-2 font-semibold">2 mins ago</p>
+                                    </div>
+                                    <p class="text-xs mt-4">The service was amazing. I never had to wait that long for my food. The staff was friendly and attentive, and the delivery was impressively prompt.</p>
+                                </div>
+                            </div>
+                            <button type="button" class="w-full mt-8 px-4 py-2.5 bg-transparent border border-orange-400 text-gray-800 font-semibold rounded-lg">Read all reviews</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 3,
+        image: "/productView-block.dark-3.png",
+        demoUrl: "/demos/product-view-3",
+        code: `
+ <div class="w-full bg-white">
+       <div class="font-sans">
+            <div class="p-4 lg:max-w-6xl max-w-2xl max-lg:mx-auto">
+                <div class="grid items-start grid-cols-1 lg:grid-cols-2 gap-8 max-lg:gap-16">
+                    <div class="w-full lg:sticky top-0 text-center">
+                        <div class="lg:h-[560px]">
+                            <img src="https://readymadeui.com/images/product6.webp" alt="Product" class="lg:w-11/12 w-full h-full rounded-md object-cover object-top" />
+                        </div>
+
+                        <div class="flex flex-wrap gap-4 justify-center mx-auto mt-4">
+                            <img src="https://readymadeui.com/images/product6.webp" alt="Product1" class="w-16 cursor-pointer rounded-md outline" />
+                            <img src="https://readymadeui.com/images/product8.webp" alt="Product2" class="w-16 cursor-pointer rounded-md" />
+                            <img src="https://readymadeui.com/images/product5.webp" alt="Product3" class="w-16 cursor-pointer rounded-md" />
+                            <img src="https://readymadeui.com/images/product7.webp" alt="Product4" class="w-16 cursor-pointer rounded-md" />
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex flex-wrap items-start gap-4">
+                            <div>
+                                <h2 class="text-2xl font-bold text-gray-800">Adjective Attire | T-shirt</h2>
+                                <p class="text-sm text-gray-500 mt-2">Well-Versed Commerce</p>
+                            </div>
+
+                            <div class="ml-auto flex flex-wrap gap-4">
+                                <button type="button" class="px-2.5 py-1.5 bg-pink-100 text-xs text-pink-600 rounded-md flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="currentColor" class="mr-1" viewBox="0 0 64 64">
+                                        <path d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z" data-original="#000000"></path>
+                                    </svg>
+                                    100
+                                </button>
+                                <button type="button" class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded-md flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12px" fill="currentColor" viewBox="0 0 512 512">
+                                        <path d="M453.332 85.332c0 38.293-31.039 69.336-69.332 69.336s-69.332-31.043-69.332-69.336C314.668 47.043 345.707 16 384 16s69.332 31.043 69.332 69.332zm0 0" data-original="#000000" />
+                                        <path d="M384 170.668c-47.063 0-85.332-38.273-85.332-85.336C298.668 38.273 336.938 0 384 0s85.332 38.273 85.332 85.332c0 47.063-38.27 85.336-85.332 85.336zM384 32c-29.418 0-53.332 23.938-53.332 53.332 0 29.398 23.914 53.336 53.332 53.336s53.332-23.938 53.332-53.336C437.332 55.938 413.418 32 384 32zm69.332 394.668C453.332 464.957 422.293 496 384 496s-69.332-31.043-69.332-69.332c0-38.293 31.039-69.336 69.332-69.336s69.332 31.043 69.332 69.336zm0 0" data-original="#000000" />
+                                        <path d="M384 512c-47.063 0-85.332-38.273-85.332-85.332 0-47.063 38.27-85.336 85.332-85.336s85.332 38.273 85.332 85.336c0 47.059-38.27 85.332-85.332 85.332zm0-138.668c-29.418 0-53.332 23.938-53.332 53.336C330.668 456.063 354.582 480 384 480s53.332-23.938 53.332-53.332c0-29.398-23.914-53.336-53.332-53.336zM154.668 256c0 38.293-31.043 69.332-69.336 69.332C47.043 325.332 16 294.293 16 256s31.043-69.332 69.332-69.332c38.293 0 69.336 31.039 69.336 69.332zm0 0" data-original="#000000" />
+                                        <path d="M85.332 341.332C38.273 341.332 0 303.062 0 256s38.273-85.332 85.332-85.332c47.063 0 85.336 38.27 85.336 85.332s-38.273 85.332-85.336 85.332zm0-138.664C55.914 202.668 32 226.602 32 256s23.914 53.332 53.332 53.332c29.422 0 53.336-23.934 53.336-53.332s-23.914-53.332-53.336-53.332zm0 0" data-original="#000000" />
+                                        <path d="M135.703 245.762c-7.426 0-14.637-3.864-18.562-10.774-5.825-10.218-2.239-23.254 7.98-29.101l197.95-112.852c10.218-5.867 23.253-2.281 29.1 7.977 5.825 10.218 2.24 23.254-7.98 29.101L146.238 242.965a21.195 21.195 0 0 1-10.535 2.797zm197.93 176c-3.586 0-7.211-.899-10.54-2.797L125.142 306.113c-10.22-5.824-13.801-18.86-7.977-29.101 5.8-10.239 18.856-13.844 29.098-7.977l197.953 112.852c10.219 5.824 13.8 18.86 7.976 29.101-3.945 6.91-11.156 10.774-18.558 10.774zm0 0" data-original="#000000" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <hr class="my-8" />
+
+                        <div class="flex flex-wrap gap-4 items-start">
+                            <div>
+                                <p class="text-gray-800 text-4xl font-bold">$30</p>
+                                <p class="text-gray-500 text-sm mt-2"><del>$42</del> <span class="text-sm ml-1">Tax included</span></p>
+                            </div>
+
+                            <div class="flex flex-wrap gap-4 ml-auto">
+                                <button type="button" class="px-2.5 py-1.5 bg-pink-100 text-xs text-pink-600 rounded-md flex items-center">
+                                    <svg class="w-3 mr-1" fill="currentColor" viewBox="0 0 14 13"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                                    </svg>
+                                    4.8
+                                </button>
+                                <button type="button" class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded-md flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-3 mr-1" fill="currentColor" viewBox="0 0 32 32">
+                                        <path d="M14.236 21.954h-3.6c-.91 0-1.65-.74-1.65-1.65v-7.201c0-.91.74-1.65 1.65-1.65h3.6a.75.75 0 0 1 .75.75v9.001a.75.75 0 0 1-.75.75zm-3.6-9.001a.15.15 0 0 0-.15.15v7.2a.15.15 0 0 0 .15.151h2.85v-7.501z" data-original="#000000" />
+                                        <path d="M20.52 21.954h-6.284a.75.75 0 0 1-.75-.75v-9.001c0-.257.132-.495.348-.633.017-.011 1.717-1.118 2.037-3.25.18-1.184 1.118-2.089 2.28-2.201a2.557 2.557 0 0 1 2.17.868c.489.56.71 1.305.609 2.042a9.468 9.468 0 0 1-.678 2.424h.943a2.56 2.56 0 0 1 1.918.862c.483.547.708 1.279.617 2.006l-.675 5.401a2.565 2.565 0 0 1-2.535 2.232zm-5.534-1.5h5.533a1.06 1.06 0 0 0 1.048-.922l.675-5.397a1.046 1.046 0 0 0-1.047-1.182h-2.16a.751.751 0 0 1-.648-1.13 8.147 8.147 0 0 0 1.057-3 1.059 1.059 0 0 0-.254-.852 1.057 1.057 0 0 0-.795-.365c-.577.052-.964.435-1.04.938-.326 2.163-1.71 3.507-2.369 4.036v7.874z" data-original="#000000" />
+                                        <path d="M4 31.75a.75.75 0 0 1-.612-1.184c1.014-1.428 1.643-2.999 1.869-4.667.032-.241.055-.485.07-.719A14.701 14.701 0 0 1 1.25 15C1.25 6.867 7.867.25 16 .25S30.75 6.867 30.75 15 24.133 29.75 16 29.75a14.57 14.57 0 0 1-5.594-1.101c-2.179 2.045-4.61 2.81-6.281 3.09A.774.774 0 0 1 4 31.75zm12-30C8.694 1.75 2.75 7.694 2.75 15c0 3.52 1.375 6.845 3.872 9.362a.75.75 0 0 1 .217.55c-.01.373-.042.78-.095 1.186A11.715 11.715 0 0 1 5.58 29.83a10.387 10.387 0 0 0 3.898-2.37l.231-.23a.75.75 0 0 1 .84-.153A13.072 13.072 0 0 0 16 28.25c7.306 0 13.25-5.944 13.25-13.25S23.306 1.75 16 1.75z" data-original="#000000" />
+                                    </svg>
+                                    87 Reviews
+                                </button>
+                            </div>
+                        </div>
+
+                        <hr class="my-8" />
+
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Choose a Size</h3>
+                            <div class="flex flex-wrap gap-4 mt-4">
+                                <button type="button" class="w-10 h-10 border hover:border-gray-800 font-semibold text-sm rounded-md flex items-center justify-center shrink-0">SM</button>
+                                <button type="button" class="w-10 h-10 border hover:border-gray-800 border-gray-800 font-semibold text-sm rounded-md flex items-center justify-center shrink-0">MD</button>
+                                <button type="button" class="w-10 h-10 border hover:border-gray-800 font-semibold text-sm rounded-md flex items-center justify-center shrink-0">LG</button>
+                                <button type="button" class="w-10 h-10 border hover:border-gray-800 font-semibold text-sm rounded-md flex items-center justify-center shrink-0">XL</button>
+                            </div>
+                        </div>
+
+                        <hr class="my-8" />
+
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Choose a Color</h3>
+                            <div class="flex flex-wrap gap-4 mt-4">
+                                <button type="button" class="w-10 h-10 bg-black border border-white hover:border-gray-800 rounded-md shrink-0"></button>
+                                <button type="button" class="w-10 h-10 bg-gray-400 border border-white hover:border-gray-800 rounded-md shrink-0"></button>
+                                <button type="button" class="w-10 h-10 bg-orange-400 border border-white hover:border-gray-800 rounded-md shrink-0"></button>
+                                <button type="button" class="w-10 h-10 bg-red-400 border border-white hover:border-gray-800 rounded-md shrink-0"></button>
+                            </div>
+                        </div>
+
+                        <hr class="my-8" />
+
+                        <div class="flex flex-wrap gap-4">
+                            <button type="button" class="min-w-[200px] px-4 py-3 bg-gray-800 hover:bg-gray-900 text-white text-sm font-semibold rounded-md">Buy now</button>
+                            <button type="button" class="min-w-[200px] px-4 py-2.5 border border-gray-800 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded-md">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-20 max-w-4xl">
+                    <ul class="flex border-b">
+                        <li
+                            class="text-gray-800 font-semibold text-sm bg-gray-100 py-3 px-8 border-b-2 border-gray-800 cursor-pointer transition-all">
+                            Description</li>
+                        <li class="text-gray-500 font-semibold text-sm hover:bg-gray-100 py-3 px-8 cursor-pointer transition-all">Reviews</li>
+                    </ul>
+
+                    <div class="mt-8">
+                        <h3 class="text-xl font-bold text-gray-800">Product Description</h3>
+                        <p class="text-sm text-gray-500 mt-4">Elevate your casual style with our premium men's t-shirt. Crafted for comfort and designed with a modern fit, this versatile shirt is an essential addition to your wardrobe. The soft and breathable fabric ensures all-day comfort, making it perfect for everyday wear. Its classic crew neck and short sleeves offer a timeless look.</p>
+                    </div>
+
+                    <ul class="space-y-3 list-disc mt-6 pl-4 text-sm text-gray-500">
+                        <li>A gray t-shirt is a wardrobe essential because it is so versatile.</li>
+                        <li>Available in a wide range of sizes, from extra small to extra large, and even in tall and petite sizes.</li>
+                        <li>This is easy to care for. They can usually be machine-washed and dried on low heat.</li>
+                        <li>You can add your own designs, paintings, or embroidery to make it your own.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 4,
+        image: "/productView-block.dark-4.png",
+        demoUrl: "/demos/product-view-4",
+        code: `
+       <div class="font-sans bg-gray-700">
+        <div class="p-4 lg:max-w-7xl max-w-2xl max-lg:mx-auto">
+          <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-12">
+            <div class="lg:col-span-3 w-full lg:sticky top-0 text-center">
+              <div class="bg-gray-800 px-4 py-12 rounded-xl">
+                <img
+                  src="https://readymadeui.com/images/coffee2.webp"
+                  alt="Product"
+                  class="w-9/12 rounded object-cover mx-auto"
+                />
+              </div>
+
+              <div class="mt-4 flex flex-wrap justify-center gap-4 mx-auto">
+                <div class="w-[90px] h-20 flex items-cemter justify-center bg-gray-800 rounded-xl p-4 cursor-pointer">
+                  <img
+                    src="https://readymadeui.com/images/coffee3.webp"
+                    alt="Product2"
+                    class="w-full object-contain"
+                  />
+                </div>
+                <div class="w-[90px] h-20 flex items-cemter justify-center bg-gray-800 rounded-xl p-4 cursor-pointer">
+                  <img
+                    src="https://readymadeui.com/images/coffee4.webp"
+                    alt="Product2"
+                    class="w-full object-contain"
+                  />
+                </div>
+                <div class="w-[90px] h-20 flex items-cemter justify-center bg-gray-800 rounded-xl p-4 cursor-pointer">
+                  <img
+                    src="https://readymadeui.com/images/coffee5.webp"
+                    alt="Product2"
+                    class="w-full object-contain"
+                  />
+                </div>
+                <div class="w-[90px] h-20 flex items-cemter justify-center bg-gray-800 rounded-xl p-4 cursor-pointer">
+                  <img
+                    src="https://readymadeui.com/images/coffee6.webp"
+                    alt="Product2"
+                    class="w-full object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2">
+              <h2 class="text-3xl font-semibold text-white">
+                Espresso Elegante | Coffee
+              </h2>
+
+              <div class="flex space-x-2 mt-4">
+                <svg
+                  class="w-[18px] fill-yellow-300"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-[18px] fill-yellow-300"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-[18px] fill-yellow-300"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-[18px] fill-yellow-300"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-[18px] fill-[#CED5D8]"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <h4 class="text-white text-base">500 Reviews</h4>
+              </div>
+
+              <div class="flex flex-wrap gap-4 mt-8">
+                <p class="text-white text-4xl font-semibold">$12</p>
+                <p class="text-gray-400 text-base">
+                  <del>$16</del>
+                  <span class="text-sm ml-1">Tax included</span>
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-4 mt-8">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3 bg-yellow-300 hover:bg-yellow-400 text-black text-sm font-semibold rounded"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-2.5 border border-yellow-300 bg-transparent text-yellow-300 text-sm font-semibold rounded"
+                >
+                  Add to cart
+                </button>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-semibold text-white">
+                  About the coffee
+                </h3>
+                <ul class="space-y-3 list-disc mt-4 pl-4 text-sm text-white">
+                  <li>
+                    A cup of coffee is a beverage essential because of its
+                    timeless appeal
+                  </li>
+                  <li>
+                    Easy to prepare. It can be brewed using various methods,
+                    from drip machines to manual pour-overs.
+                  </li>
+                  <li>
+                    Available in various sizes, from a standard espresso shot to
+                    a large Americano, catering to different preferences.
+                  </li>
+                  <li>
+                    You can customize your coffee by adding cream, sugar, or
+                    flavorings to suit your taste preferences.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="mt-8">
+                <ul class="flex">
+                  <li class="text-white font-semibold text-sm bg-gray-800 py-3 px-8 border-b-2 border-yellow-300 cursor-pointer transition-all">
+                    Reviews
+                  </li>
+                  <li class="text-white font-semibold text-sm py-3 px-8 cursor-pointer">
+                    Sellter
+                  </li>
+                </ul>
+
+                <div class="mt-8">
+                  <h3 class="text-xl font-semibold text-white">
+                    Reviews(10)
+                  </h3>
+
+                  <div class="space-y-3 mt-4">
+                    <div class="flex items-center">
+                      <p class="text-sm text-white font-semibold">5.0</p>
+                      <svg
+                        class="w-5 fill-yellow-300 ml-1"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <div class="bg-gray-400 rounded w-full h-2 ml-3">
+                        <div class="w-2/3 h-full rounded bg-yellow-300"></div>
+                      </div>
+                      <p class="text-sm text-white font-semibold ml-3">
+                        66%
+                      </p>
+                    </div>
+
+                    <div class="flex items-center">
+                      <p class="text-sm text-white font-semibold">4.0</p>
+                      <svg
+                        class="w-5 fill-yellow-300 ml-1"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <div class="bg-gray-400 rounded w-full h-2 ml-3">
+                        <div class="w-1/3 h-full rounded bg-yellow-300"></div>
+                      </div>
+                      <p class="text-sm text-white font-semibold ml-3">
+                        33%
+                      </p>
+                    </div>
+
+                    <div class="flex items-center">
+                      <p class="text-sm text-white font-semibold">3.0</p>
+                      <svg
+                        class="w-5 fill-yellow-300 ml-1"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <div class="bg-gray-400 rounded w-full h-2 ml-3">
+                        <div class="w-1/6 h-full rounded bg-yellow-300"></div>
+                      </div>
+                      <p class="text-sm text-white font-semibold ml-3">
+                        16%
+                      </p>
+                    </div>
+
+                    <div class="flex items-center">
+                      <p class="text-sm text-white font-semibold">2.0</p>
+                      <svg
+                        class="w-5 fill-yellow-300 ml-1"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <div class="bg-gray-400 rounded w-full h-2 ml-3">
+                        <div class="w-1/12 h-full rounded bg-yellow-300"></div>
+                      </div>
+                      <p class="text-sm text-white font-semibold ml-3">
+                        8%
+                      </p>
+                    </div>
+
+                    <div class="flex items-center">
+                      <p class="text-sm text-white font-semibold">1.0</p>
+                      <svg
+                        class="w-5 fill-yellow-300 ml-1"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <div class="bg-gray-400 rounded w-full h-2 ml-3">
+                        <div class="w-[6%] h-full rounded bg-yellow-300"></div>
+                      </div>
+                      <p class="text-sm text-white font-semibold ml-3">
+                        6%
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex items-start mt-8">
+                  <img
+                    src="https://readymadeui.com/team-2.webp"
+                    class="w-12 h-12 rounded-full border-2 border-white"
+                  />
+
+                  <div class="ml-3">
+                    <h4 class="text-sm font-semibold text-white">
+                      John Doe
+                    </h4>
+                    <div class="flex space-x-1 mt-1">
+                      <svg
+                        class="w-4 fill-yellow-300"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <svg
+                        class="w-4 fill-yellow-300"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <svg
+                        class="w-4 fill-yellow-300"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <svg
+                        class="w-4 fill-[#CED5D8]"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <svg
+                        class="w-4 fill-[#CED5D8]"
+                        viewBox="0 0 14 13"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                      </svg>
+                      <p class="text-xs !ml-2 font-semibold text-white">
+                        2 mins ago
+                      </p>
+                    </div>
+                    <p class="text-xs mt-4 text-white">
+                      The service was amazing. I never had to wait that long for
+                      my food. The staff was friendly and attentive, and the
+                      delivery was impressively prompt.
+                    </p>
+                  </div>
+                </div>
+
+                <button
+                  type="button"
+                  class="w-full mt-8 px-4 py-2.5 bg-transparent border border-yellow-300 text-yellow-300 font-semibold rounded"
+                >
+                  Read all reviews
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 5,
+        image: "/productView-block.dark-5.png",
+        demoUrl: "/demos/product-view-5",
+        code: `
+ <div className="w-full bg-white">
+        <div className="font-sans bg-white">
+          <div className="p-4 lg:max-w-7xl max-w-4xl mx-auto">
+            <div className="grid items-start grid-cols-1 lg:grid-cols-5 gap-12 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6 rounded-lg">
+              <div className="lg:col-span-3 w-full lg:sticky top-0 text-center">
+                <div className="px-4 py-10 rounded-lg shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] relative">
+                  <img
+                    src="https://readymadeui.com/images/laptop5.webp"
+                    alt="Product"
+                    className="w-3/4 rounded object-cover mx-auto"
+                  />
+                  <button type="button" className="absolute top-4 right-4">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20px"
+                      fill="#ccc"
+                      className="mr-1 hover:fill-[#333]"
+                      viewBox="0 0 64 64"
+                    >
+                      <path
+                        d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <div className="mt-6 flex flex-wrap justify-center gap-6 mx-auto">
+                  <div className="w-24 h-20 flex items-center justify-center rounded-lg p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] cursor-pointer">
+                    <img
+                      src="https://readymadeui.com/images/laptop2.webp"
+                      alt="Product2"
+                      className="w-full"
+                    />
+                  </div>
+                  <div className="w-24 h-20 flex items-center justify-center rounded-lg p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] cursor-pointer">
+                    <img
+                      src="https://readymadeui.com/images/laptop3.webp"
+                      alt="Product2"
+                      className="w-full"
+                    />
+                  </div>
+                  <div className="w-24 h-20 flex items-center justify-center rounded-lg p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] cursor-pointer">
+                    <img
+                      src="https://readymadeui.com/images/laptop4.webp"
+                      alt="Product2"
+                      className="w-full"
+                    />
+                  </div>
+                  <div className="w-24 h-20 flex items-center justify-center rounded-lg p-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] cursor-pointer">
+                    <img
+                      src="https://readymadeui.com/images/laptop5.webp"
+                      alt="Product2"
+                      className="w-full"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:col-span-2">
+                <h2 className="text-2xl font-extrabold text-gray-800">
+                  Acer Aspire Pro 12 | Laptop
+                </h2>
+
+                <div className="flex space-x-2 mt-4">
+                  <svg
+                    className="w-5 fill-blue-600"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    className="w-5 fill-blue-600"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    className="w-5 fill-blue-600"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    className="w-5 fill-blue-600"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    className="w-5 fill-[#CED5D8]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <h4 className="text-gray-800 text-base">500 Reviews</h4>
+                </div>
+
+                <div className="flex flex-wrap gap-4 mt-8">
+                  <p className="text-gray-800 text-3xl font-bold">$1200</p>
+                  <p className="text-gray-400 text-base">
+                    <del>$1500</del>{" "}
+                    <span className="text-sm ml-1">Tax included</span>
+                  </p>
+                </div>
+
+                <div className="mt-8">
+                  <h3 className="text-xl font-bold text-gray-800">
+                    Choose a Color
+                  </h3>
+                  <div className="flex flex-wrap gap-3 mt-4">
+                    <button
+                      type="button"
+                      className="w-10 h-10 bg-black border-2 border-white hover:border-gray-800 rounded-full shrink-0 transition-all"
+                    ></button>
+                    <button
+                      type="button"
+                      className="w-10 h-10 bg-gray-300 border-2 border-white hover:border-gray-800 rounded-full shrink-0 transition-all"
+                    ></button>
+                    <button
+                      type="button"
+                      className="w-10 h-10 bg-gray-100 border-2 border-white hover:border-gray-800 rounded-full shrink-0 transition-all"
+                    ></button>
+                    <button
+                      type="button"
+                      className="w-10 h-10 bg-blue-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0 transition-all"
+                    ></button>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-4 mt-8">
+                  <button
+                    type="button"
+                    className="min-w-[200px] px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded"
+                  >
+                    Buy now
+                  </button>
+                  <button
+                    type="button"
+                    className="min-w-[200px] px-4 py-2.5 border border-blue-600 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-16 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6">
+              <h3 className="text-xl font-bold text-gray-800">
+                Product information
+              </h3>
+              <ul className="mt-4 space-y-6 text-gray-800">
+                <li className="text-sm">
+                  TYPE <span className="ml-4 float-right">LAPTOP</span>
+                </li>
+                <li className="text-sm">
+                  RAM <span className="ml-4 float-right">16 BG</span>
+                </li>
+                <li className="text-sm">
+                  SSD <span className="ml-4 float-right">1000 BG</span>
+                </li>
+                <li className="text-sm">
+                  PROCESSOR TYPE{" "}
+                  <span className="ml-4 float-right">INTEL CORE I7-12700H</span>
+                </li>
+                <li className="text-sm">
+                  PROCESSOR SPEED{" "}
+                  <span className="ml-4 float-right">2.3 - 4.7 GHz</span>
+                </li>
+                <li className="text-sm">
+                  DISPLAY SIZE INCH{" "}
+                  <span className="ml-4 float-right">16.0</span>
+                </li>
+                <li className="text-sm">
+                  DISPLAY SIZE SM{" "}
+                  <span className="ml-4 float-right">40.64 cm</span>
+                </li>
+                <li className="text-sm">
+                  DISPLAY TYPE{" "}
+                  <span className="ml-4 float-right">
+                    OLED, TOUCHSCREEN, 120 Hz
+                  </span>
+                </li>
+                <li className="text-sm">
+                  DISPLAY RESOLUTION{" "}
+                  <span className="ml-4 float-right">2880x1620</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="mt-16 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-6">
+              <h3 className="text-xl font-bold text-gray-800">Reviews(10)</h3>
+              <div className="grid md:grid-cols-2 gap-12 mt-4">
+                <div className="space-y-3">
+                  <div className="flex items-center">
+                    <p className="text-sm text-gray-800 font-bold">5.0</p>
+                    <svg
+                      className="w-5 fill-blue-600 ml-1"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div className="bg-gray-400 rounded w-full h-2 ml-3">
+                      <div className="w-2/3 h-full rounded bg-blue-600"></div>
+                    </div>
+                    <p className="text-sm text-gray-800 font-bold ml-3">66%</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <p className="text-sm text-gray-800 font-bold">4.0</p>
+                    <svg
+                      className="w-5 fill-blue-600 ml-1"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div className="bg-gray-400 rounded w-full h-2 ml-3">
+                      <div className="w-1/3 h-full rounded bg-blue-600"></div>
+                    </div>
+                    <p className="text-sm text-gray-800 font-bold ml-3">33%</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <p className="text-sm text-gray-800 font-bold">3.0</p>
+                    <svg
+                      className="w-5 fill-blue-600 ml-1"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div className="bg-gray-400 rounded w-full h-2 ml-3">
+                      <div className="w-1/6 h-full rounded bg-blue-600"></div>
+                    </div>
+                    <p className="text-sm text-gray-800 font-bold ml-3">16%</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <p className="text-sm text-gray-800 font-bold">2.0</p>
+                    <svg
+                      className="w-5 fill-blue-600 ml-1"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div className="bg-gray-400 rounded w-full h-2 ml-3">
+                      <div className="w-1/12 h-full rounded bg-blue-600"></div>
+                    </div>
+                    <p className="text-sm text-gray-800 font-bold ml-3">8%</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <p className="text-sm text-gray-800 font-bold">1.0</p>
+                    <svg
+                      className="w-5 fill-blue-600 ml-1"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <div className="bg-gray-400 rounded w-full h-2 ml-3">
+                      <div className="w-[6%] h-full rounded bg-blue-600"></div>
+                    </div>
+                    <p className="text-sm text-gray-800 font-bold ml-3">6%</p>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="flex items-start">
+                    <img
+                      src="https://readymadeui.com/team-2.webp"
+                      className="w-12 h-12 rounded-full border-2 border-white"
+                    />
+                    <div className="ml-3">
+                      <h4 className="text-sm font-bold text-gray-800">
+                        John Doe
+                      </h4>
+                      <div className="flex space-x-1 mt-1">
+                        <svg
+                          className="w-4 fill-blue-600"
+                          viewBox="0 0 14 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                        </svg>
+                        <svg
+                          className="w-4 fill-blue-600"
+                          viewBox="0 0 14 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                        </svg>
+                        <svg
+                          className="w-4 fill-blue-600"
+                          viewBox="0 0 14 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                        </svg>
+                        <svg
+                          className="w-4 fill-[#CED5D8]"
+                          viewBox="0 0 14 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                        </svg>
+                        <svg
+                          className="w-4 fill-[#CED5D8]"
+                          viewBox="0 0 14 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                        </svg>
+                        <p className="text-xs !ml-2 font-semibold text-gray-800">
+                          2 mins ago
+                        </p>
+                      </div>
+                      <p className="text-sm mt-4 text-gray-800">
+                        Lorem ipsum dolor sit amet, consectetur adipisci elit,
+                        sed eiusmod tempor incidunt ut labore et dolore magna
+                        aliqua.
+                      </p>
+                    </div>
+                  </div>
+
+                  <button
+                    type="button"
+                    className="w-full mt-10 px-4 py-2.5 bg-transparent hover:bg-gray-50 border border-blue-600 text-gray-800 font-bold rounded"
+                  >
+                    Read all reviews
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 6,
+        image: "/productView-block.dark-6.png",
+        demoUrl: "/demos/product-view-6",
+        code: `
+      <div class="w-full bg-white">
+        <div class="font-sans">
+          <div class="grid items-start grid-cols-1 md:grid-cols-2 p-4 gap-12 max-w-6xl mx-auto">
+            <div class="grid grid-cols-2 md:sticky top-0 gap-3">
+              <div>
+                <img
+                  src="https://readymadeui.com/images/product6.webp"
+                  alt="Product"
+                  class="w-full h-full object-cover object-top rounded-md"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://readymadeui.com/images/product8.webp"
+                  alt="Product"
+                  class="w-full h-full object-cover object-top rounded-md"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://readymadeui.com/images/product5.webp"
+                  alt="Product"
+                  class="w-full h-full object-cover object-top rounded-md"
+                />
+              </div>
+              <div>
+                <img
+                  src="https://readymadeui.com/images/product7.webp"
+                  alt="Product"
+                  class="w-full h-full object-cover object-top rounded-md"
+                />
+              </div>
+            </div>
+
+            <div class="max-lg:max-w-2xl">
+              <div>
+                <h2 class="text-2xl font-extrabold text-gray-800">
+                  Adjective Attire | T-shirt
+                </h2>
+                <p class="text-sm text-gray-500 mt-2">
+                  Well-Versed Commerce
+                </p>
+              </div>
+
+              <div class="flex space-x-1 mt-4">
+                <svg
+                  class="w-5 fill-orange-500"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-orange-500"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-orange-500"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-orange-500"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-[#CED5D8]"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <button
+                  type="button"
+                  class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded-md flex items-center !ml-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-3 mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M14.236 21.954h-3.6c-.91 0-1.65-.74-1.65-1.65v-7.201c0-.91.74-1.65 1.65-1.65h3.6a.75.75 0 0 1 .75.75v9.001a.75.75 0 0 1-.75.75zm-3.6-9.001a.15.15 0 0 0-.15.15v7.2a.15.15 0 0 0 .15.151h2.85v-7.501z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M20.52 21.954h-6.284a.75.75 0 0 1-.75-.75v-9.001c0-.257.132-.495.348-.633.017-.011 1.717-1.118 2.037-3.25.18-1.184 1.118-2.089 2.28-2.201a2.557 2.557 0 0 1 2.17.868c.489.56.71 1.305.609 2.042a9.468 9.468 0 0 1-.678 2.424h.943a2.56 2.56 0 0 1 1.918.862c.483.547.708 1.279.617 2.006l-.675 5.401a2.565 2.565 0 0 1-2.535 2.232zm-5.534-1.5h5.533a1.06 1.06 0 0 0 1.048-.922l.675-5.397a1.046 1.046 0 0 0-1.047-1.182h-2.16a.751.751 0 0 1-.648-1.13 8.147 8.147 0 0 0 1.057-3 1.059 1.059 0 0 0-.254-.852 1.057 1.057 0 0 0-.795-.365c-.577.052-.964.435-1.04.938-.326 2.163-1.71 3.507-2.369 4.036v7.874z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M4 31.75a.75.75 0 0 1-.612-1.184c1.014-1.428 1.643-2.999 1.869-4.667.032-.241.055-.485.07-.719A14.701 14.701 0 0 1 1.25 15C1.25 6.867 7.867.25 16 .25S30.75 6.867 30.75 15 24.133 29.75 16 29.75a14.57 14.57 0 0 1-5.594-1.101c-2.179 2.045-4.61 2.81-6.281 3.09A.774.774 0 0 1 4 31.75zm12-30C8.694 1.75 2.75 7.694 2.75 15c0 3.52 1.375 6.845 3.872 9.362a.75.75 0 0 1 .217.55c-.01.373-.042.78-.095 1.186A11.715 11.715 0 0 1 5.58 29.83a10.387 10.387 0 0 0 3.898-2.37l.231-.23a.75.75 0 0 1 .84-.153A13.072 13.072 0 0 0 16 28.25c7.306 0 13.25-5.944 13.25-13.25S23.306 1.75 16 1.75z"
+                      data-original="#000000"
+                    />
+                  </svg>
+                  87 Reviews
+                </button>
+              </div>
+
+              <div class="mt-8">
+                <p class="text-gray-800 text-4xl font-bold">$30</p>
+                <p class="text-gray-500 text-sm mt-2">
+                  <del>$42</del>{" "}
+                  <span class="text-sm ml-1">Tax included</span>
+                </p>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">
+                  Choose a Color
+                </h3>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-gray-800 border border-orange-500 hover:border-orange-500 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-gray-400 border border-white hover:border-orange-500 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-orange-400 border border-white hover:border-orange-500 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-red-400 border border-white hover:border-orange-500 rounded-full shrink-0"
+                  ></button>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">
+                  Choose a Size
+                </h3>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-orange-500 font-semibold text-gray-800 text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    SM
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-orange-500 border-orange-500 font-semibold text-gray-800 text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    MD
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-orange-500 font-semibold text-gray-800 text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    LG
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-orange-500 font-semibold text-gray-800 text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    XL
+                  </button>
+                </div>
+              </div>
+
+              <div class="mt-8 space-y-4 max-w-xs">
+                <button
+                  type="button"
+                  class="w-full px-4 py-3 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded-md"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="w-full px-4 py-2.5 border border-orange-500 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded-md"
+                >
+                  Add to cart
+                </button>
+              </div>
+
+              <div class="mt-8">
+                <div>
+                  <h3 class="text-xl font-bold text-gray-800">
+                    Product Description
+                  </h3>
+                  <p class="text-sm text-gray-500 mt-4">
+                   Elevate your casual style with our premium men's t-shirt.
+                    Crafted for comfort and designed with a modern fit, this
+                    versatile shirt is an essential addition to your wardrobe.
+                    The soft and breathable fabric ensures all- day comfort,
+      making it perfect for everyday wear.Its classic crew neck
+                    and short sleeves offer a timeless look.
+                  </p>
+                </div>
+
+                <ul class="space-y-3 list-disc mt-4 pl-4 text-sm text-gray-500">
+                  <li>
+                    A t-shirt is a wardrobe essential because it is so
+                    versatile.
+                  </li>
+                  <li>
+                    Available in a wide range of sizes, from extra small to
+                    extra large, and even in tall and petite sizes.
+                  </li>
+                  <li>
+                    This is easy to care for. They can usually be machine-washed
+                    and dried on low heat.
+                  </li>
+                  <li>
+                    You can add your own designs, paintings, or embroidery to
+                    make it your own.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 7,
+        image: "/productView-block.dark-7.png",
+        demoUrl: "/demos/product-view-7",
+        code: `
+      <div class="w-full bg-white">
+        <div class="font-sans p-8 tracking-wide  max-lg:max-w-2xl mx-auto">
+          <div>
+            <h2 class="text-2xl font-extrabold text-gray-800">
+              Dark blue sneakers with white laces
+            </h2>
+            <p class="text-sm text-gray-600 mt-2">Well-Versed Commerce</p>
+          </div>
+
+          <div class="grid items-start grid-cols-1 lg:grid-cols-2 gap-10 mt-6">
+            <div>
+              <div class="flex gap-4 text-center">
+                <div class="bg-gray-100 p-4 flex items-center sm:h-[380px] rounded">
+                  <img
+                    src="https://readymadeui.com/images/product14.webp"
+                    alt="Product"
+                    class="w-full max-h-full object-contain object-top"
+                  />
+                </div>
+
+                <div class="space-y-4">
+                  <div class="bg-gray-100 p-4 flex items-center rounded sm:h-[182px]">
+                    <img
+                      src="https://readymadeui.com/images/product12.webp"
+                      alt="Product"
+                      class="w-full max-h-full object-contain object-top"
+                    />
+                  </div>
+
+                  <div class="bg-gray-100 p-4 flex items-center rounded sm:h-[182px]">
+                    <img
+                      src="https://readymadeui.com/images/product9.webp"
+                      alt="Product"
+                      class="w-full max-h-full object-contain object-top"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <ul class="flex border-b">
+                  <li class="text-gray-800 font-bold text-sm bg-gray-100 py-3 px-8 border-b-2 border-gray-800 cursor-pointer transition-all">
+                    Description
+                  </li>
+                  <li class="text-gray-600 font-bold text-sm hover:bg-gray-100 py-3 px-8 cursor-pointer transition-all">
+                    Reviews
+                  </li>
+                </ul>
+
+                <div class="mt-8">
+                  <h3 class="text-lg font-bold text-gray-800">
+                    Product Description
+                  </h3>
+                  <p class="text-sm text-gray-600 mt-4">
+                    Step up your footwear game with our premium men's shoes.
+                    Designed for comfort and crafted with a contemporary
+                    aesthetic, these versatile shoes are a must-have addition to
+                    your wardrobe. The supple and breathable materials ensure
+                    all-day comfort, making them perfect for everyday wear.
+                  </p>
+                </div>
+
+                <ul class="space-y-3 list-disc mt-6 pl-4 text-sm text-gray-600">
+                  <li>
+                    A pair of gray shoes is a wardrobe essential due to its
+                    versatility.
+                  </li>
+                  <li>
+                    Available in a wide range of sizes, from extra small to
+                    extra large, and even in tall and petite sizes.
+                  </li>
+                  <li>
+                    Easy to maintain, they can be machine-washed and dried on
+                    low heat.
+                  </li>
+                  <li>
+                    Personalize them with your own designs, patterns, or
+                    embellishments to make them uniquely yours.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="max-w-xl">
+              <p class="text-gray-800 text-3xl font-bold">$30</p>
+              <div class="flex space-x-1 mt-4">
+                <svg
+                  class="w-5 fill-gray-800"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-gray-800"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-gray-800"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-gray-800"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-[#CED5D8]"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+
+                <button
+                  type="button"
+                  class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded flex items-center !ml-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-3 mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M14.236 21.954h-3.6c-.91 0-1.65-.74-1.65-1.65v-7.201c0-.91.74-1.65 1.65-1.65h3.6a.75.75 0 0 1 .75.75v9.001a.75.75 0 0 1-.75.75zm-3.6-9.001a.15.15 0 0 0-.15.15v7.2a.15.15 0 0 0 .15.151h2.85v-7.501z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M20.52 21.954h-6.284a.75.75 0 0 1-.75-.75v-9.001c0-.257.132-.495.348-.633.017-.011 1.717-1.118 2.037-3.25.18-1.184 1.118-2.089 2.28-2.201a2.557 2.557 0 0 1 2.17.868c.489.56.71 1.305.609 2.042a9.468 9.468 0 0 1-.678 2.424h.943a2.56 2.56 0 0 1 1.918.862c.483.547.708 1.279.617 2.006l-.675 5.401a2.565 2.565 0 0 1-2.535 2.232zm-5.534-1.5h5.533a1.06 1.06 0 0 0 1.048-.922l.675-5.397a1.046 1.046 0 0 0-1.047-1.182h-2.16a.751.751 0 0 1-.648-1.13 8.147 8.147 0 0 0 1.057-3 1.059 1.059 0 0 0-.254-.852 1.057 1.057 0 0 0-.795-.365c-.577.052-.964.435-1.04.938-.326 2.163-1.71 3.507-2.369 4.036v7.874z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M4 31.75a.75.75 0 0 1-.612-1.184c1.014-1.428 1.643-2.999 1.869-4.667.032-.241.055-.485.07-.719A14.701 14.701 0 0 1 1.25 15C1.25 6.867 7.867.25 16 .25S30.75 6.867 30.75 15 24.133 29.75 16 29.75a14.57 14.57 0 0 1-5.594-1.101c-2.179 2.045-4.61 2.81-6.281 3.09A.774.774 0 0 1 4 31.75zm12-30C8.694 1.75 2.75 7.694 2.75 15c0 3.52 1.375 6.845 3.872 9.362a.75.75 0 0 1 .217.55c-.01.373-.042.78-.095 1.186A11.715 11.715 0 0 1 5.58 29.83a10.387 10.387 0 0 0 3.898-2.37l.231-.23a.75.75 0 0 1 .84-.153A13.072 13.072 0 0 0 16 28.25c7.306 0 13.25-5.944 13.25-13.25S23.306 1.75 16 1.75z"
+                      data-original="#000000"
+                    />
+                  </svg>
+                  87 Reviews
+                </button>
+              </div>
+
+              <hr class="my-8" />
+
+              <div>
+                <h3 class="text-lg font-bold text-gray-800">
+                  Choose a Size
+                </h3>
+                <div class="flex flex-wrap gap-4 mt-4">
+                  <button
+                    type="button"
+                    class="w-12 h-12 border-2 hover:border-gray-800 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    SM
+                  </button>
+                  <button
+                    type="button"
+                    class="w-12 h-12 border-2 hover:border-gray-800 border-gray-800 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    MD
+                  </button>
+                  <button
+                    type="button"
+                    class="w-12 h-12 border-2 hover:border-gray-800 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    LG
+                  </button>
+                  <button
+                    type="button"
+                    class="w-12 h-12 border-2 hover:border-gray-800 font-semibold text-sm rounded-full flex items-center justify-center shrink-0"
+                  >
+                    XL
+                  </button>
+                </div>
+              </div>
+
+              <hr class="my-8" />
+
+              <div class="flex flex-wrap gap-4">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3 bg-gray-800 hover:bg-gray-900 text-white text-sm font-semibold rounded"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-2.5 border border-gray-800 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded"
+                >
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 8,
+        image: "/productView-block.dark-8.png",
+        demoUrl: "/demos/product-view-8",
+        code: `
+      <div class="w-full bg-white">
+        <div class="font-sans p-8 tracking-wide max-lg:max-w-2xl mx-auto">
+          <div class="grid items-start grid-cols-1 lg:grid-cols-2 gap-10">
+            <div class="space-y-4 text-center lg:sticky top-8">
+              <div class="bg-gray-100 p-4 flex items-center sm:h-[380px] rounded-lg">
+                <img
+                  src="https://readymadeui.com/images/product14.webp"
+                  alt="Product"
+                  class="w-full max-h-full object-contain object-top"
+                />
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="bg-gray-100 p-4 flex items-center rounded-lg sm:h-[182px]">
+                  <img
+                    src="https://readymadeui.com/images/product12.webp"
+                    alt="Product"
+                    class="w-full max-h-full object-contain object-top"
+                  />
+                </div>
+
+                <div class="bg-gray-100 p-4 flex items-center rounded-lg sm:h-[182px]">
+                  <img
+                    src="https://readymadeui.com/images/product9.webp"
+                    alt="Product"
+                    class="w-full max-h-full object-contain object-top"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="max-w-xl">
+              <div>
+                <h2 class="text-2xl font-extrabold text-gray-800">
+                  Dark blue sneakers with white laces
+                </h2>
+                <p class="text-sm text-gray-600 mt-2">
+                  Well-Versed Commerce
+                </p>
+              </div>
+
+              <div class="flex space-x-1 mt-4">
+                <svg
+                  class="w-5 fill-yellow-400"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-yellow-400"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-yellow-400"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-yellow-400"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+                <svg
+                  class="w-5 fill-[#CED5D8]"
+                  viewBox="0 0 14 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                </svg>
+
+                <button
+                  type="button"
+                  class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded-lg flex items-center !ml-4"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-3 mr-1"
+                    fill="currentColor"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      d="M14.236 21.954h-3.6c-.91 0-1.65-.74-1.65-1.65v-7.201c0-.91.74-1.65 1.65-1.65h3.6a.75.75 0 0 1 .75.75v9.001a.75.75 0 0 1-.75.75zm-3.6-9.001a.15.15 0 0 0-.15.15v7.2a.15.15 0 0 0 .15.151h2.85v-7.501z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M20.52 21.954h-6.284a.75.75 0 0 1-.75-.75v-9.001c0-.257.132-.495.348-.633.017-.011 1.717-1.118 2.037-3.25.18-1.184 1.118-2.089 2.28-2.201a2.557 2.557 0 0 1 2.17.868c.489.56.71 1.305.609 2.042a9.468 9.468 0 0 1-.678 2.424h.943a2.56 2.56 0 0 1 1.918.862c.483.547.708 1.279.617 2.006l-.675 5.401a2.565 2.565 0 0 1-2.535 2.232zm-5.534-1.5h5.533a1.06 1.06 0 0 0 1.048-.922l.675-5.397a1.046 1.046 0 0 0-1.047-1.182h-2.16a.751.751 0 0 1-.648-1.13 8.147 8.147 0 0 0 1.057-3 1.059 1.059 0 0 0-.254-.852 1.057 1.057 0 0 0-.795-.365c-.577.052-.964.435-1.04.938-.326 2.163-1.71 3.507-2.369 4.036v7.874z"
+                      data-original="#000000"
+                    />
+                    <path
+                      d="M4 31.75a.75.75 0 0 1-.612-1.184c1.014-1.428 1.643-2.999 1.869-4.667.032-.241.055-.485.07-.719A14.701 14.701 0 0 1 1.25 15C1.25 6.867 7.867.25 16 .25S30.75 6.867 30.75 15 24.133 29.75 16 29.75a14.57 14.57 0 0 1-5.594-1.101c-2.179 2.045-4.61 2.81-6.281 3.09A.774.774 0 0 1 4 31.75zm12-30C8.694 1.75 2.75 7.694 2.75 15c0 3.52 1.375 6.845 3.872 9.362a.75.75 0 0 1 .217.55c-.01.373-.042.78-.095 1.186A11.715 11.715 0 0 1 5.58 29.83a10.387 10.387 0 0 0 3.898-2.37l.231-.23a.75.75 0 0 1 .84-.153A13.072 13.072 0 0 0 16 28.25c7.306 0 13.25-5.944 13.25-13.25S23.306 1.75 16 1.75z"
+                      data-original="#000000"
+                    />
+                  </svg>
+                  87 Reviews
+                </button>
+              </div>
+
+              <div class="mt-4">
+                <h3 class="text-gray-800 text-4xl font-bold">$30</h3>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800">
+                  Choose a Size
+                </h3>
+                <div class="flex flex-wrap gap-4 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-yellow-400 font-semibold text-sm rounded-lg flex items-center justify-center shrink-0"
+                  >
+                    SM
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-yellow-400 border-yellow-400 font-semibold text-sm rounded-lg flex items-center justify-center shrink-0"
+                  >
+                    MD
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-yellow-400 font-semibold text-sm rounded-lg flex items-center justify-center shrink-0"
+                  >
+                    LG
+                  </button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 border hover:border-yellow-400 font-semibold text-sm rounded-lg flex items-center justify-center shrink-0"
+                  >
+                    XL
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-4 mt-8">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3 bg-yellow-400 hover:bg-yellow-500 text-white text-sm font-semibold rounded-lg"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-2.5 border border-yellow-400 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded-lg"
+                >
+                  Add to cart
+                </button>
+              </div>
+
+              <div class="mt-8">
+                <ul class="flex border-b">
+                  <li class="text-gray-800 font-bold text-sm bg-gray-100 py-3 px-8 border-b-2 border-yellow-400 cursor-pointer transition-all">
+                    Description
+                  </li>
+                  <li class="text-gray-600 font-bold text-sm hover:bg-gray-100 py-3 px-8 cursor-pointer transition-all">
+                    Reviews
+                  </li>
+                </ul>
+
+                <div class="mt-8">
+                  <h3 class="text-lg font-bold text-gray-800">
+                    Product Description
+                  </h3>
+                  <p class="text-sm text-gray-600 mt-4">
+                   Step up your footwear game with our premium men's shoes.
+                    Designed for comfort and crafted with a contemporary
+                    aesthetic, these versatile shoes are a must- have addition to
+                    your wardrobe.The supple and breathable materials ensure
+                    all - day comfort, making them perfect for everyday wear.
+                  </p>
+                </div>
+
+                <ul class="space-y-3 list-disc mt-6 pl-4 text-sm text-gray-600">
+                  <li>
+                    A pair of gray shoes is a wardrobe essential due to its
+                    versatility.
+                  </li>
+                  <li>
+                    Available in a wide range of sizes, from extra small to
+                    extra large, and even in tall and petite sizes.
+                  </li>
+                  <li>
+                    Easy to maintain, they can be machine-washed and dried on
+                    low heat.
+                  </li>
+                  <li>
+                    Personalize them with your own designs, patterns, or
+                    embellishments to make them uniquely yours.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 9,
+        image: "/productView-block.dark-9.png",
+        demoUrl: "/demos/product-view-9",
+        code: `
+       <div class="w-full bg-white">
+        <div class="font-sans tracking-wide p-4 lg:max-w-6xl max-w-2xl max-lg:mx-auto">
+          <div class="grid items-start grid-cols-1 lg:grid-cols-5 gap-8">
+            <div class="lg:col-span-3 text-center">
+              <div class="lg:h-[450px] p-4 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                <img
+                  src="https://readymadeui.com/images/sunglass7.webp"
+                  alt="Product"
+                  class="lg:w-11/12 w-full h-full rounded object-contain object-top"
+                />
+              </div>
+
+              <div class="flex flex-wrap gap-4 mx-auto mt-4">
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass1.webp"
+                    alt="Product2"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass2.webp"
+                    alt="Product3"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass3.webp"
+                    alt="Product4"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass5.webp"
+                    alt="Product5"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass6.webp"
+                    alt="Product6"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+                <div class="cursor-pointer p-1 relative before:absolute before:inset-0 before:bg-black before:opacity-20 before:rounded">
+                  <img
+                    src="https://readymadeui.com/images/sunglass7.webp"
+                    alt="Product7"
+                    class="w-20 h-16 object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2">
+              <div class="flex flex-wrap items-start gap-4">
+                <div>
+                  <h2 class="text-2xl font-extrabold text-gray-800">
+                    White Lens Glass
+                  </h2>
+
+                  <div class="flex space-x-1 mt-4">
+                    <svg
+                      class="w-5 fill-orange-500"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg
+                      class="w-5 fill-orange-500"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg
+                      class="w-5 fill-orange-500"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg
+                      class="w-5 fill-orange-500"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                    <svg
+                      class="w-5 fill-[#CED5D8]"
+                      viewBox="0 0 14 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                    </svg>
+                  </div>
+                </div>
+
+                <div class="ml-auto flex flex-wrap gap-4">
+                  <button
+                    type="button"
+                    class="px-2.5 py-1.5 bg-pink-100 text-xs text-pink-600 rounded flex items-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12px"
+                      fill="currentColor"
+                      class="mr-1"
+                      viewBox="0 0 64 64"
+                    >
+                      <path
+                        d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                    100
+                  </button>
+                  <button
+                    type="button"
+                    class="px-2.5 py-1.5 bg-gray-100 text-xs text-gray-800 rounded flex items-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="12px"
+                      fill="currentColor"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        d="M453.332 85.332c0 38.293-31.039 69.336-69.332 69.336s-69.332-31.043-69.332-69.336C314.668 47.043 345.707 16 384 16s69.332 31.043 69.332 69.332zm0 0"
+                        data-original="#000000"
+                      />
+                      <path
+                        d="M384 170.668c-47.063 0-85.332-38.273-85.332-85.336C298.668 38.273 336.938 0 384 0s85.332 38.273 85.332 85.332c0 47.063-38.27 85.336-85.332 85.336zM384 32c-29.418 0-53.332 23.938-53.332 53.332 0 29.398 23.914 53.336 53.332 53.336s53.332-23.938 53.332-53.336C437.332 55.938 413.418 32 384 32zm69.332 394.668C453.332 464.957 422.293 496 384 496s-69.332-31.043-69.332-69.332c0-38.293 31.039-69.336 69.332-69.336s69.332 31.043 69.332 69.336zm0 0"
+                        data-original="#000000"
+                      />
+                      <path
+                        d="M384 512c-47.063 0-85.332-38.273-85.332-85.332 0-47.063 38.27-85.336 85.332-85.336s85.332 38.273 85.332 85.336c0 47.059-38.27 85.332-85.332 85.332zm0-138.668c-29.418 0-53.332 23.938-53.332 53.336C330.668 456.063 354.582 480 384 480s53.332-23.938 53.332-53.332c0-29.398-23.914-53.336-53.332-53.336zM154.668 256c0 38.293-31.043 69.332-69.336 69.332C47.043 325.332 16 294.293 16 256s31.043-69.332 69.332-69.332c38.293 0 69.336 31.039 69.336 69.332zm0 0"
+                        data-original="#000000"
+                      />
+                      <path
+                        d="M85.332 341.332C38.273 341.332 0 303.062 0 256s38.273-85.332 85.332-85.332c47.063 0 85.336 38.27 85.336 85.332s-38.273 85.332-85.336 85.332zm0-138.664C55.914 202.668 32 226.602 32 256s23.914 53.332 53.332 53.332c29.422 0 53.336-23.934 53.336-53.332s-23.914-53.332-53.336-53.332zm0 0"
+                        data-original="#000000"
+                      />
+                      <path
+                        d="M135.703 245.762c-7.426 0-14.637-3.864-18.562-10.774-5.825-10.218-2.239-23.254 7.98-29.101l197.95-112.852c10.218-5.867 23.253-2.281 29.1 7.977 5.825 10.218 2.24 23.254-7.98 29.101L146.238 242.965a21.195 21.195 0 0 1-10.535 2.797zm197.93 176c-3.586 0-7.211-.899-10.54-2.797L125.142 306.113c-10.22-5.824-13.801-18.86-7.977-29.101 5.8-10.239 18.856-13.844 29.098-7.977l197.953 112.852c10.219 5.824 13.8 18.86 7.976 29.101-3.945 6.91-11.156 10.774-18.558 10.774zm0 0"
+                        data-original="#000000"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <hr class="my-6" />
+
+              <div>
+                <h3 class="text-xl font-bold text-gray-800">Price</h3>
+                <p class="text-gray-800 text-4xl font-bold mt-4">$130</p>
+              </div>
+
+              <hr class="my-6" />
+
+              <div>
+                <h3 class="text-xl font-bold text-gray-800">
+                  Choose a Color
+                </h3>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-black border-2 border-white hover:border-gray-800 rounded shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-gray-400 border-2 border-white hover:border-gray-800 rounded shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-orange-500 border-2 border-white hover:border-gray-800 rounded shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-red-400 border-2 border-white hover:border-gray-800 rounded shrink-0"
+                  ></button>
+                </div>
+              </div>
+
+              <hr class="my-6" />
+
+              <div>
+                <h3 class="text-xl font-bold text-gray-800">Quantity</h3>
+
+                <div class="flex divide-x border w-max mt-4 rounded overflow-hidden">
+                  <button
+                    type="button"
+                    class="bg-gray-100 w-12 h-10 font-semibold"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 124 124"
+                    >
+                      <path
+                        d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-transparent w-12 h-10 font-semibold text-gray-800 text-lg"
+                  >
+                    1
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-gray-800 text-white w-12 h-10 font-semibold"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 42 42"
+                    >
+                      <path
+                        d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <hr class="my-6" />
+
+              <div class="flex flex-wrap gap-4">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3 bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold rounded"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-2.5 border border-orange-500 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded"
+                >
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 max-w-2xl">
+            <h3 class="text-xl font-bold text-gray-800">
+              Product Features
+            </h3>
+
+            <ul class="grid sm:grid-cols-2 gap-3 mt-4">
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                UV Protection
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Stylish Design
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Lightweight Frame
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Scratch-Resistant Lenses
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Polarized Lenses
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-orange-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Comfortable Fit
+              </li>
+            </ul>
+
+            <div class="mt-6">
+              <h3 class="text-xl font-bold text-gray-800">
+                Product Description
+              </h3>
+              <p class="text-sm text-gray-600 mt-4">
+                Step up your style game with our premium white lens sunglasses.
+                Crafted for both fashion and function, these sunglasses offer UV
+                protection, a stylish design, and a lightweight frame. The
+                scratch-resistant and polarized lenses ensure durability and
+                clarity, while the comfortable fit makes them ideal for all-day
+                wear. Elevate your look with these must-have accessories for any
+                occasion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 10,
+        image: "/productView-block.dark-10.png",
+        demoUrl: "/demos/product-view-10",
+        code: `
+      <div class="w-full bg-white">
+        <div class="font-sans tracking-wide max-md:mx-auto">
+          <div class="bg-gradient-to-r from-gray-600 via-gray-900 to-gray-900 md:min-h-[600px] grid items-start grid-cols-1 lg:grid-cols-5 md:grid-cols-2">
+            <div class="lg:col-span-3 h-full p-8">
+              <div class="relative h-full flex items-center justify-center lg:min-h-[580px]">
+                <img
+                  src="https://readymadeui.com/images/watch6.webp"
+                  alt="Product"
+                  class="lg:w-3/5 w-3/4 h-full object-contain max-lg:p-8"
+                />
+
+                <div class="flex space-x-4 items-end absolute right-0 max-md:right-4 md:bottom-4 bottom-0">
+                  <div class="bg-white w-10 h-10 grid items-center justify-center rounded-full rotate-90 shrink-0 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-4 fill-[#333] inline"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z"
+                        clip-rule="evenodd"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="bg-[#333] w-10 h-10 grid items-center justify-center rounded-full -rotate-90 shrink-0 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-4 fill-[#fff] inline"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z"
+                        clip-rule="evenodd"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2 bg-gray-100 py-6 px-8 h-full">
+              <div>
+                <h2 class="text-2xl font-bold text-gray-800">
+                  Smart Watch Timex
+                </h2>
+
+                <div class="flex space-x-1 mt-2">
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-[#CED5D8]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">Price</h3>
+                <p class="text-gray-800 text-3xl font-bold mt-4">$130</p>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">
+                  Choose a Color
+                </h3>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-black border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-gray-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-orange-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-red-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">Quantity</h3>
+                <div class="flex divide-x border w-max mt-4 rounded overflow-hidden">
+                  <button
+                    type="button"
+                    class="bg-gray-100 w-10 h-9 font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 124 124"
+                    >
+                      <path
+                        d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-transparent w-10 h-9 font-semibold flex items-center justify-center text-gray-800 text-lg"
+                  >
+                    1
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-gray-800 text-white w-10 h-9 font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 42 42"
+                    >
+                      <path
+                        d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-4 mt-8">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3 bg-gray-800 hover:bg-gray-900 text-white text-sm font-semibold rounded"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-2.5 border border-gray-800 bg-transparent hover:bg-gray-50 text-gray-800 text-sm font-semibold rounded"
+                >
+                  Add to cart
+                </button>
+              </div>
+
+              <div class="flex flex-wrap items-center text-sm text-gray-800 mt-8">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-current w-6 mr-3"
+                  viewBox="0 0 48 48"
+                >
+                  <path d="M15.5 33.3h19.1v2H15.5z" data-original="#000000" />
+                  <path
+                    d="M45.2 35.3H43v-2h2.2c.4 0 .8-.4.8-.8v-9.1c0-.4-.3-.6-.5-.7l-3.2-1.3c-.3-.2-.8-.5-1.1-1l-6.5-10c-.1-.2-.4-.3-.7-.3H2.8c-.4 0-.8.4-.8.8v21.6c0 .4.4.8.8.8h3.9v2H2.8C1.3 35.3 0 34 0 32.5V10.9c0-1.5 1.3-2.8 2.8-2.8h31.3c1 0 1.9.5 2.4 1.3l6.5 10 .4.4 2.9 1.2c1.1.5 1.7 1.4 1.7 2.5v9.1c0 1.4-1.3 2.7-2.8 2.7z"
+                    data-original="#000000"
+                  />
+                  <path
+                    d="M26.5 21H3.9v-9.4h22.6zM5.9 19h18.6v-5.4H5.9zm32.9 2H27.9v-9.4h6.3zm-8.9-2h5.7L33 13.6h-3.1zm-19 20.9c-3.1 0-5.6-2.5-5.6-5.6s2.5-5.6 5.6-5.6 5.6 2.5 5.6 5.6-2.5 5.6-5.6 5.6zm0-9.2c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6zm27.9 9.2c-3.1 0-5.6-2.5-5.6-5.6s2.5-5.6 5.6-5.6 5.6 2.5 5.6 5.6-2.5 5.6-5.6 5.6zm0-9.2c-2 0-3.6 1.6-3.6 3.6s1.6 3.6 3.6 3.6 3.6-1.6 3.6-3.6-1.6-3.6-3.6-3.6z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Free delivery on order $100
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 max-w-2xl px-6">
+            <h3 class="text-lg font-bold text-gray-800">
+              Smartwatch Features
+            </h3>
+
+            <ul class="grid sm:grid-cols-2 gap-3 mt-4">
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Fitness Tracking
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Heart Rate Monitoring
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Sleep Tracking
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Waterproof Design
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Notifications
+              </li>
+              <li class="flex items-center text-sm text-gray-600">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17"
+                  class="mr-4 bg-green-500 fill-white rounded-full p-[3px]"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M9.707 19.121a.997.997 0 0 1-1.414 0l-5.646-5.647a1.5 1.5 0 0 1 0-2.121l.707-.707a1.5 1.5 0 0 1 2.121 0L9 14.171l9.525-9.525a1.5 1.5 0 0 1 2.121 0l.707.707a1.5 1.5 0 0 1 0 2.121z"
+                    data-original="#000000"
+                  />
+                </svg>
+                Touchscreen Interface
+              </li>
+            </ul>
+
+            <div class="mt-8">
+              <h3 class="text-lg font-bold text-gray-800">
+                Product Description
+              </h3>
+              <p class="text-sm text-gray-600 mt-4">
+                Enhance your daily routine with our advanced smartwatch.
+                Featuring fitness tracking capabilities, heart rate monitoring,
+                sleep tracking, and a waterproof design, this smartwatch is
+                designed to keep up with your active lifestyle. Receive
+                notifications and stay connected with its touchscreen interface,
+                offering convenience at your fingertips. Upgrade to a smarter
+                way of living with this essential accessory.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+      {
+        id: 11,
+        image: "/productView-block.dark-11.png",
+        demoUrl: "/demos/product-view-11",
+        code: `
+      <div class="w-full bg-white">
+        <div class="font-sans tracking-wide max-md:mx-auto">
+          <div class="bg-gradient-to-r from-gray-600 via-gray-900 to-gray-900 md:min-h-[600px] grid items-start grid-cols-1 lg:grid-cols-5 md:grid-cols-2">
+            <div class="lg:col-span-3 h-full p-8">
+              <div class="relative h-full flex items-center justify-center lg:min-h-[580px]">
+                <img
+                  src="https://readymadeui.com/images/watch6.webp"
+                  alt="Product"
+                  class="lg:w-3/5 w-3/4 h-full object-contain max-lg:p-8"
+                />
+
+                <div class="flex space-x-4 items-end absolute right-0 max-md:right-4 md:bottom-4 bottom-0">
+                  <div class="bg-white w-10 h-10 grid items-center justify-center rounded-full rotate-90 shrink-0 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-4 fill-[#333] inline"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z"
+                        clip-rule="evenodd"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="bg-[#333] w-10 h-10 grid items-center justify-center rounded-full -rotate-90 shrink-0 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-4 fill-[#fff] inline"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M11.99997 18.1669a2.38 2.38 0 0 1-1.68266-.69733l-9.52-9.52a2.38 2.38 0 1 1 3.36532-3.36532l7.83734 7.83734 7.83734-7.83734a2.38 2.38 0 1 1 3.36532 3.36532l-9.52 9.52a2.38 2.38 0 0 1-1.68266.69734z"
+                        clip-rule="evenodd"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2 bg-gray-100 py-6 px-8 h-full">
+              <div>
+                <h2 class="text-2xl font-bold text-gray-800">
+                  Smart Watch Timex
+                </h2>
+
+                <div class="flex space-x-1 mt-2">
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-gray-800"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-4 fill-[#CED5D8]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">Price</h3>
+                <p class="text-gray-800 text-3xl font-bold mt-4">$130</p>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">
+                  Choose a Color
+                </h3>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-black border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-gray-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-orange-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                  <button
+                    type="button"
+                    class="w-10 h-10 bg-red-400 border-2 border-white hover:border-gray-800 rounded-full shrink-0"
+                  ></button>
+                </div>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-bold text-gray-800">Quantity</h3>
+                <div class="flex divide-x border w-max mt-4 rounded overflow-hidden">
+                  <button
+                    type="button"
+                    class="bg-gray-100 w-10 h-9 font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 124 124"
+                    >
+                      <path
+                        d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-transparent w-10 h-9 font-semibold flex items-center justify-center text-gray-800 text-lg"
+                  >
+                    1
+                  </button>
+                  <button
+                    type="button"
+                    class="bg-gray-800 text-white w-10 h-9 font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 42 42"
+                    >
+                      <path
+                        d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+      <div class="w-full bg-white">
+        <div class="font-sans tracking-wide max-w-7xl mx-auto">
+          <div class="bg-white md:min-h-[600px] grid items-start grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="h-full">
+              <div class="p-4 relative h-full flex items-center justify-center">
+                <img
+                  src="https://readymadeui.com/images/laptop2.webp"
+                  alt="Product"
+                  class="lg:w-4/5 w-full h-full rounded-xl object-contain"
+                />
+
+                <div class="flex items-center justify-center gap-3 absolute md:bottom-6 bottom-0 left-0 right-0 mx-auto">
+                  <div class="w-3.5 h-3.5 shrink-0 rounded-full bg-gray-300 cursor-pointer"></div>
+                  <div class="w-3.5 h-3.5 shrink-0 rounded-full bg-blue-600 cursor-pointer"></div>
+                  <div class="w-3.5 h-3.5 shrink-0 rounded-full bg-gray-300 cursor-pointer"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-gray-600 via-gray-600 to-gray-700 py-6 px-8 h-full">
+              <div>
+                <h2 class="text-3xl font-semibold text-white">
+                  Acer Aspire Pro 12
+                </h2>
+                <p class="text-sm text-gray-400 mt-2">
+                  Well-Versed Commerce
+                </p>
+              </div>
+
+              <div class="flex flex-wrap gap-4 justify-between mt-8">
+                <h3 class="text-white text-4xl">$730</h3>
+
+                <div class="flex space-x-2">
+                  <svg
+                    class="w-5 fill-[#facc15]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-5 fill-[#facc15]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-5 fill-[#facc15]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-5 fill-[#facc15]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                  <svg
+                    class="w-5 fill-[#CED5D8]"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
+                  </svg>
+                </div>
+              </div>
+
+              <div>
+                <ul class="grid grid-cols-3 mt-8">
+                  <li class="text-white text-base w-full py-3.5 px-2 text-center border-b-2 border-white cursor-pointer">
+                    Description
+                  </li>
+                  <li class="text-gray-300 text-base w-full py-3.5 px-2 text-center border-b-2 border-gray-400 cursor-pointer">
+                    Details
+                  </li>
+                  <li class="text-gray-300 text-base w-full py-3.5 px-2 text-center border-b-2 border-gray-400 cursor-pointer">
+                    Reviews
+                  </li>
+                </ul>
+                <p class="text-gray-300 mt-4 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                  eiusmod tempor incidunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+
+              <div class="mt-8">
+                <h3 class="text-lg font-semibold text-white">Quantity</h3>
+
+                <div class="flex mt-4 rounded-full overflow-hidden bg-gray-800 py-2.5 px-4 w-32">
+                  <button
+                    type="button"
+                    class="bg-transparent w-full text-white font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 124 124"
+                    >
+                      <path
+                        d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                  <span class="bg-transparent w-full px-4 font-semibold flex items-center justify-center text-white text-base">
+                    1
+                  </span>
+                  <button
+                    type="button"
+                    class="bg-transparent w-full text-white font-semibold flex items-center justify-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="w-3 fill-current inline"
+                      viewBox="0 0 42 42"
+                    >
+                      <path
+                        d="M37.059 16H26V4.941C26 2.224 23.718 0 21 0s-5 2.224-5 4.941V16H4.941C2.224 16 0 18.282 0 21s2.224 5 4.941 5H16v11.059C16 39.776 18.282 42 21 42s5-2.224 5-4.941V26h11.059C39.776 26 42 23.718 42 21s-2.224-5-4.941-5z"
+                        data-original="#000000"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap gap-4 mt-8">
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3.5 bg-gray-800 hover:bg-gray-900 text-white text-base rounded"
+                >
+                  Buy now
+                </button>
+                <button
+                  type="button"
+                  class="min-w-[200px] px-4 py-3.5 border border-gray-800 bg-transparent text-white text-base rounded"
+                >
+                  Add to cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+`
+      },
+    ]
+  }
 ];
 
 export default componentsData;
+
+
+
