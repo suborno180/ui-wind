@@ -1,3 +1,4 @@
+"use client";
 import { cn } from "@/lib/utils";
 
 import { Playlist } from "../data/UiComponentsList";
@@ -5,12 +6,30 @@ import componentsData from "../data/ComponentsData";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { PanelsTopLeft } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 interface SidebarProps extends React.HTMLAttributes<HTMLDivElement> {
   playlists: Playlist[];
 }
 
 export function Sidebar({ className, playlists }: SidebarProps) {
+ const [basePath, setBasePath] = useState<string | undefined>(undefined);
+  const pathName = usePathname();
+
+  useEffect(() => {
+    // Extract the base path
+    const segments = pathName.split('/');
+    const basePath = segments.length > 2 ? segments.slice(0, 2).join('/') : pathName;
+
+    // Update the state
+    setBasePath(basePath);
+  }, [pathName]);
+
+  console.log( "=>",`${'/'+componentsData[0].category.toLowerCase() == basePath} `);
+  console.log(basePath);
+  
+
   return (
     <div className={cn("pb-12", className)}>
       <div className="space-y-4 py-4 min-h-screen">
@@ -80,13 +99,13 @@ export function Sidebar({ className, playlists }: SidebarProps) {
               <>
                 <Link
                   href={`/${item.category.toLocaleLowerCase()}`}
-                  className="w-full justify-between flex items-center hover:bg-muted/70 p-2 rounded-md"
+                  className={'/'+item.category.toLowerCase() == basePath ? "w-full justify-between flex items-center bg-muted/70 p-2 rounded-md" : "w-full justify-between flex items-center hover:bg-muted/70 p-2 rounded-md"}
                 >
                   <div className="flex items-center gap-1">
                     <PanelsTopLeft size={18} />
                     {item.category}
                   </div>
-                  <Badge variant={'secondary'}>{item.items.length}</Badge>
+                  <Badge variant={"secondary"}>{item.items.length}</Badge>
                 </Link>
               </>
             ))}
