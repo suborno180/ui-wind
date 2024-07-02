@@ -1117,7 +1117,7 @@ const componentsData: Component[] = [
               >
                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
               </svg>
-              Flowrift
+              Uiwind
             </a>
             {/* <!-- logo - end --> */}
 
@@ -1363,7 +1363,7 @@ const componentsData: Component[] = [
               >
                 <path d="M96 0V47L48 94H0V47L48 0H96Z" />
               </svg>
-              Flowrift
+              Uiwind
             </a>
             {/* <!-- logo - end --> */}
 
@@ -4625,7 +4625,7 @@ const componentsData: Component[] = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     icon: "",
     category: "Product-Card",
     items: [
@@ -7997,7 +7997,7 @@ const componentsData: Component[] = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     icon: "",
     category: "Blog-Card",
     items: [
@@ -8751,7 +8751,7 @@ const componentsData: Component[] = [
     ],
   },
   {
-    id: 1,
+    id: 5,
     icon: "",
     category: "Modals",
     items: [
@@ -8796,7 +8796,7 @@ const componentsData: Component[] = [
                 </div>
             </div>
         </div>
-        `
+        `,
       },
       {
         id: 2,
@@ -8850,7 +8850,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 3,
@@ -8930,7 +8930,7 @@ const componentsData: Component[] = [
                 </div>
             </div>
         </div>
-        `
+        `,
       },
       {
         id: 4,
@@ -8990,7 +8990,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 5,
@@ -9054,7 +9054,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 6,
@@ -9159,7 +9159,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 7,
@@ -9220,7 +9220,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 8,
@@ -9277,7 +9277,7 @@ const componentsData: Component[] = [
           </button>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 9,
@@ -9312,7 +9312,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 10,
@@ -9357,7 +9357,7 @@ const componentsData: Component[] = [
           </button>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 11,
@@ -9401,7 +9401,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 12,
@@ -9478,7 +9478,7 @@ const componentsData: Component[] = [
                     class="text-sm text-blue-600 hover:underline">Sign Up</a></p>
             </div>
         </div>
-        `
+        `,
       },
       {
         id: 13,
@@ -9631,7 +9631,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 14,
@@ -9821,7 +9821,7 @@ const componentsData: Component[] = [
           </p>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 15,
@@ -9861,7 +9861,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 16,
@@ -9956,7 +9956,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 17,
@@ -10076,7 +10076,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 18,
@@ -10174,7 +10174,7 @@ const componentsData: Component[] = [
           </form>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 19,
@@ -10243,9 +10243,9 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
-    ]
+    ],
   },
   {
     id: 6,
@@ -10501,7 +10501,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 2,
@@ -10686,7 +10686,7 @@ const componentsData: Component[] = [
             </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 3,
@@ -10820,7 +10820,7 @@ const componentsData: Component[] = [
             </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 4,
@@ -11149,7 +11149,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 5,
@@ -11516,7 +11516,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 6,
@@ -11752,7 +11752,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 7,
@@ -11967,7 +11967,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 8,
@@ -12181,7 +12181,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 9,
@@ -12557,7 +12557,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 10,
@@ -12874,7 +12874,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
       {
         id: 11,
@@ -13197,10 +13197,9 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-`
+`,
       },
     ],
-
   },
   {
     id: 7,
@@ -13400,7 +13399,7 @@ const componentsData: Component[] = [
             </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 2,
@@ -13741,7 +13740,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 3,
@@ -14195,7 +14194,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 4,
@@ -14471,7 +14470,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 5,
@@ -14813,7 +14812,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 6,
@@ -15051,7 +15050,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 7,
@@ -15353,7 +15352,7 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
       {
         id: 8,
@@ -15424,7 +15423,7 @@ const componentsData: Component[] = [
                   </div>
 
                   <div class="ml-auto">
-                    <h4 class="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 class="text-lg max-sm:text-base  font-bold text-gray-800">
                       $20.00
                     </h4>
 
@@ -15501,7 +15500,7 @@ const componentsData: Component[] = [
                   </div>
 
                   <div class="ml-auto">
-                    <h4 class="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 class="text-lg text-sm font-bold text-gray-800">
                       $60.00
                     </h4>
 
@@ -15578,7 +15577,7 @@ const componentsData: Component[] = [
                   </div>
 
                   <div class="ml-auto">
-                    <h4 class="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 class="text-lg max-sm:text-sm font-bold text-gray-800">
                       $40.00
                     </h4>
 
@@ -15655,7 +15654,7 @@ const componentsData: Component[] = [
                   </div>
 
                   <div class="ml-auto">
-                    <h4 class="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 class="text-lg max-sm:text-sm  text-gray-800">
                       $60.00
                     </h4>
 
@@ -15707,13 +15706,530 @@ const componentsData: Component[] = [
           </div>
         </div>
       </div>
-        `
+        `,
       },
-    ] 
-  }
+    ],
+  },
+  {
+    id: 8,
+    icon: "",
+    category: "Bsnners",
+    items: [
+      {
+        id: 1,
+        image: "/bannner-block.dark-1.svg",
+        demoUrl: "/demos/banner-1",
+        code: `
+      <div class="flex items-center max-md:flex-col gap-6 bg-gradient-to-tr from-blue-700 to-purple-400 text-white px-6 py-3.5 rounded font-[sans-serif]">
+        <p class="text-base flex-1 max-md:text-center">
+          Don't miss out on our amazing summer sale! Get up to 50% off on a wide
+          range of products. Make the most of your summer shopping.
+        </p>
+
+        <div>
+          <button
+            type="button"
+            class="bg-white text-blue-500 py-2.5 px-5 rounded text-sm"
+          >
+            Get Offer
+          </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-3.5 cursor-pointer fill-white inline-block ml-4"
+            viewBox="0 0 320.591 320.591"
+          >
+            <path
+              d="M30.391 318.583a30.37 30.37 0 0 1-21.56-7.288c-11.774-11.844-11.774-30.973 0-42.817L266.643 10.665c12.246-11.459 31.462-10.822 42.921 1.424 10.362 11.074 10.966 28.095 1.414 39.875L51.647 311.295a30.366 30.366 0 0 1-21.256 7.288z"
+              data-original="#000000"
+            />
+            <path
+              d="M287.9 318.583a30.37 30.37 0 0 1-21.257-8.806L8.83 51.963C-2.078 39.225-.595 20.055 12.143 9.146c11.369-9.736 28.136-9.736 39.504 0l259.331 257.813c12.243 11.462 12.876 30.679 1.414 42.922-.456.487-.927.958-1.414 1.414a30.368 30.368 0 0 1-23.078 7.288z"
+              data-original="#000000"
+            />
+          </svg>
+        </div>
+      </div>
+        `,
+      },
+      {
+        id: 2,
+        image: "/bannner-block.dark-2.svg",
+        demoUrl: "/demos/banner-2",
+        code: `
+      <div class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">
+        <img
+          src="https://readymadeui.com/cardImg.webp"
+          alt="Banner Image"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+
+        <div class="min-h-[350px] relative z-50 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
+          <h2 class="sm:text-4xl text-2xl font-bold mb-6">Explore the World</h2>
+          <p class="sm:text-lg text-base text-center text-gray-200">
+            Embark on unforgettable journeys. Book your dream vacation today!
+          </p>
+
+          <button
+            type="button"
+            class="mt-12 bg-transparent text-white text-base py-3 px-6 border border-white rounded-lg hover:bg-white hover:text-black transition duration-300"
+          >
+            Book Now
+          </button>
+        </div>
+      </div>
+        `,
+      },
+      {
+        id: 3,
+        image: "/bannner-block.dark-2.svg",
+        demoUrl: "/demos/banner-3",
+        code: `
+<div class="bg-gradient-to-r from-blue-700 to-[#B06AB3] font-sans px-6 py-12">
+      <div class="container mx-auto flex flex-col justify-center items-center text-center">
+        <h2 class="text-white sm:text-4xl text-3xl font-bold mb-4">Discover Our New Collection</h2>
+        <p class="text-white text-base text-center mb-8">Elevate your style with our latest arrivals. Shop now and enjoy exclusive discounts!</p>
+
+        <button type="button" class="bg-white text-sm text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-slate-100">
+          Get Started
+        </button>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 4,
+        image: "/bannner-block.dark-4.svg",
+        demoUrl: "/demos/banner-4",
+        code: `
+<div class="bg-gray-800 text-white py-16 px-8 font-sans">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-x-6 gap-y-8">
+        <div class="md:w-1/2 text-center md:text-left">
+          <h2 class="text-3xl font-semibold mb-4">Unlock Your Potential</h2>
+          <p class="text-base text-gray-300">Upgrade your skills with our premium courses. Enroll now and access exclusive content!</p>
+        </div>
+
+        <div class="md:w-1/2 flex justify-center">
+          <button type="button" class="bg-yellow-400 text-gray-800 py-3 px-6 font-semibold rounded">
+            Enroll Now
+          </button>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 5,
+        image: "/bannner-block.dark-5.svg",
+        demoUrl: "/demos/banner-5",
+        code: `
+<div class="grid md:grid-cols-3 gap-6 min-h-[164px] py-8 p-16 bg-gradient-to-r from-blue-700 to-blue-400 font-sans overflow-hidden">
+      <div class="md:col-span-2">
+        <h1 class="text-3xl font-bold text-white">Welcome to ReadymadeUI!</h1>
+        <p class="text-base text-gray-200 mt-2">Best tailwind css readymade UI plateform</p>
+
+        <button type="button"
+          class="py-3 px-6 text-sm font-semibold bg-white text-blue-600 hover:bg-slate-100 rounded-md mt-8">Get
+          Started</button>
+      </div>
+
+      <div class="relative max-md:hidden">
+        <img src="https://readymadeui.com/readymadeui_banner2.webp" alt="Banner Image"
+          class="w-full right-4 top-[-13px] md:absolute skew-x-[-16deg] rotate-2 object-cover" />
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 6,
+        image: "/bannner-block.dark-6.svg",
+        demoUrl: "/demos/banner-6",
+        code: `
+    <div class="grid md:grid-cols-3 gap-6 min-h-[164px] py-8 p-16 bg-gradient-to-r from-blue-700 to-blue-400 font-sans overflow-hidden">
+      <div class="md:col-span-2">
+        <h1 class="text-3xl font-bold text-white">Welcome to ReadymadeUI!</h1>
+        <p class="text-base text-gray-200 mt-2">Best tailwind css readymade UI plateform</p>
+
+        <button type="button"
+          class="py-3 px-6 text-sm font-semibold bg-white text-blue-600 hover:bg-slate-100 rounded-md mt-8">Get
+          Started</button>
+      </div>
+
+      <div class="relative max-md:hidden">
+        <img src="https://readymadeui.com/readymadeui_banner2.webp" alt="Banner Image"
+          class="w-full right-4 top-[-13px] md:absolute skew-x-[-16deg] rotate-2 object-cover" />
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 7,
+        image: "/bannner-block.dark-7.svg",
+        demoUrl: "/demos/banner-7",
+        code: `
+<div class="relative h-[300px] bg-gradient-to-tr from-orange-300 to-orange-100 overflow-hidden px-6 font-[sans-serif]">
+      <div class="absolute -top-6 -left-6 w-20 h-20 rounded-full bg-blue-500"></div>
+      <div class="absolute -top-6 -right-6 w-20 h-20 rounded-full bg-teal-500"></div>
+
+      <div class="grid items-center h-full">
+        <div class="text-center">
+          <img src="https://readymadeui.com/readymadeui.svg" alt="readymadeui-logo" class="w-64 inline-block" />
+
+          <div class="mt-8">
+            <p class="text-sm text-[#333]">Follow us for the latest updates and exclusive offers!</p>
+
+            <ul class="flex items-center justify-center mt-4 gap-4">
+              <li class="bg-white h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a href="javascript:void(0)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#333'
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M6.812 13.937H9.33v9.312c0 .414.335.75.75.75l4.007.001a.75.75 0 0 0 .75-.75v-9.312h2.387a.75.75 0 0 0 .744-.657l.498-4a.75.75 0 0 0-.744-.843h-2.885c.113-2.471-.435-3.202 1.172-3.202 1.088-.13 2.804.421 2.804-.75V.909a.75.75 0 0 0-.648-.743A26.926 26.926 0 0 0 15.071 0c-7.01 0-5.567 7.772-5.74 8.437H6.812a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75zm.75-3.999h2.518a.75.75 0 0 0 .75-.75V6.037c0-2.883 1.545-4.536 4.24-4.536.878 0 1.686.043 2.242.087v2.149c-.402.205-3.976-.884-3.976 2.697v2.755c0 .414.336.75.75.75h2.786l-.312 2.5h-2.474a.75.75 0 0 0-.75.75V22.5h-2.505v-9.312a.75.75 0 0 0-.75-.75H7.562z"
+                      data-original="#000000" />
+                  </svg>
+                </a>
+              </li>
+              <li class="bg-white h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a href="javascript:void(0)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#333'
+                    viewBox="0 0 511 512">
+                    <path
+                      d="M111.898 160.664H15.5c-8.285 0-15 6.719-15 15V497c0 8.285 6.715 15 15 15h96.398c8.286 0 15-6.715 15-15V175.664c0-8.281-6.714-15-15-15zM96.898 482H30.5V190.664h66.398zM63.703 0C28.852 0 .5 28.352.5 63.195c0 34.852 28.352 63.2 63.203 63.2 34.848 0 63.195-28.352 63.195-63.2C126.898 28.352 98.551 0 63.703 0zm0 96.395c-18.308 0-33.203-14.891-33.203-33.2C30.5 44.891 45.395 30 63.703 30c18.305 0 33.195 14.89 33.195 33.195 0 18.309-14.89 33.2-33.195 33.2zm289.207 62.148c-22.8 0-45.273 5.496-65.398 15.777-.684-7.652-7.11-13.656-14.942-13.656h-96.406c-8.281 0-15 6.719-15 15V497c0 8.285 6.719 15 15 15h96.406c8.285 0 15-6.715 15-15V320.266c0-22.735 18.5-41.23 41.235-41.23 22.734 0 41.226 18.495 41.226 41.23V497c0 8.285 6.719 15 15 15h96.403c8.285 0 15-6.715 15-15V302.066c0-79.14-64.383-143.523-143.524-143.523zM466.434 482h-66.399V320.266c0-39.278-31.953-71.23-71.226-71.23-39.282 0-71.239 31.952-71.239 71.23V482h-66.402V190.664h66.402v11.082c0 5.77 3.309 11.027 8.512 13.524a15.01 15.01 0 0 0 15.875-1.82c20.313-16.294 44.852-24.907 70.953-24.907 62.598 0 113.524 50.926 113.524 113.523zm0 0"
+                      data-original="#000000" />
+                  </svg>
+                </a>
+              </li>
+              <li class="bg-white h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a href="javascript:void(0)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#333'
+                    viewBox="0 0 682.667 682.667">
+                    <defs>
+                      <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                        <path d="M0 512h512V0H0Z" data-original="#333" />
+                      </clipPath>
+                    </defs>
+                    <g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-miterlimit="10" stroke-width="40" clip-path="url(#a)"
+                      transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                      <path
+                        d="M492 255.75c0-39.49-3.501-75.479-7.497-103.698-5.191-36.655-34.801-64.96-71.646-68.567C373.764 79.658 318.529 75.75 256 75.75c-62.529 0-117.764 3.908-156.857 7.735-36.845 3.607-66.455 31.912-71.646 68.567C23.501 180.271 20 216.26 20 255.75c0 39.49 3.501 75.479 7.497 103.698 5.191 36.655 34.801 64.96 71.646 68.567 39.093 3.827 94.328 7.735 156.857 7.735 62.529 0 117.764-3.908 156.857-7.735 36.845-3.607 66.455-31.912 71.646-68.567C488.499 331.229 492 295.24 492 255.75Z"
+                        data-original="#000000" />
+                      <path
+                        d="m245.5 185.291 75.914 45.165c19.448 11.57 19.448 39.518 0 51.088L245.5 326.709c-20.024 11.913-45.5-2.39-45.5-25.544v-90.33c0-23.154 25.476-37.457 45.5-25.544Z"
+                        data-original="#000000" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li class="bg-white h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a href="javascript:void(0)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#333'
+                    viewBox="0 0 24 24">
+                    <path
+                      d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                    </path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 8,
+        image: "/bannner-block.dark-8.svg",
+        demoUrl: "/demos/banner-8",
+        code: `
+<div class="font-[sans-serif]">
+      <div class="bg-gradient-to-r from-blue-700 to-blue-300 w-full h-60">
+        <img src="https://readymadeui.com/cardImg.webp" alt="Banner Image" class="w-full h-full object-cover" />
+      </div>
+
+      <div class="-mt-28 mb-6 px-4">
+        <div class="mx-auto max-w-6xl shadow-lg p-8 relative bg-white rounded-md">
+          <h2 class="text-xl text-gray-800 font-bold">Product or Service Inquiry</h2>
+
+          <form class="mt-8 grid sm:grid-cols-2 gap-6">
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Your Name</label>
+              <input type='text' placeholder='Enter Name'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Your Email</label>
+              <input type='email' placeholder='Email'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Your Number</label>
+              <input type='email' placeholder='Phone No.'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Website</label>
+              <input type='text' placeholder='Website'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Company</label>
+              <input type='text' placeholder='Company'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div>
+              <label class="text-gray-800 text-sm block mb-2">Subject</label>
+              <input type='text' placeholder='Subject'
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-[#007bff]" />
+            </div>
+            <div class="col-span-full">
+              <label class="text-gray-800 text-sm block mb-2">Message</label>
+              <textarea placeholder='Message' rows="6"
+                class="w-full rounded-md px-4 border border-gray-300 text-sm pt-3 outline-[#007bff]"></textarea>
+            </div>
+            <div class="flex items-center col-span-full">
+              <input id="checkbox1" type="checkbox"
+                class="w-4 h-4 mr-3 shrink-0" />
+              <label for="checkbox1" class="text-sm text-gray-500">I agree to the <a href="javascript:void(0);" class="underline">Terms and Conditions</a> and <a href="javascript:void(0);" class="underline">Privacy Policy</a></label>
+            </div>
+
+            <button type='button'
+              class="text-white w-max bg-[#007bff] hover:bg-blue-600 tracking-wide rounded-md text-sm px-6 py-3 mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2 inline" viewBox="0 0 548.244 548.244">
+                <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
+              </svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 9,
+        image: "/bannner-block.dark-9.svg",
+        demoUrl: "/demos/banner-9",
+        code: `
+<div class="font-[sans-serif] relative">
+      <div class="h-[240px] font-[sans-serif]">
+        <img src="https://readymadeui.com/cardImg.webp" alt="Banner Image" class="w-full h-full object-cover" />
+      </div>
+
+      <div class="relative -mt-40 m-4">
+        <form class="bg-white max-w-xl w-full mx-auto shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] p-8 rounded-2xl">
+          <div class="mb-12">
+            <h3 class="text-gray-800 text-3xl font-bold text-center">Register</h3>
+          </div>
+
+          <div>
+            <label class="text-gray-800 text-xs block mb-2">Full Name</label>
+            <div class="relative flex items-center">
+              <input name="name" type="text" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter name" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2" viewBox="0 0 24 24">
+                <circle cx="10" cy="7" r="6" data-original="#000000"></circle>
+                <path d="M14 15H6a5 5 0 0 0-5 5 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 5 5 0 0 0-5-5zm8-4h-2.59l.3-.29a1 1 0 0 0-1.42-1.42l-2 2a1 1 0 0 0 0 1.42l2 2a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42l-.3-.29H22a1 1 0 0 0 0-2z" data-original="#000000"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <label class="text-gray-800 text-xs block mb-2">Email</label>
+            <div class="relative flex items-center">
+              <input name="email" type="text" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter email" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2" viewBox="0 0 682.667 682.667">
+                <defs>
+                  <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                    <path d="M0 512h512V0H0Z" data-original="#000000"></path>
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#a)" transform="matrix(1.33 0 0 -1.33 0 682.667)">
+                  <path fill="none" stroke-miterlimit="10" stroke-width="40" d="M452 444H60c-22.091 0-40-17.909-40-40v-39.446l212.127-157.782c14.17-10.54 33.576-10.54 47.746 0L492 364.554V404c0 22.091-17.909 40-40 40Z" data-original="#000000"></path>
+                  <path d="M472 274.9V107.999c0-11.027-8.972-20-20-20H60c-11.028 0-20 8.973-20 20V274.9L0 304.652V107.999c0-33.084 26.916-60 60-60h392c33.084 0 60 26.916 60 60v196.653Z" data-original="#000000"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <label class="text-gray-800 text-xs block mb-2">Password</label>
+            <div class="relative flex items-center">
+              <input name="password" type="password" required class="w-full bg-transparent text-sm text-gray-800 border-b border-gray-300 focus:border-blue-500 px-2 py-3 outline-none" placeholder="Enter password" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#bbb" stroke="#bbb" class="w-[18px] h-[18px] absolute right-2 cursor-pointer" viewBox="0 0 128 128">
+                <path d="M64 104C22.127 104 1.367 67.496.504 65.943a4 4 0 0 1 0-3.887C1.367 60.504 22.127 24 64 24s62.633 36.504 63.496 38.057a4 4 0 0 1 0 3.887C126.633 67.496 105.873 104 64 104zM8.707 63.994C13.465 71.205 32.146 96 64 96c31.955 0 50.553-24.775 55.293-31.994C114.535 56.795 95.854 32 64 32 32.045 32 13.447 56.775 8.707 63.994zM64 88c-13.234 0-24-10.766-24-24s10.766-24 24-24 24 10.766 24 24-10.766 24-24 24zm0-40c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16z" data-original="#000000"></path>
+              </svg>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-8">
+            <input id="remember-me" name="remember-me" type="checkbox" class="h-4 w-4 shrink-0 rounded" />
+            <label for="remember-me" class="ml-3 block text-sm">
+              I accept the <a href="javascript:void(0);" class="text-blue-500 font-semibold hover:underline ml-1">Terms and Conditions</a>
+            </label>
+          </div>
+
+          <div class="mt-8">
+            <button type="button" class="w-full shadow-xl py-2.5 px-5 text-sm font-semibold tracking-wider rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none transition-all">
+              Register
+            </button>
+            <p class="text-gray-800 text-sm mt-8 text-center">Already have an account? <a href="javascript:void(0);" class="text-blue-500 font-semibold hover:underline ml-1">Login here</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 10,
+        image: "/bannner-block.dark-10.svg",
+        demoUrl: "/demos/banner-10",
+        code: `
+ <div class="bg-gray-800 font-sans min-h-[350px] relative max-w-6xl mx-auto rounded overflow-hidden">
+      <div class="grid lg:grid-cols-2 w-full h-full absolute inset-0">
+        <div class="p-4 max-lg:hidden">
+          <img src="https://readymadeui.com/image-1.webp" class="object-cover w-full h-full" alt="img" />
+        </div>
+
+        <div class="flex flex-col items-end justify-center text-right px-8 relative bg-[#262464] rounded-tl-[206px] z-20 before:absolute before:inset-0 before:!left-auto before:bg-[#293587] before:w-2/3 before:rounded-bl-[206px] before:-z-10">
+          <h3 class="font-bold sm:text-4xl text-2xl text-yellow-400">Unlock Your Potential</h3>
+          <p class="text-sm text-gray-300 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+          <button type="button" class="bg-yellow-400 hover:bg-yellow-500 text-gray-800 py-4 px-8 font-semibold rounded w-max mt-8">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 11,
+        image: "/bannner-block.dark-11.svg",
+        demoUrl: "/demos/banner-11",
+        code: `
+ <div class="bg-gray-100 font-[sans-serif] relative max-w-4xl mx-auto rounded overflow-hidden">
+      <div class="grid sm:grid-cols-2 gap-6 max-sm:gap-12 py-12 px-6">
+        <div class="bg-gradient-to-tr from-[#273284b6] to-[#1e1e60] px-4 py-8 text-center rounded-[30px] w-full max-w-[300px] h-max skew-x-[10deg] mx-auto shadow-lg shadow-purple-400">
+          <h6 class="text-gray-300 text-4xl">Big</h6>
+          <h2 class="text-white text-7xl font-bold mt-0.5">Sale!</h2>
+          <p class="text-gray-300 text-base mt-2">Arriving this weekend</p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="font-bold text-4xl text-orange-500">Special Offer</h3>
+          <h6 class="text-2xl text-orange-500 mt-0.5">Limited Time Deal</h6>
+          <p class="text-gray-800 text-base mt-4">Discover amazing discounts and deals. Don't miss out on our exclusive offers available for a limited time.</p>
+
+          <button type="button" class="bg-gradient-to-r hover:bg-gradient-to-l from-orange-400 to-orange-600 hover:bg-orange-500 text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-lg w-max mt-8">
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 12,
+        image: "/bannner-block.dark-12.svg",
+        demoUrl: "/demos/banner-12",
+        code: `
+    <div class="flex flex-col items-center justify-center bg-gradient-to-tr from-orange-500 via-orange-400 to-yellow-200 font-sans min-h-[400px] max-w-6xl px-6 py-12 mx-auto rounded-md overflow-hidden relative shadow-xl">
+      <div class="text-center relative px-6 py-10 bg-white/70 rounded-[30px] w-full max-w-[550px] shadow-lg">
+        <h6 class="text-gray-900 text-6xl max-sm:text-4xl font-extrabold leading-tight tracking-tight">Black</h6>
+        <h2 class="text-gray-800 text-8xl max-sm:text-5xl font-extrabold leading-tight tracking-tight">Friday</h2>
+
+        <div class="mt-6">
+          <p class="text-lg text-gray-700">Discover amazing discounts and deals. Offers available for a limited time.</p>
+        </div>
+
+        <button type="button" class="bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-800 text-white tracking-wide font-semibold text-sm py-4 px-10 rounded-full mt-8 transition-transform transform hover:scale-105 shadow-lg">
+          Get Started
+        </button>
+      </div>
+
+      <div class="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-blue-50 opacity-40 shadow-2xl"></div>
+      <div class="absolute -bottom-6 -left-6 w-44 h-44 rounded-full bg-blue-50 opacity-40 shadow-2xl"></div>
+      <div class="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-blue-50 opacity-40 shadow-2xl"></div>
+      <div class="absolute -bottom-6 -right-6 w-44 h-44 rounded-full bg-blue-50 opacity-40 shadow-2xl"></div>
+    </div>
+        `,
+      },
+      {
+        id: 13,
+        image: "/bannner-block.dark-13.svg",
+        demoUrl: "/demos/banner-13",
+        code: `
+    <div class="bg-gray-100 font-[sans-serif] relative max-w-4xl mx-auto rounded overflow-hidden mt-4">
+      <div class="grid sm:grid-cols-2 items-center max-sm:gap-10 py-10 border-y-8 border-orange-400">
+        <div class="text-center px-6">
+          <h3 class="font-extrabold text-5xl text-orange-500 leading-tight"><span class="text-gray-800">Special</span> Offer</h3>
+          <h6 class="text-2xl text-gray-800 mt-2">Limited Time Deal</h6>
+          <p class="text-gray-800 text-base leading-relaxed mt-4">Discover amazing discounts and deals. Don't miss out on our exclusive offers for a limited time.</p>
+
+          <button type="button" class="bg-gradient-to-r hover:bg-gradient-to-l from-orange-400 to-orange-600 hover:bg-orange-500 text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-lg w-max mt-8">
+            Get Started
+          </button>
+        </div>
+
+        <div class="bg-gradient-to-tr from-orange-400 to-orange-600 rounded-tl-full rounded-bl-full w-full h-max">
+          <div class="p-2">
+            <img src="https://readymadeui.com/team-image.webp" class="h-64 w-64 rounded-full object-cover border-4 border-white" alt="img" />
+          </div>
+        </div>
+      </div>
+    </div>
+        `,
+      },
+      {
+        id: 14,
+        image: "/bannner-block.dark-14.svg",
+        demoUrl: "/demos/banner-14",
+        code: `
+ <div class="bg-gray-50 font-[sans-serif] relative max-w-4xl shadow-lg shadow-[#e9d9f3] mx-auto rounded overflow-hidden">
+      <div class="grid sm:grid-cols-2 max-sm:gap-6">
+        <div class="text-center p-6 flex flex-col justify-center items-center">
+          <h3 class="font-extrabold text-5xl text-[#4e0083] leading-tight"><span class="text-gray-800">Special</span> Offer</h3>
+          <h6 class="text-lg text-gray-800 mt-4">Discover amazing discounts, for limited time</h6>
+
+          <button type="button" class="bg-[#4e0083] hover:bg-[#4f0083cc] text-white tracking-wide font-semibold text-sm py-3 px-6 rounded-xl mt-8">
+            Get Started
+          </button>
+
+          <ul class="flex flex-wrap justify-center gap-6 mt-8">
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#4e0083' viewBox="0 0 482.6 482.6">
+                <path
+                  d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z"
+                  data-original="#000000" />
+              </svg>
+              <a href="javascript:void(0)" class="text-[#4e0083] text-sm ml-2">180-548-2588</a>
+            </li>
+            <li class="flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#4e0083' viewBox="0 0 479.058 479.058">
+                <path
+                  d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                  data-original="#000000" />
+              </svg>
+              <a href="javascript:void(0)" class="text-[#4e0083] text-sm ml-2">info@example.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex justify-end items-center p-2 bg-gradient-to-b from-[#4e0083] to-[#796089] rounded-bl-[230px] w-full h-full">
+          <div class="h-72 w-72 rounded-full bg-gradient-to-tr from-[#4e0083] to-[#c19ed6] p-5">
+            <img src="https://readymadeui.com/team-image.webp" class="w-full h-full rounded-full object-cover border-8 border-white" alt="img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute -top-[50px] -left-[50px] w-28 h-28 rounded-full bg-[#4e0083] opacity-40 shadow-lg"></div>
+      <div class="absolute -top-10 -left-10 w-28 h-28 rounded-full bg-[#4e0083] opacity-40 shadow-lg"></div>
+    </div>
+        `,
+      },
+    ],
+  },
 ];
 
 export default componentsData;
-
-
-

@@ -69,7 +69,7 @@ const ShoppingCart8 = () => {
                   </div>
 
                   <div className="ml-auto">
-                    <h4 className="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 className="text-lg max-sm:text-sm font-bold text-gray-800">
                       $20.00
                     </h4>
 
@@ -146,7 +146,7 @@ const ShoppingCart8 = () => {
                   </div>
 
                   <div className="ml-auto">
-                    <h4 className="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 className="text-lg  max-sm:text-sm font-bold text-gray-800">
                       $60.00
                     </h4>
 
@@ -223,7 +223,7 @@ const ShoppingCart8 = () => {
                   </div>
 
                   <div className="ml-auto">
-                    <h4 className="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 className="text-lg  max-sm:text-sm font-bold text-gray-800">
                       $40.00
                     </h4>
 
@@ -300,7 +300,7 @@ const ShoppingCart8 = () => {
                   </div>
 
                   <div className="ml-auto">
-                    <h4 className="text-lg max-sm:text-base max-sm:text-sm font-bold text-gray-800">
+                    <h4 className="text-lg max-sm:text-sm font-bold text-gray-800">
                       $60.00
                     </h4>
 
